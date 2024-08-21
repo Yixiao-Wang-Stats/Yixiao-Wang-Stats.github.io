@@ -25,7 +25,7 @@ author:
   name             : "Yixiao Wang"
   pronouns         : "he/him"  
   bio              : "Duke University"
-  location         : "Durham,NC,USA"
+  location         : "Durham, NC"
   uri              : # URL
   email            : "yixiao.wang@duke.edu" 
 
@@ -42,12 +42,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/Yixiao-Wang-Stats"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
