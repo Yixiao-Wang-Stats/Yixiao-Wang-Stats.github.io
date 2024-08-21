@@ -11,9 +11,6 @@ location: "Anhui, China"
 This is a description of a teaching experience. You can use markdown like any other post.
 <div id="echart" style="width: 600px; height: 400px;"></div>
 <script type="text/javascript">
-    import * as echarts from 'echarts';
-    import 'echarts-gl';
-
     var chartDom = document.getElementById('echart');
     var myChart = echarts.init(chartDom);
     var option;
