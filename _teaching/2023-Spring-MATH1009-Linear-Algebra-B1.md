@@ -9,9 +9,9 @@ location: "Anhui, China"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
-<div id="echart" style="width: 100px; height: 100px;"></div>
+<div id="echart" style="width: 600px; height: 400px;"></div> <!-- 修改宽高以适应图表 -->
 <script type="text/javascript">
-    var chartDom = document.getElementById('echart');
+    var chartDom = document.getElementById('echart'); // 确保 ID 匹配
     var myChart = echarts.init(chartDom);
     var option;
 
@@ -81,7 +81,7 @@ This is a description of a teaching experience. You can use markdown like any ot
                     x: {
                         step: 0.05
                     },
-                    y: {
+                                        y: {
                         step: 0.05,
                         min: -3
                     },
@@ -117,8 +117,4 @@ This is a description of a teaching experience. You can use markdown like any ot
 Heading 1
 ======
 hahaha
-Heading 2
-======
-
-Heading 3
-======
+Heading 
