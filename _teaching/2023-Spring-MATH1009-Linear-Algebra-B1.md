@@ -9,7 +9,8 @@ location: "Anhui, China"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
-<div id="echart" style="width: 600px; height: 400px;"></div>
+
+
 <div id="echart" style="width: 600px; height: 400px;"></div>
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
