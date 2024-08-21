@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /teaching/Random-Matrices
 venue: "University of Science and Technology of China, Department"
-date: 2023-04
+date: 2023-04-15
 location: "Anhui, China"
 ---
 This is a workshop on Probability Theory and Mathematical Statistics, initiated by the instructor. My presentation primarily focused on random matrices, particularly using the Moment Method to prove:
