@@ -81,7 +81,7 @@ This is a description of a teaching experience. You can use markdown like any ot
                     x: {
                         step: 0.05
                     },
-                                        y: {
+                    y: {
                         step: 0.05,
                         min: -3
                     },
