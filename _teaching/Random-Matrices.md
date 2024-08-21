@@ -3,7 +3,7 @@ title: "Random Matrices: Theory and Practice"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/Random-Matrices
-venue: "University of Science and Technology of China, Department"
+venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-04-15
 location: "Anhui, China"
 ---
