@@ -15,8 +15,6 @@ This is a description of a teaching experience. You can use markdown like any ot
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
     
-    var myChart = echarts.init(chartDom);
-    
     var option = {
   tooltip: {},
   backgroundColor: '#00',
