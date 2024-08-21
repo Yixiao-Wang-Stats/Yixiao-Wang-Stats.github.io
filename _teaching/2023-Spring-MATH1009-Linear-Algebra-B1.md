@@ -13,21 +13,27 @@ This is a description of a teaching experience. You can use markdown like any ot
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
 
-    var option = {
+    // 指定图表的配置项和数据
+      var option = {
         title: {
-            text: 'ECharts Example'
+          text: 'ECharts 入门示例'
         },
         tooltip: {},
+        legend: {
+          data: ['销量']
+        },
         xAxis: {
-            data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+          data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
         },
         yAxis: {},
-        series: [{
-            name: 'Sales',
-            type: 'line',
-            data: [5, 20, 36, 10, 10, 20, 30]
-        }]
-    };
+        series: [
+          {
+            name: '销量',
+            type: 'bar',
+            data: [5, 20, 36, 10, 10, 20]
+          }
+        ]
+      };
 
     myChart.setOption(option);
 </script>
