@@ -10,6 +10,8 @@ imgLink: "/images/profile.png"
 location: "Anhui, China"
 ---
 
+
+
 This course gives an introduction to the basic knowledge of linear algebra. The main topics include solving a system of linear equations, the computation of matrix and determinant, the theory of vector space and linear transformation, the Euclidian space, and the quadratic form, etc.
 
 
