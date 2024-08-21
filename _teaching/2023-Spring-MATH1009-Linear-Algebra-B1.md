@@ -12,9 +12,7 @@ This is a description of a teaching experience. You can use markdown like any ot
 <div id="graph_al" style="width: 600px; height: 400px;"></div>
 
 <script type="text/javascript">
-    // 确保在页面加载后执行
-    window.onload = function() {
-        var chartDom = document.getElementById('main');
+var chartDom = document.getElementById('main');
 var myChart = echarts.init(chartDom);
 var option;
 
@@ -75,8 +73,7 @@ option = {
   ]
 };
 
-        myChart.setOption(option);
-    };
+        
 </script>
 
 Heading 1
