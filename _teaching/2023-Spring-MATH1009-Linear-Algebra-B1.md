@@ -9,111 +9,115 @@ location: "Anhui, China"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
-
 <div id="graph_al" style="width: 600px; height: 400px;"></div>
+
 <script type="text/javascript">
-    var chartDom = document.getElementById('graph_al');
-    var myChart = echarts.init(chartDom);
-    var option;
+    // 确保在页面加载后执行
+    window.onload = function() {
+        var chartDom = document.getElementById('graph_al');
+        var myChart = echarts.init(chartDom);
+        var option;
 
-    option = {
-        tooltip: {},
-        backgroundColor: '#00',
-        visualMap: {
-            show: false,
-            dimension: 2,
-            min: -1,
-            max: 1,
-            inRange: {
-                color: [
-                    '#313695',
-                    '#4575b4',
-                    '#74add1',
-                    '#abd9e9',
-                    '#e0f3f8',
-                    '#ffffbf',
-                    '#fee090',
-                    '#fdae61',
-                    '#f46d43',
-                    '#d73027',
-                    '#a50026'
-                ]
-            }
-        },
-        xAxis3D: {
-            type: 'value'
-        },
-        yAxis3D: {
-            type: 'value'
-        },
-        zAxis3D: {
-            type: 'value'
-        },
-        grid3D: {
-            viewControl: {
-                // projection: 'orthographic'
-            }
-        },
-        series: [
-            {
-                type: 'surface',
-                wireframe: {
-                    // show: false
-                },
-                equation: {
-                    x: {
-                        step: 0.05
-                    },
-                    y: {
-                        step: 0.05,
-                        min: -3
-                    },
-                    z: function (x, y) {
-                        return x + y;
-                    }
+        option = {
+            tooltip: {},
+            backgroundColor: '#00',
+            visualMap: {
+                show: false,
+                dimension: 2,
+                min: -1,
+                max: 1,
+                inRange: {
+                    color: [
+                        '#313695',
+                        '#4575b4',
+                        '#74add1',
+                        '#abd9e9',
+                        '#e0f3f8',
+                        '#ffffbf',
+                        '#fee090',
+                        '#fdae61',
+                        '#f46d43',
+                        '#d73027',
+                        '#a50026'
+                    ]
                 }
             },
-            {
-                type: 'surface',
-                wireframe: {
-                    // show: false
-                },
-                equation: {
-                    x: {
-                        step: 0.05
-                    },
-                    y: {
-                        step: 0.05,
-                        min: -3,
-                    },
-                    z: function (x, y) {
-                        return -2 * x;
-                    }
+            xAxis3D: {
+                type: 'value'
+            },
+            yAxis3D: {
+                type: 'value'
+            },
+            zAxis3D: {
+                type: 'value'
+            },
+            grid3D: {
+                viewControl: {
+                    // projection: 'orthographic'
                 }
             },
-            {
-                type: 'surface',
-                wireframe: {
-                    // show: false
+            series: [
+                {
+                    type: 'surface',
+                    wireframe: {
+                        // show: false
+                    },
+                    equation: {
+                        x: {
+                            step: 0.05
+                        },
+                        y: {
+                            step: 0.05,
+                            min: -3
+                        },
+                        z: function (x, y) {
+                            return x + y;
+                        }
+                    }
                 },
-                equation: {
-                    x: {
-                        step: 0.05
+                {
+                    type: 'surface',
+                    wireframe: {
+                        // show: false
                     },
-                    y: {
-                        step: 0.05,
-                        min: -3
+                    equation: {
+                        x: {
+                            step: 0.05
+                        },
+                        y: {
+                            step: 0.05,
+                            min: -3,
+                        },
+                        z: function (x, y) {
+                            return -2 * x;
+                        }
+                    }
+                },
+                {
+                    type: 'surface',
+                    wireframe: {
+                        // show: false
                     },
-                    z: function (x, y) {
-                        return x - 1;
+                    equation: {
+                        x: {
+                            step: 0.05
+                        },
+                        y: {
+                            step: 0.05,
+                            min: -3
+                        },
+                        z: function (x, y) {
+                            return x - 1;
+                        }
                     }
                 }
-            }
-        ]
+            ]
+        };
+
+        myChart.setOption(option);
     };
-
-    myChart.setOption(option);
 </script>
+
 Heading 1
 ======
 hahaha
