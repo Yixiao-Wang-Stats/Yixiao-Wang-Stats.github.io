@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-Spring-MATH1009-Linear-Algebra-B1
 venue: "University of Science and Technology of China, Mathematics Department"
-date: 2023
+date: 2023-03-01
 location: "Anhui, China"
 ---
 
