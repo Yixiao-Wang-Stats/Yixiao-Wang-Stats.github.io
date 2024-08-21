@@ -1,6 +1,6 @@
 ---
 title: "MATH1009.12 Linear Algebra B1"
-collection: teaching
+collection: portfolio
 type: "Teaching assistant"
 permalink: /teaching/2023-Spring-MATH1009-Linear-Algebra-B1
 venue: "University of Science and Technology of China, Mathematics Department"
