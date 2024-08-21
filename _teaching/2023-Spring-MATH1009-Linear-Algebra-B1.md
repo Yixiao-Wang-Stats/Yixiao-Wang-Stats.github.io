@@ -17,7 +17,7 @@ This is a description of a teaching experience. You can use markdown like any ot
 
     var option = {
         title: {
-            text: 'ECharts 样例'
+            text: 'ECharts Example'
         },
         tooltip: {},
         xAxis: {
@@ -26,7 +26,7 @@ This is a description of a teaching experience. You can use markdown like any ot
         yAxis: {},
         series: [{
             name: 'Sales',
-            type: 'line',  // 将类型改为 'bar' 以显示柱状图
+            type: 'line',
             data: [5, 20, 36, 10, 10, 20, 30]
         }]
     };
