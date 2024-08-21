@@ -1,5 +1,6 @@
 ---
 title: "Portfolio item number 1"
+description: "The epiviz.gl project is meant to visualize genomic data using webgl and webworkers, in an effort to give a fluid, high-performance user experience. Visualizations are defined via a declarative specification."
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
