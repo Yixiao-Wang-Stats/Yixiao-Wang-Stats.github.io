@@ -1,11 +1,12 @@
 ---
 title: "MATH1009.12 Linear Algebra B1"
 collection: teaching
-type: "Undergraduate course"
+type: "Teaching assistant"
 permalink: /teaching/2023-Spring-MATH1009-Linear-Algebra-B1
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-03-01
 description: "The epiviz.gl project is meant to visualize genomic data using webgl and webworkers, in an effort to give a fluid, high-performance user experience. Visualizations are defined via a declarative specification."
+imgLink: 'profile.png'
 location: "Anhui, China"
 ---
 
