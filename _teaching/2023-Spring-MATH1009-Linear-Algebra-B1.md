@@ -26,7 +26,7 @@ This is a description of a teaching experience. You can use markdown like any ot
         yAxis: {},
         series: [{
             name: 'Sales',
-            type: 'bar',  // 将类型改为 'bar' 以显示柱状图
+            type: 'line',  // 将类型改为 'bar' 以显示柱状图
             data: [5, 20, 36, 10, 10, 20, 30]
         }]
     };
