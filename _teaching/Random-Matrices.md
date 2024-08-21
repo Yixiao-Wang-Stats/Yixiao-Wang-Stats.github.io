@@ -7,9 +7,8 @@ venue: "University of Science and Technology of China, Department"
 date: 2023-04-15
 location: "Anhui, China"
 ---
-This is a workshop on Probability Theory and Mathematical Statistics, initiated by the instructor associate professor [Dangzheng Liu](http://staff.ustc.edu.cn/~dzliu/). My presentation primarily focused on random matrices, particularly using the Moment Method to prove:
+This is a workshop on Probability Theory and Mathematical Statistics, initiated by the instructor associate professor [Dangzheng Liu](http://staff.ustc.edu.cn/~dzliu/).To read the presentation slides, click [here](/files/random-matrix.pdf).
+
+My presentation primarily focused on random matrices, particularly using the Moment Method to prove:
 - Wigner’s Semicircle Law
 - Marcenko-Pastur Law
-
-You can refer to the article related to my presentation. To read the presentation slides, click [here](/files/random-matrix.pdf).
- 
