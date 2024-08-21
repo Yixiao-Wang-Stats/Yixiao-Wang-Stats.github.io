@@ -21,10 +21,10 @@ This is a description of a teaching experience. You can use markdown like any ot
     },
     tooltip: {},
     legend: {
-      data: ['销量']
+      data: ['hh']
     },
     xAxis: {
-      data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
+      data: ['hs', 'sh', 'shd', 'd', 'sd', 'gds']
     },
     yAxis: {},
     series: [
