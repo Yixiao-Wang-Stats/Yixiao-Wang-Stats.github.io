@@ -2,7 +2,7 @@
 title: "MATH1009.12 Linear Algebra B1"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2023 Spring : MATH1009.12 Linear Algebra B1.md
+permalink: /teaching/2023-Spring-MATH1009-Linear-Algebra-B1.md
 venue: "University of Science and Technology of China, Mathematics Department"
 start_date: 2023-03
 end_date: 2023-07
