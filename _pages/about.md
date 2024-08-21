@@ -6,8 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a first year master student from [graduateschool](https://gradschool.duke.edu/), [Duke University](https://duke.edu/). My research interest includes machine learning theory and its applications.
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+About me
+======
+Originally from China, I came to the [University of Science and Technology of China](https://en.ustc.edu.cn/) to study Mathematics and Statistics at [School of Gifted Young](https://en.scgy.ustc.edu.cn/). I am currently a first-year master student in the [Statistics Department at Duke University](https://stat.duke.edu/). My research interests include machine learning theory, functional data analysis, and their applications. At USTC, I particularly enjoyed my time as a teaching assistant for *Linear Algebra B1*, as it provided me with the opportunity to teach students directly, and I was recognized as one of the best TAs at USTC. In my free time, I enjoy creating generative art, especially origami, and listening to music.
 
-[Email](yixiao.wang@duke.edu) / [Github](https://github.com/Yixiao-Wang-Stats) 
+Research Interests
+------
+- Machine learning theory
+- Functional data analysis
