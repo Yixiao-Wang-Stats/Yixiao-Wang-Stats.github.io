@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "portrait.png"
   name             : "Yixiao Wang"
-  pronouns         : "he/him"  
-  bio              : "Duke University"
+  pronouns         : #"he/him"  
+  bio              : "Statistics Student"
   location         : "Durham, NC"
   uri              : # URL
   email            : "yixiao.wang@duke.edu" 
