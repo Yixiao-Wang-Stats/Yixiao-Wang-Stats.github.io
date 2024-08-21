@@ -11,5 +11,5 @@ This is a workshop on Probability Theory and Mathematical Statistics, initiated 
 - Wigner’s Semicircle Law
 - Marcenko-Pastur Law
 
-You can refer to the article related to my presentation. To read the presentation slides, click [here](/files/random_matrix).
+You can refer to the article related to my presentation. To read the presentation slides, click [here](/files/random-matrix).
  
