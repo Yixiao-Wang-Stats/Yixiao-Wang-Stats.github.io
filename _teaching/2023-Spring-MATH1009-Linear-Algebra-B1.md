@@ -2,50 +2,36 @@
 title: "MATH1009.12 Linear Algebra B1"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2023-Spring-MATH1009-Linear-Algebra-B1
+permalink: /teaching/2023-spring/MATH1009.12-linear-algebra-b1
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-03-01
 location: "Anhui, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.2023-spring/MATH1009.12-linear-algebra-b1
+This is a description of a teaching experience. You can use markdown like any other post.
 
-```echarts
+<div id="echart" style="width: 600px; height: 400px;"></div>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('echart'));
 
-{
+    var option = {
+        title: {
+            text: 'ECharts Example'
+        },
+        tooltip: {},
+        xAxis: {
+            data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        },
+        yAxis: {},
+        series: [{
+            name: 'Sales',
+            type: 'line',
+            data: [5, 20, 36, 10, 10, 20, 30]
+        }]
+    };
 
- "title" : {  
- "text": "简单的折线图",  
- "subtext": "纯属虚构"  
- },  
- "tooltip" : {  
- "trigger": "axis"  
- },  
- "toolbox": {  
- "show" : true,  
- "feature" : {  
- "mark" : {"show": true},  
- "dataView" : {"show": true, "readOnly": false},  
- "magicType" : {"show": true, "type": ["line", "bar"]},  
- "restore" : {"show": true},  
- "saveAsImage" : {"show": true}  
- }  
- },  
- "calculable" : true,  
-    "xAxis": {
-        "type": "category",
-            "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-    },
-    "yAxis": {
-        "type": "value"
-    },
-    "series": [{
-        "data": [820, 932, 901, 934, 1290, 1330, 1320],
-        "type": "line"
-    }]
-}
-
-```
+    myChart.setOption(option);
+</script>
 
 Heading 1
 ======
