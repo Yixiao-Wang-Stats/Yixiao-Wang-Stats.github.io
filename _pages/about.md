@@ -1,8 +1,9 @@
 ---
 permalink: /
-tile: "Y.Wang"
+tile: "Y. Wang"
 excerpt: "About me"
 author_profile: true
+layout: single
 redirect_from: 
   - /about/
   - /about.html
