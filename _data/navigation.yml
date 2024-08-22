@@ -5,11 +5,11 @@
 # prevent it from being included in the site.
 # This is a test information
 main:
+  - title: "Projects"
+    url: /projects/
+    
   - title: "Teaching Assistant"
     url: /teaching/    
-    
-  - title: "projects"
-    url: /projects/
         
   - title: "CV"
     url: /cv/
