@@ -6,6 +6,7 @@ permalink: /teaching/2023-Spring-MATH1009-Linear-Algebra-B1
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-03-01
 location: "Anhui, China"
+excerpt: This course gives an introduction to the basic knowledge of linear algebra. 
 ---
 
 <div id="echart" style="width: 600px; height: 400px;"></div>
@@ -111,9 +112,6 @@ location: "Anhui, China"
     };
     myChart.setOption(option);
 </script>
-
-This course gives an introduction to the basic knowledge of linear algebra. 
-
 
 The main topics include:
 - Solving a system of linear equations
