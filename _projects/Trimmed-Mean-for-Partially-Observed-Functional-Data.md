@@ -1,12 +1,12 @@
 ---
-title: "Random Matrices: Theory and Practice"
+title: "Trimmed Mean for Partially Observed Functional Data"
 collection: projects
 type: "Bachelor's thesis"
-permalink: /teaching/Trimmed-Mean-for-Partially-Observed-Functional-Data
+permalink: /projects/Trimmed-Mean-for-Partially-Observed-Functional-Data
 venue: "University of Science and Technology of China, Mathematics Department"
-date: 2023-04-15
+date: 2024-05-01
 location: "Anhui, China"
-excerpt: "This is a workshop on Probability Theory and Mathematical Statistics, initiated by the instructor associate professor [Dangzheng Liu](http://staff.ustc.edu.cn/~dzliu/). "
+excerpt: "This is my bachelor's thesis"
 ---
 
 The main topics include:
