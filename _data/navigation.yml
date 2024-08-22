@@ -5,21 +5,12 @@
 # prevent it from being included in the site.
 # This is a test information
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
   - title: "Teaching Assistant"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "projects"
+    url: /projects/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
   - title: "CV"
     url: /cv/
     
