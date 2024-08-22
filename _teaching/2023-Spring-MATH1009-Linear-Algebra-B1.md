@@ -9,6 +9,7 @@ description: "The epiviz.gl project is meant to visualize genomic data using web
 imgLink: "/images/profile.png"
 location: "Anhui, China"
 ---
+This course gives an introduction to the basic knowledge of linear algebra. 
 <div id="echart" style="width: 600px; height: 400px;"></div>
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
@@ -114,7 +115,7 @@ location: "Anhui, China"
 </script>
 
 
-This course gives an introduction to the basic knowledge of linear algebra. 
+
 
 The main topics include:
 - Solving a system of linear equations
