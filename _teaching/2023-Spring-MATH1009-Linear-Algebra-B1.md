@@ -19,7 +19,7 @@ The main topics include:
 
  You are welcome to explore the homepage of the course [here](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) .
  
-<div id="echart" style="width: 600px; height: 400px;"></div>
+<div id="echart" style="width: 100%; max-width: 800px; height: 400px; margin: 2em auto;"></div>
 <script type="text/javascript">
     window.onload = function() {
         var chartDom = document.getElementById('echart');
@@ -121,4 +121,3 @@ The main topics include:
         myChart.setOption(option);
     };
 </script>
-
