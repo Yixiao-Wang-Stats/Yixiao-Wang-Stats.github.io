@@ -20,18 +20,63 @@ The main topics include:
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
     var option = {
-  xAxis: {
-    type: 'category',
-    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+ tooltip: {},
+  backgroundColor: '#fff',
+  visualMap: {
+    show: false,
+    dimension: 2,
+    min: -1,
+    max: 1,
+    inRange: {
+      color: [
+        '#313695',
+        '#4575b4',
+        '#74add1',
+        '#abd9e9',
+        '#e0f3f8',
+        '#ffffbf',
+        '#fee090',
+        '#fdae61',
+        '#f46d43',
+        '#d73027',
+        '#a50026'
+      ]
+    }
   },
-  yAxis: {
+  xAxis3D: {
     type: 'value'
+  },
+  yAxis3D: {
+    type: 'value'
+  },
+  zAxis3D: {
+    type: 'value'
+  },
+  grid3D: {
+    viewControl: {
+      // projection: 'orthographic'
+    }
   },
   series: [
     {
-      data: [820, 932, 901, 934, 1290, 1330, 1320],
-      type: 'line',
-      smooth: true
+      type: 'surface',
+      wireframe: {
+        // show: false
+      },
+      equation: {
+        x: {
+          step: 0.05
+        },
+        y: {
+          step: 0.05
+        },
+        z: function (x, y) {
+          if (Math.abs(x) < 0.1 && Math.abs(y) < 0.1) {
+            return '-';
+          }
+          return Math.sin(x * Math.PI) * Math.sin(y * Math.PI);
+        }
+      }
     }
   ]
 };
