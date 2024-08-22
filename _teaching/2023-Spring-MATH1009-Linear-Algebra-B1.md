@@ -19,7 +19,7 @@ The main topics include:
 <div id="echart" style="width: 600px; height: 400px;"></div>
 <script type="text/javascript">
     window.onload = function() {
-        var chartDom = document.getElementById('graph_al');
+        var chartDom = document.getElementById('echart');
         var myChart = echarts.init(chartDom);
         var option;
 
@@ -58,14 +58,12 @@ The main topics include:
             },
             grid3D: {
                 viewControl: {
-                   
                 }
             },
             series: [
                 {
                     type: 'surface',
                     wireframe: {
-                        
                     },
                     equation: {
                         x: {
@@ -83,7 +81,6 @@ The main topics include:
                 {
                     type: 'surface',
                     wireframe: {
-                    
                     },
                     equation: {
                         x: {
@@ -101,7 +98,6 @@ The main topics include:
                 {
                     type: 'surface',
                     wireframe: {
-          
                     },
                     equation: {
                         x: {
