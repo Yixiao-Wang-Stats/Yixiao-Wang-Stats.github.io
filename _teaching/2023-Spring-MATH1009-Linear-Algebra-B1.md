@@ -26,7 +26,6 @@ The main topics include:
 <div id="echart" style="width: 600px; height: 400px;"></div>
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
-
     var option = {
         title: {
             text: 'ECharts Example'
