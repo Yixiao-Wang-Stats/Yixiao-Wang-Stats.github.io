@@ -20,20 +20,23 @@ The main topics include:
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
     var option = {
-        title: {
-            text: 'ECharts Example'
-        },
-        tooltip: {},
-        xAxis: {
-            data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-        },
-        yAxis: {},
-        series: [{
-            name: 'Sales',
-            type: 'line',
-            data: [5, 20, 36, 10, 10, 20, 30]
-        }]
-    };
-    myChart.setOption(option);
+  xAxis: {
+    type: 'category',
+    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [820, 932, 901, 934, 1290, 1330, 1320],
+      type: 'line',
+      smooth: true
+    }
+  ]
+};
+
+option && myChart.setOption(option);
+
 </script>
 
