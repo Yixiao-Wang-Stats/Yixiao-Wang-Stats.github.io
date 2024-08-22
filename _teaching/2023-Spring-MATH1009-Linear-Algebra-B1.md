@@ -8,7 +8,9 @@ date: 2023-03-01
 location: "Anhui, China"
 excerpt: "This course gives an introduction to the basic knowledge of linear algebra." 
 ---
+
 The main topics include:
+------
 - Solving a system of linear equations
 - Computation of matrix and determinant
 - Theory of vector space and linear transformation
@@ -16,6 +18,7 @@ The main topics include:
 - Quadratic form
 
  You are welcome to explore the homepage of the course [here](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) .
+ 
 <div id="echart" style="width: 600px; height: 400px;"></div>
 <script type="text/javascript">
     window.onload = function() {
