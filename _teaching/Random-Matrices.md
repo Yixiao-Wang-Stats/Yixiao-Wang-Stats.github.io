@@ -20,4 +20,7 @@ To read the presentation slides, click [here](/files/random-matrix.pdf).
  Generating a Second-Order Gaussian Orthogonal Ensemble (GOE)
 ------
 In this document, we will demonstrate how to generate a second-order Gaussian Orthogonal Ensemble (GOE) matrix. We visualize the process using the [Manim library](https://github.com/manimCommunity/manim).
-![GOE Visualization](images/MatrixAnimation.mp4)
+<video controls>
+  <source src="images/MatrixAnimation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
