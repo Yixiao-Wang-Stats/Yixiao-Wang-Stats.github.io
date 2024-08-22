@@ -29,8 +29,8 @@ The main topics include:
             visualMap: {
                 show: false,
                 dimension: 2,
-                min: -1,
-                max: 1,
+                min: -2.5,
+                max: 2.5,
                 inRange: {
                     color: [
                         '#313695',
