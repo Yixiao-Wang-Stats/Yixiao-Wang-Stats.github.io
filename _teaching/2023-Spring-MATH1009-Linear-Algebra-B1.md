@@ -35,6 +35,5 @@ The main topics include:
         }]
     };
     myChart.setOption(option);
-</
-
+</script>
 
