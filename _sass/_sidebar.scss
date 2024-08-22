@@ -92,9 +92,7 @@
   img {
     max-width: 175px;
     border-radius: 50%;
-   // 确保宽高相等
-    width: 175px; // 设置固定宽度
-    height: 175px; // 设置固定高度
+     
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
