@@ -54,14 +54,12 @@ The main topics include:
   },
   grid3D: {
     viewControl: {
-      // projection: 'orthographic'
     }
   },
   series: [
     {
       type: 'surface',
       wireframe: {
-        // show: false
       },
       equation: {
         x: {
