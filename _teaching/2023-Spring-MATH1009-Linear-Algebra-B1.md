@@ -9,20 +9,6 @@ description: "The epiviz.gl project is meant to visualize genomic data using web
 imgLink: "/images/profile.png"
 location: "Anhui, China"
 ---
-
-
-
-This course gives an introduction to the basic knowledge of linear algebra. 
-
-The main topics include:
-- Solving a system of linear equations
-- Computation of matrix and determinant
-- Theory of vector space and linear transformation
-- Euclidian space
-- Quadratic form
-
- You are welcome to explore the homepage of the course [here](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) 
-
 <div id="echart" style="width: 600px; height: 400px;"></div>
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('echart'));
@@ -126,4 +112,18 @@ The main topics include:
     };
     myChart.setOption(option);
 </script>
+
+
+This course gives an introduction to the basic knowledge of linear algebra. 
+
+The main topics include:
+- Solving a system of linear equations
+- Computation of matrix and determinant
+- Theory of vector space and linear transformation
+- Euclidian space
+- Quadratic form
+
+ You are welcome to explore the homepage of the course [here](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) 
+
+
 
