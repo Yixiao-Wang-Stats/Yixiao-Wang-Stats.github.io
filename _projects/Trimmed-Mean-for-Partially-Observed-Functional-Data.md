@@ -26,7 +26,7 @@ In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functiona
 
 The thesis is available at [this link](https://arxiv.org/abs/2408.13062).
 
-### Mathematical Definition
+## Mathematical Definition
 
 The $\alpha$-trimmed mean for partially observed functions is defined as the mean of the $n - \lfloor n\alpha \rfloor$ deepest observed values. More precisely, for $\beta > 0$, the sample version of the trimmed mean is given by:
 
@@ -42,7 +42,7 @@ The $\alpha$-trimmed mean for partially observed functions is defined as the mea
   </p>
 
 where POIFD(X) is the Partially Observed Integrated Functional Depth of $X$. For more details, see [Integrated Depths for Partially Observed Functional Data](https://doi.org/10.1080/10618600.2022.2070171).
-### Coding
+## Coding
 
 I have created the code for this project, which is available in the repository: [TMoPOFD GitHub Repository](https://github.com/Yixiao-Wang-Stats/TMoPOFD). This repository contains the simulation code for the **Trimmed Mean for Partially Observed Functional Data (TMoPOFD)**, based on the Partially Observed Integrated Functional Depth (POIFD) method.
 
