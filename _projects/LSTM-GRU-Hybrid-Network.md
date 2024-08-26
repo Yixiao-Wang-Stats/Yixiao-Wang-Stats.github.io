@@ -1,3 +1,14 @@
+---
+title: "Trimmed Mean for Partially Observed Functional Data"
+collection: projects
+type: "Bachelor's thesis"
+permalink: /projects/Trimmed-Mean-for-Partially-Observed-Functional-Data
+venue: "University of Science and Technology of China, Mathematics Department"
+date: 2024-01-20
+location: "Anhui, China"
+excerpt: "This is my final project for _Time Series Analysis_ course"
+---
+
 # LSTM-GRU-Hybrid-Network
 
 ## Overview
