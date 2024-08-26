@@ -31,10 +31,7 @@ The thesis is available at [this link](https://arxiv.org/abs/2408.13062).
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
 <div class="mathjax-content">
-  $$ \hat{\mu}_{n}(t) = \frac{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right) X_{i}(t)}{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right)} $$
-
-
-The $\alpha$-trimmed mean for partially observed functions is defined as the mean of the $n - \lfloor n\alpha \rfloor$ deepest observed values. More precisely, for $\beta > 0$, the sample version of the trimmed mean is given by:
+The \(\alpha\)-trimmed mean for partially observed functions is defined as the mean of the $n - \lfloor n\alpha \rfloor$ deepest observed values. More precisely, for $\beta > 0$, the sample version of the trimmed mean is given by:
 
   <p>
     $$ \hat{\mu}_{n}(t) = \frac{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right) X_{i}(t)}{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right)} $$
