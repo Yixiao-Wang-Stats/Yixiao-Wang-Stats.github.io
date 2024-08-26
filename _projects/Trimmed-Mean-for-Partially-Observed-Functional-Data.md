@@ -8,9 +8,6 @@ date: 2024-05-01
 location: "Anhui, China"
 excerpt: "This is my bachelor's thesis"
 ---
-
-# TMoPOFD: Trimmed Mean for Partially Observed Functional Data
-
 ## Overview
 
 In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong convergence of this method. The work primarily references the following studies:
