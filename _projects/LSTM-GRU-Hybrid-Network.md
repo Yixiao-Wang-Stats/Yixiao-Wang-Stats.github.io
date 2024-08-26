@@ -1,5 +1,5 @@
 ---
-title: "Trimmed Mean for Partially Observed Functional Data"
+title: "LSTM GRU Hybrid Network"
 collection: projects
 type: "Project"
 permalink: /projects/LSTM-GRU-Hybrid-Network
