@@ -64,5 +64,5 @@ plotTrimmedMean(data, alpha = 0.3, type = "FMD")
 ```
 In the plot, the green line represents the trimmed mean, the yellow line represents the mean before trimming, and the blue lines represent the functions that were trimmed.
 
-<img src="images/example.png" style="display: block; margin: auto;" />
+<img src="images/trimmedmean.png" style="display: block; margin: auto;" />
 
