@@ -34,14 +34,56 @@ This project is based on my senior year time series analysis course. The origina
 ## Simulation Results
 ![PM Prediction vs Actual](./images/pm-prediction.png)
 
-## Comparison of Different Models
-| Model                             | RMSE   | MAE    | MAPE (\%) | Accuracy (\%) |
-|-----------------------------------|--------|--------|-----------|---------------|
-| ARIMA                             | 94.752 | 88.515 | 256.847   | -             |
-| SVR                               | 25.292 | 22.186 | 62.329    | 48.24         |
-| DNN                               | 30.504 | 28.693 | 79.258    | -             |
-| LSTM                              | 8.682  | 6.151  | 14.051    | 91.56         |
-| LSTM-GRU Hybrid Model (Proposed)  | 8.261  | 5.621  | 11.224    | 94.44         |
+<h2> Comparison of Different Models</h2>
+<table>
+    <thead>
+        <tr>
+            <th>模型</th>
+            <th>RMSE</th>
+            <th>MAE</th>
+            <th>MAPE (%)</th>
+            <th>准确率 (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ARIMA</td>
+            <td>94.752</td>
+            <td>88.515</td>
+            <td>256.847</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>SVR</td>
+            <td>25.292</td>
+            <td>22.186</td>
+            <td>62.329</td>
+            <td>48.24</td>
+        </tr>
+        <tr>
+            <td>DNN</td>
+            <td>30.504</td>
+            <td>28.693</td>
+            <td>79.258</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>LSTM</td>
+            <td>8.682</td>
+            <td>6.151</td>
+            <td>14.051</td>
+            <td>91.56</td>
+        </tr>
+        <tr>
+            <td>LSTM-GRU 混合模型（建议的）</td>
+            <td>8.261</td>
+            <td>5.621</td>
+            <td>11.224</td>
+            <td>94.44</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## References
 [^1]: Graves, Alex. "Long short-term memory." *Supervised Sequence Labelling with Recurrent Neural Networks* (2012): 37-45.
