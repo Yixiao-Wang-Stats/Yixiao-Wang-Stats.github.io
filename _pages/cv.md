@@ -35,27 +35,27 @@ _Sep. 2020 - Jul. 2024_
 _Supervised by Associate Professor Lan Xiaohong from USTC._  
 - Defined the trimmed mean for partially observed functional data.
 - Proved consistent convergence of the estimator and conducted numerical simulations.
-- The thesis is available on arXiv, and the code is available on GitHub.
+- The thesis is available on [arXiv](https://arxiv.org/abs/2408.13062), and the code is available on [GitHub](https://github.com/Yixiao-Wang-Stats/TMoPOFD).
 
 ### LSTM-GRU Hybrid Network | Course Project for Time Series Analysis  
 _Feb. 2024-Mar. 2024_  
 - Cleaned and preprocessed the PM2.5 pollution data from Chengdu.
 - Proposed an LSTM-GRU hybrid network architecture, inspired by GoogLeNet, for PM2.5 time series forecasting, which reduced the error rate by 30% compared to LSTM.
-- The essay is available here, and the code is available on GitHub.
+- The essay is available [here](https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf), and the code is available on [GitHub](https://github.com/Yixiao-Wang-Stats/LSTM-GRU-Hybrid-Network).
 
 
 ## TEACHING
 ---
 ### Linear Algebra B1 | Teaching Assistant  
 _Mar. 2023- Jul. 2023_  
-- Built the [course homepage](#) and served as the group leader, managing a course group with over 100 students.
+- Built the [course homepage](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) and served as the group leader, managing a course group with over 100 students.
 - Organized weekly problem-solving sessions during weekends, spent over 40 hours of personal teaching time, and engaged with more than 200 participants, showcasing strong teaching and communication skills.
 - Independently completed solution sets for over 100 post-course exercises and provided analysis and answers to all past exam papers.
 
 ### Probability Theory Seminar | Presenter  
 _April 2023_  
 - Delivered a special presentation with more than 10 fellow students, focusing on random matrix methods.
-- The slides are available [here](#).
+- The slides are available [here](https://yixiao-wang-stats.github.io/files/random-matrix.pdf).
 
 
 ## INTERNSHIP
