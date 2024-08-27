@@ -1,7 +1,7 @@
 ---
 title: "LSTM GRU Hybrid Network"
 collection: projects
-type: "Project"
+type: "Course Project"
 permalink: /projects/LSTM-GRU-Hybrid-Network
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2024-01-20
