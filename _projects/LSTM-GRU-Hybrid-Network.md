@@ -11,7 +11,7 @@ excerpt: "This is my final project for _Time Series Analysis_ course"
 ## Overview
 Predicting PM2.5 is crucial for environmental management. In recent years, with the rapid development of machine learning and deep learning, numerous machine learning methods have been applied to time series forecasting, such as RNN, LSTM[^1], and GRU[^2]. However, different models have their own advantages and disadvantages when handling various data types. Recently, some novel architectures have begun integrating different types of neural networks to leverage their respective strengths. The Inception module, a typical example of this approach, was first proposed by GoogLeNet[^3]. Inspired by the Inception algorithm, this project introduces an LSTM-GRU hybrid network architecture for PM2.5 forecasting, combining RNN and LSTM. This architecture demonstrates significant performance improvement compared to models using only LSTM or GRU. Experiments were conducted based on meteorological data from Chengdu between 2013 and 2015, with the corresponding code and test results provided.
 
-The thesis is available at [here](files/Inception-inspired LSTM-GRU Hybrid Network for PM2.5 Forecasting(En).pdf}.
+The thesis is available [here](files/Inception-inspired%20LSTM-GRU%20Hybrid%20Network%20for%20PM2.5%20Forecasting(En).pdf).
 
 ## Inspiration and Methodology
 - The inspiration for the Inception module in this project is entirely derived from GoogLeNet[^3].
