@@ -1,6 +1,6 @@
 ---
 title: "Trimmed Mean for Partially Observed Functional Data"
-collection: projects
+collection: teaching
 type: "Bachelor's thesis"
 permalink: /projects/Trimmed-Mean-for-Partially-Observed-Functional-Data
 venue: "University of Science and Technology of China, Mathematics Department"
