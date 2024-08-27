@@ -17,16 +17,8 @@ redirect_from:
   </a>
 </div>
 
-# Yixiao Wang (Eshiao Wong)
-
-**Email:** yixiao.wang@duke.edu  
-**Tel:** +1(919)201-8680  
-**Homepage:** [Yixiao Wang Homepage](#)
-
----
-
 ## EDUCATION
-
+---
 ### Duke University, Graduate School  
 **Master’s Student, Statistical Science**  
 _Aug. 2024 - Jun. 2026 (Expected)_
@@ -37,10 +29,8 @@ _Major in Probability and Statistics track_
 _Sep. 2020 - Jul. 2024_  
 **GPA (WES Converted):** 3.91/4, **Ranking:** 6/92
 
----
-
 ## ACADEMIC PROJECTS
-
+---
 ### Trimmed Mean for Partially Observed Functional Data | Bachelor’s Thesis  
 _Supervised by Associate Professor Lan Xiaohong from USTC._  
 - Defined the trimmed mean for partially observed functional data.
@@ -53,10 +43,9 @@ _Feb. 2024-Mar. 2024_
 - Proposed an LSTM-GRU hybrid network architecture, inspired by GoogLeNet, for PM2.5 time series forecasting, which reduced the error rate by 30% compared to LSTM.
 - The essay is available here, and the code is available on GitHub.
 
----
 
 ## TEACHING
-
+---
 ### Linear Algebra B1 | Teaching Assistant  
 _Mar. 2023- Jul. 2023_  
 - Built the [course homepage](#) and served as the group leader, managing a course group with over 100 students.
@@ -68,20 +57,18 @@ _April 2023_
 - Delivered a special presentation with more than 10 fellow students, focusing on random matrix methods.
 - The slides are available [here](#).
 
----
 
 ## INTERNSHIP
-
+---
 ### Thermo Fisher Scientific | Data Cleansing PTA  
 _Sep. 2023- Dec. 2023_  
 - Cleaned and categorized more than 2000 customer data queries and matched them with Excel.
 - Wrote Excel functions to add wildcards to the dataset to be cleaned, significantly improving team efficiency.
 - Summarized the data cleansing techniques and conducted team training sessions.
 
----
 
 ## ACTIVITIES & LEADERSHIP
-
+---
 ### Origami Club, USTC | President  
 _Jun. 2021- Jun. 2022_  
 - Designed and organized the first origami exhibition “Vividly Comes to Life on Paper” in USTC.
@@ -91,10 +78,8 @@ _Jun. 2021- Jun. 2022_
 _Sep. 2021- Jan. 2022_  
 - Played basketball with autistic children and helped coaches to keep order in class once per week.
 
----
-
 ## ADDITIONAL INFORMATION
-
+---
 **Awards and Honors:**  
 - Outstanding graduate from the University of Science and Technology of China (USTC) in 2024
 - China Petroleum Scholarship in 2023 (Only 3 Students in the School of the Gifted Young)
