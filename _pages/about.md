@@ -15,5 +15,5 @@ Originally from China, I came to the [University of Science and Technology of Ch
 
 Research Interests
 ------
-- Machine learning theory
-- Functional data analysis
+- Machine Learning Theory
+- Functional Data Analysis
