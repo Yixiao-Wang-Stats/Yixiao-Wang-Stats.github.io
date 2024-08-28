@@ -1,0 +1,103 @@
+.page__title {
+  display: none;
+}
+
+#as_pdf {
+  margin: 0;
+  text-align: right;
+}
+
+#as_pdf > a {
+  text-decoration: none;
+  color: rgb(73, 78, 82);
+}
+
+.archive > h1 {
+  margin: 0;
+  margin-top: 1em;
+  font-weight: 600;
+}
+
+.archive > h2 {
+  margin: 0;
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+h2 + p {
+  margin: 0;
+}
+
+#education {
+  margin-top: 0;
+}
+
+.archive li {
+  margin: 0;
+  font-size: .9em;
+}
+
+.archive ul {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+li img {
+  width: 10%;
+}
+
+hr {
+  border-color: rgb(73, 78, 82);
+  margin: 0;
+}
+
+hr + p {
+  margin: 0;
+}
+
+#education_box {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  row-gap: 0.5em;
+}
+
+#education_box div:first-child {
+  font-weight: bold;
+}
+
+#education_box div:nth-child(even) {
+  text-align: right;
+  font-style: italic;
+}
+
+.job_title {
+  display: grid;
+  grid-template-columns: 2.8fr 1fr;
+}
+
+.job_title div:nth-child(even) {
+  text-align: right;
+}
+
+.job_title div:first-child {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.job_box > p {
+  margin: 0;
+  font-style: italic;
+}
+
+.teach_title {
+  display: grid;
+  grid-template-columns: 2.8fr 1fr;
+}
+
+.teach_title div:nth-child(even) {
+  text-align: right;
+}
+
+.teach_box > ul {
+  margin: 0;
+}
