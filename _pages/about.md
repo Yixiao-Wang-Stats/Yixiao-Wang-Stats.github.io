@@ -1,7 +1,6 @@
 ---
 permalink: /
 tile: "Y. Wang"
-excerpt: "About me"
 author_profile: true
 layout: single
 redirect_from: 
