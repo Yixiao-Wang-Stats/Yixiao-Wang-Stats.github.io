@@ -6,7 +6,7 @@ permalink: /projects/Trimmed-Mean-for-Partially-Observed-Functional-Data
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2024-05-01
 location: "Anhui, China"
-excerpt: "This is my bachelor's thesis, I define the trimmed mean for partially observed functional data and proved consistent convergence of the estimator."
+excerpt: "This is my bachelor's thesis. I define the trimmed mean for partially observed functional data and proved consistent convergence of the estimator."
 ---
 ## Overview
 
