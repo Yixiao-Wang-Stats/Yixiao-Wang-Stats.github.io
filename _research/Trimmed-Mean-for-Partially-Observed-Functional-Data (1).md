@@ -1,8 +1,8 @@
 ---
 title: "Trimmed Mean for Partially Observed Functional Data"
-collection: projects
+collection: research
 type: "Bachelor's thesis"
-permalink: /projects/Trimmed-Mean-for-Partially-Observed-Functional-Data
+permalink: /research/Trimmed-Mean-for-Partially-Observed-Functional-Data
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2024-05-01
 location: "Anhui, China"
