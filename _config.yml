@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yixiao Wang(EShiao Wong, 王怿骁)"
+title                    : "Yixiao Wang (王怿骁)"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -223,6 +223,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  researches:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -284,6 +287,15 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+    # _researches
+  - scope:
+      path: ""
+      type: researches
     values:
       layout: single
       author_profile: true
