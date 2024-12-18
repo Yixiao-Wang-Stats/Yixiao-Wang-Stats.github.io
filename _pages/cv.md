@@ -41,7 +41,7 @@ _Supervised by Associate Professor Lan Xiaohong from USTC._
 _Feb. 2024-Mar. 2024_  
 - Cleaned and preprocessed the PM2.5 pollution data from Chengdu.
 - Proposed an LSTM-GRU hybrid network architecture, inspired by GoogLeNet, for PM2.5 time series forecasting, which reduced the error rate by 30% compared to LSTM.
-- The essay is available [here](https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf), and the code is available on [GitHub](https://github.com/Yixiao-Wang-Stats/LSTM-GRU-Hybrid-Network).
+- The report is available [here](https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf), and the code is available on [GitHub](https://github.com/Yixiao-Wang-Stats/LSTM-GRU-Hybrid-Network).
 
 
 ## TEACHING
@@ -60,7 +60,7 @@ _April 2023_
 
 ## INTERNSHIP
 ---
-### Thermo Fisher Scientific | Data Cleansing PTA  
+### Thermo Fisher Scientific | Data Cleaning PTA  
 _Sep. 2023- Dec. 2023_  
 - Cleaned and categorized more than 2000 customer data queries and matched them with Excel.
 - Wrote Excel functions to add wildcards to the dataset to be cleaned, significantly improving team efficiency.
