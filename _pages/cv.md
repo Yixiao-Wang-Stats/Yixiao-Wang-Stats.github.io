@@ -22,6 +22,7 @@ redirect_from:
 ### Duke University, Graduate School  
 **Master’s Student, Statistical Science**  
 _Aug. 2024 - Jun. 2026 (Expected)_
+**GPA (WES Converted):** 4/4, **Ranking:** 1/45
 
 ### University of Science and Technology of China, School of the Gifted Young  
 **B.S. in Mathematics and Applied Mathematics (Outstanding Graduate)**  
