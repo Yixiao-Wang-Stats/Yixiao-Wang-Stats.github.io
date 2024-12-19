@@ -3,10 +3,10 @@ title: "LSTM-GRU Hybrid Network"
 collection: projects
 type: "Course Project"
 permalink: /projects/LSTM-GRU-Hybrid-Network
-venue: "University of Science and Technology of China, Mathematics Department"
+venue: "University of Science and Technology of China, Time Series Analysis"
 date: 2024-01-20
 location: "Anhui, China"
-excerpt: "This is my final project for _Time Series Analysis_ course. I propose an LSTM-GRU hybrid network architecture, inspired by GoogLeNet, for PM2.5 time series forecasting, which reduced the error rate by 30% compared to LSTM."
+excerpt: "This is my final project for _Time Series Analysis_. I propose an LSTM-GRU hybrid network architecture, inspired by GoogLeNet, for PM2.5 time series forecasting, which reduced the error rate by 30% compared to LSTM."
 ---
 ## Overview
 Predicting PM2.5 is crucial for environmental management. In recent years, with the rapid development of machine learning and deep learning, numerous machine learning methods have been applied to time series forecasting, such as RNN, LSTM[^1], and GRU[^2]. However, different models have their own advantages and disadvantages when handling various data types. Recently, some novel architectures have begun integrating different types of neural networks to leverage their respective strengths. The Inception module, a typical example of this approach, was first proposed by GoogLeNet[^3]. Inspired by the Inception algorithm, this project introduces an LSTM-GRU hybrid network architecture for PM2.5 forecasting, combining RNN and LSTM. This architecture demonstrates significant performance improvement compared to models using only LSTM or GRU. Experiments were conducted based on meteorological data from Chengdu between 2013 and 2015, with the corresponding code and test results provided.
@@ -36,11 +36,11 @@ This project is based on my senior year time series analysis course. The origina
 <table>
     <thead>
         <tr>
-            <th>模型</th>
+            <th>Model</th>
             <th>RMSE</th>
             <th>MAE</th>
             <th>MAPE (%)</th>
-            <th>准确率 (%)</th>
+            <th>Accuracy (%)</th>
         </tr>
     </thead>
     <tbody>
@@ -73,7 +73,7 @@ This project is based on my senior year time series analysis course. The origina
             <td>91.56</td>
         </tr>
         <tr>
-            <td>LSTM-GRU 混合模型（建议的）</td>
+            <td>LSTM-GRU Hybrid Network</td>
             <td>8.261</td>
             <td>5.621</td>
             <td>11.224</td>
