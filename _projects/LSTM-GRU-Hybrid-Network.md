@@ -3,7 +3,7 @@ title: "LSTM-GRU Hybrid Network"
 collection: projects
 type: "Course Project"
 permalink: /projects/LSTM-GRU-Hybrid-Network
-venue: "University of Science and Technology of China, _Time Series Analysis_"
+venue: "University of Science and Technology of China, Time Series Analysis"
 date: 2024-01-20
 location: "Anhui, China"
 excerpt: "This is my final project for _Time Series Analysis_. I propose an LSTM-GRU hybrid network architecture, inspired by GoogLeNet, for PM2.5 time series forecasting, which reduced the error rate by 30% compared to LSTM."
