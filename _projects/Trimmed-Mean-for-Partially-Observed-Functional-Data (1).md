@@ -1,73 +1,18 @@
 ---
-title: "Trimmed Mean for Partially Observed Functional Data"
+title: "Airbnb Price Prediction in New York City"
 collection: projects
-type: "Bachelor's thesis"
-permalink: /projects/Trimmed-Mean-for-Partially-Observed-Functional-Data
-venue: "University of Science and Technology of China, Mathematics Department"
-date: 2024-05-01
-location: "Anhui, China"
-excerpt: "This is my bachelor's thesis. I define the trimmed mean for partially observed functional data and proved consistent convergence of the estimator."
+type: "Course Project"
+permalink: /projects/airbnb_price_prediction_nyc
+venue: "Duke University, CS 671 Theory & Alg Machine Learning"
+date: 2024-11-01
+location: "Durham, USA"
+excerpt: "This project was my Kaggle competition in CS 671 (Machine Learning). The task was to predict Airbnb prices in New York City. I achieved a top 5 ranking out of 137 participants and later developed an improved solution outperforming all original submissions in the competition."
 ---
+
 ## Overview
 
-In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong convergence of this method. The work primarily references the following studies:
+This is my Final Project Kaggle Competition: a prediction task for the prices of AirBNBs in New York City based off of information about its location, amenities, host, availability, and more. The project is finished by myself, under the instruction of Gilbert, Louis, and Edward Lehrman Distinguished Professor Cynthia Rudin for the Fall 2024 section of CS 671: Theory & Alg Machine Learning
 
-- **Integrated Depths for Partially Observed Functional Data**  
-  *Authors*: A. Elías, R. Jiménez, A. M. Paganoni, L. M. Sangalli  
-  *Journal*: Journal of Computational and Graphical Statistics (2022)  
-  *DOI*: [10.1080/10618600.2022.2070171](https://doi.org/10.1080/10618600.2022.2070171)
+You can find detail competition instruction [here](https://www.kaggle.com/competitions/cs-671-fall-2024-final-project)
 
-- **Trimmed Means for Functional Data**  
-  *Authors*: Ricardo Fraiman, Graciela Muniz  
-  *Institutions*: Universidad de San Andrés, Buenos Aires, Argentina & Universidad de la República, Montevideo, Uruguay  
-  *Year*: May 2001  
-  *AMS 1980 Subject Classifications*: 62G07, 62G05  
-  *DOI*: [10.1007/BF02595706](https://doi.org/10.1007/BF02595706)
-
-The thesis is available at [this link](https://arxiv.org/abs/2408.13062).
-
-## Mathematical Definition
-<script type="text/javascript" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-<div class="mathjax-content">
-The \(\alpha\)-trimmed mean for partially observed functions is defined as the mean of the \(n - \lfloor n\alpha \rfloor\) deepest observed values. More precisely, for \(\beta > 0\), the sample version of the trimmed mean is given by:
-
-  <p>
-    $$ \hat{\mu}_{n}(t) = \frac{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right) X_{i}(t)}{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right)} $$
-  </p>
-  <p>where \(\beta\) satisfies:</p>
-  <p>
-    $$ \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \simeq 1-\alpha $$
-  </p>
-
-where POIFD(X) is the Partially Observed Integrated Functional Depth of \(X\).
-</div>
-For more details, see [Integrated Depths for Partially Observed Functional Data](https://doi.org/10.1080/10618600.2022.2070171).
-## Coding
-
-I have created the code for this project, which is available in the repository: [TMoPOFD GitHub Repository](https://github.com/Yixiao-Wang-Stats/TMoPOFD). This repository contains the simulation code for the **Trimmed Mean for Partially Observed Functional Data (TMoPOFD)**, based on the Partially Observed Integrated Functional Depth (POIFD) method.
-
-The code aims to define the trimmed mean for partially observed functional data using the POIFD method and to establish the strong convergence of this estimator. Additionally, the code utilizes the package from the study *Integrated Depths for Partially Observed Functional Data* to generate POIFD-related work, which is available at [https://github.com/aefdz/fdaPOIFD](https://github.com/aefdz/fdaPOIFD).
-
-## Test Usage
-
-Below is an example of how to simulate data and plot the trimmed mean using this code:
-
-```r
-# Simulate the data
-SimulateModel <- simulateModel(
-  len = 200,
-  p = 50,
-  q = 0.3,
-  M = 10,
-  pollution_type = "asymmetric"
-)
-
-# Plot the data
-plotTrimmedMean(data, alpha = 0.3, type = "FMD")
-```
-In the plot, the green line represents the trimmed mean, the yellow line represents the mean before trimming, and the blue lines represent the functions that were trimmed.
-
-<img src="/images/trimmedmean.png" style="display: block; margin: auto;" />
 
