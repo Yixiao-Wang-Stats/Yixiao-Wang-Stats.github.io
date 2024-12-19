@@ -30,7 +30,8 @@ The write-up for the project can be found in the navigation bar of the website. 
 ## My Contributions
 
 Below is a summary of my personal contributions to the project:  
-- Developed the **Competition Analysis** page.  
+- Developed the **Competition Analysis** page.
+- Developed the **Schedule** page. 
 - Integrated and combined all web pages into a cohesive app structure.  
 - Implemented major optimizations, including:
   - Adding animations for the loading process.  
