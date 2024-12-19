@@ -1,14 +1,23 @@
 ---
-title: "Trimmed Mean for Partially Observed Functional Data"
+title: "Basketball Breakdown: NCAA Shiny App"
 collection: projects
-type: "Bachelor's thesis"
-permalink: /projects/Trimmed-Mean-for-Partially-Observed-Functional-Data
-venue: "University of Science and Technology of China, Mathematics Department"
-date: 2024-05-01
-location: "Anhui, China"
-excerpt: "This is my bachelor's thesis. I define the trimmed mean for partially observed functional data and proved consistent convergence of the estimator."
+type: "Course Project"
+permalink: /projects/NCAA_Data_Archive_Shiny_App
+venue: "Duke University, STA 523 (R Programming)"
+date: 2024-12-01
+location: "Durham, USA"
+excerpt: "This is my group's final project for STA 523 (R Programming): a data archive NCAA basketball data analysis Shiny app. It includes match, team, and player analysis, as well as visualization and prediction features."
 ---
 ## Overview
+
+This is my group's final project for STA 523 (R Programming): a data archive NCAA basketball data analysis Shiny app. It includes match, team, and player analysis, as well as visualization and prediction features.
+
+## Live App
+
+You can explore the Shiny app here:
+
+<iframe src="https://yixiaowang.shinyapps.io/NCAA_Data_Archive/" width="100%" height="800" frameborder="0"></iframe>
+
 
 In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong convergence of this method. The work primarily references the following studies:
 
