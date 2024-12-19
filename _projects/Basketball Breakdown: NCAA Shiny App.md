@@ -12,11 +12,16 @@ excerpt: "This is my group's final project for STA 523 (R Programming): a data a
 
 This is my group's final project for STA 523 (R Programming): a data archive NCAA basketball data analysis Shiny app. It includes match, team, and player analysis, as well as visualization and prediction features.
 
+This project was created by Yiming Cheng, Zhihao Chen, Jibei Jie, Yixiao Wang, Liangwei Tong, under the instruction of Assistant Professor Colin Rundel for the Fall 2024 section of STA 523: Statistical Programming at Duke University.
+
 ## Live App
 
 You can explore the Shiny app here:
 
 <iframe src="https://yixiaowang.shinyapps.io/NCAA_Data_Archive/" width="100%" height="800" frameborder="0"></iframe>
+
+Or refer to the link at [https://yixiaowang.shinyapps.io/NCAA_Data_Archive/](https://yixiaowang.shinyapps.io/NCAA_Data_Archive/). Source code can be found on our [GitHub repository](https://github.com/sta523-fa24/project-team_name).
+
 
 
 In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong convergence of this method. The work primarily references the following studies:
