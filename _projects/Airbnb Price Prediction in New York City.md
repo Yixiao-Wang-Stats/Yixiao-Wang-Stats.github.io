@@ -15,4 +15,5 @@ This is my Final Project Kaggle Competition: a prediction task for the prices of
 
 You can find detail competition instruction [here](https://www.kaggle.com/competitions/cs-671-fall-2024-final-project)
 
+My writeup is below Kaggle Writeup.pdf
 
