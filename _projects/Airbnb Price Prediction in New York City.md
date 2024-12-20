@@ -13,7 +13,21 @@ excerpt: "This project was my Kaggle competition in CS 671 (Machine Learning). T
 
 This is my Final Project Kaggle Competition: a prediction task for the prices of AirBNBs in New York City based off of information about its location, amenities, host, availability, and more. The project is finished by myself, under the instruction of Gilbert, Louis, and Edward Lehrman Distinguished Professor Cynthia Rudin for the Fall 2024 section of CS 671: Theory & Alg Machine Learning
 
-You can find detail competition instruction [here](https://www.kaggle.com/competitions/cs-671-fall-2024-final-project)
+### Original Write-Up
 
-My writeup is below Kaggle Writeup.pdf
+My original write-up for the project can be viewed directly below:
+
+<iframe src="https://yixiao-wang-stats.github.io/files/Kaggle%20Writeup.pdf" width="100%" height="800px" frameborder="0"></iframe>
+
+Alternatively, you can download the write-up as a PDF [here](https://yixiao-wang-stats.github.io/files/Kaggle%20Writeup.pdf).
+
+### Code
+
+You can view my project code [here](#).
+
+---
+
+## Improved Strategy: Stacking
+
+In my improved approach, I implemented a stacking strategy, which combines the predictions from multiple base models to create a meta-model for enhanced performance. This improved strategy significantly outperformed the original competition submissions and provided better generalization for price predictions. Detailed explanations of the stacking process and results are included in the write-up above.
 
