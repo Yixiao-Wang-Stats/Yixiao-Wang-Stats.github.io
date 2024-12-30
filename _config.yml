@@ -226,7 +226,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-
+  hobby_miscellaneous:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -301,7 +303,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
-
+    # _hobby_miscellaneous
+    - scope:
+      path: ""
+      type: hobby_miscellaneous
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 # Sass/SCSS
 sass:
