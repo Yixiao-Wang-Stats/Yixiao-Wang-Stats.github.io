@@ -305,13 +305,13 @@ defaults:
       comment: true
   # _hobby
   - scope:
-    path: ""
-    type: hobby
-  values:
-    layout: single
-    author_profile: true
-    share: true
-    comment: true
+      path: ""
+      type: hobby
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 # Sass/SCSS
 sass:
