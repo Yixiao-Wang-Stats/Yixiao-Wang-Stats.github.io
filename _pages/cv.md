@@ -23,13 +23,13 @@ redirect_from:
 **Master’s Student, Statistical Science**  
 _Aug. 2024 - Jun. 2026 (Expected)_
 
-**GPA (WES Converted):** 4/4, **Ranking:** 1/45
+**GPA (WES Converted):** 4.00/4.00, **Ranking:** 1/45
 
 ### University of Science and Technology of China, School of the Gifted Young  
 **B.S. in Mathematics and Applied Mathematics (Outstanding Graduate)**  
 _Major in Probability and Statistics track_  
 _Sep. 2020 - Jul. 2024_  
-**GPA (WES Converted):** 3.91/4, **Ranking:** 6/92
+**GPA (WES Converted):** 3.91/4.00, **Ranking:** 6/92
 
 ## ACADEMIC PROJECTS
 ---
@@ -94,5 +94,5 @@ _Sep. 2021- Jan. 2022_
 - Chinese (Mandarin and Sichuanese dialect), English (TOEFL 103 with 23 in Speaking)
 
 **Programming & Software Skills:**  
-- Python (main), C, MATLAB, R, Latex, HTML, CSS, SPSS, Office, etc.
+- Python (main),R, Latex, C, MATLAB, HTML, CSS, SPSS, Office, etc.
 
