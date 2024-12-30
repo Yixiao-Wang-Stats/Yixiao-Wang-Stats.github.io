@@ -226,7 +226,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-
+  hobbyW:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -301,10 +303,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _hobby_miscellaneous
+  # _hobby
   - scope:
     path: ""
-    type: hobby_miscellaneous
+    type: hobby
   values:
     layout: single
     author_profile: true
