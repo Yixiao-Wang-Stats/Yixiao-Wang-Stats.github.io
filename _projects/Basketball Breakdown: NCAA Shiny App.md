@@ -20,7 +20,7 @@ You can explore the Shiny app here:
 
 <iframe src="https://yixiaowang.shinyapps.io/NCAA_Data_Archive/" width="100%" height="800" frameborder="0"></iframe>
 
-Or refer to the link at [https://yixiaowang.shinyapps.io/NCAA_Data_Archive/](https://yixiaowang.shinyapps.io/NCAA_Data_Archive/). Source code can be found on our [GitHub repository](https://github.com/sta523-fa24/project-team_name).
+Or refer to the link at [https://yixiaowang.shinyapps.io/NCAA_Data_Archive/](https://yixiaowang.shinyapps.io/NCAA_Data_Archive/). Source code can be found on our [GitHub repository](https://github.com/Yixiao-Wang-Stats/Basketball-Breakdown-NCAA-Shiny-App).
 
 The write-up for the project can be found in the navigation bar of the website. The detailed write-up is available [here](https://yixiao-wang-stats.github.io/files/NCAA_write_up.pdf)
 
