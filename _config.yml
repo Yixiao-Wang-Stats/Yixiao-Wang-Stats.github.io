@@ -294,7 +294,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-    # _research
+  # _research
   - scope:
       path: ""
       type: research
@@ -303,15 +303,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
-    # _hobby_miscellaneous
-    - scope:
-      path: ""
-      type: hobby_miscellaneous
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # _hobby_miscellaneous
+  - scope:
+    path: ""
+    type: hobby_miscellaneous
+  values:
+    layout: single
+    author_profile: true
+    share: true
+    comment: true
 
 # Sass/SCSS
 sass:
