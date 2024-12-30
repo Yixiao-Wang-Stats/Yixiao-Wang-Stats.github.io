@@ -13,7 +13,7 @@ Predicting PM2.5 is crucial for environmental management. In recent years, with 
 
 <iframe src="https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf" width="100%" height="800px" frameborder="0"></iframe>
 
-The thesis is available [here](https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf).
+Alternatively, you can download the write-up as a PDF [here](https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf).
 ## Inspiration and Methodology
 - The inspiration for the Inception module in this project is entirely derived from GoogLeNet[^3].
 - The strategy for converting time series data into supervised learning format is based on another method for analyzing PM2.5 forecasting. For more details, refer to [Jason Brownlee's article](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/)[^4].
