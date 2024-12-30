@@ -23,11 +23,11 @@ Alternatively, you can download the write-up as a PDF [here](https://yixiao-wang
 
 ### Code
 
-You can view my project code [here](#).
+You can view my project code [here](https://github.com/Yixiao-Wang-Stats/Prices-of-AirBNBs-in-New-York-City).
 
 ---
 ## Improved Strategy: Stacking
 
 In my improved approach, I implemented a stacking strategy, which combines the predictions from multiple base models to create a meta-model for enhanced performance. This improved strategy significantly outperformed the original competition submissions and provided better generalization for price predictions.
 
-Detailed stacking strategies involve adding the best 30 parameters of XGBoost and LightGBM along with 20 other weak learners. The detailed code is shown in [original project](#).
+Detailed stacking strategies involve adding the best 30 parameters of XGBoost and LightGBM along with 20 other weak learners. The detailed code is shown in [original project](https://github.com/Yixiao-Wang-Stats/Prices-of-AirBNBs-in-New-York-City).
