@@ -226,7 +226,7 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  hobbyW:
+  hobby:
     output: true
     permalink: /:collection/:path/
 
