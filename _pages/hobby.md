@@ -15,7 +15,7 @@ body, html {
 .hero {
     position: relative;
     height: 100vh; /* Full viewport height */
-    background: url('/assets/images/hero-image.jpg') no-repeat center center/cover; /* Replace with your image path */
+    background: url('/images/moon&star.png') no-repeat center center/cover; /* Replace with your image path */
     display: flex;
     justify-content: center;
     align-items: center;
