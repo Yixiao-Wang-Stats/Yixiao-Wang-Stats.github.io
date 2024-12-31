@@ -19,19 +19,23 @@ redirect_from:
 
 ## EDUCATION
 ---
-
-<div style="display: flex; justify-content: space-between;">
-  <span><strong>M.S., Statistical Science</strong></span>
-  <span><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
+### 
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div>
+    <strong>Duke University</strong><br>
+    <span>M.S., Statistical Science</span><br>
+    <span><strong>GPA:</strong> 4.00/4.00, <strong>Ranking:</strong> 1/45</span>
+  </div>
+  <span style="text-align: right;"><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
 </div>
 
-**M.S., Statistical Science**  
-_Aug. 2024 - Jun. 2026 (Expected)_
-
-**GPA:** 4.00/4.00, **Ranking:** 1/45
 
 ### University of Science and Technology of China, School of the Gifted Young  
-**B.S., Mathematics and Applied Mathematics (Outstanding Graduate)**  
+<div style="display: flex; justify-content: space-between;">
+  <span><strong>B.S., Mathematics and Applied Mathematics (Outstanding Graduate)</strong></span>
+  <span><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
+</div>
+****  
 _Major in Probability and Statistics track_  
 _Sep. 2020 - Jul. 2024_  
 **GPA (WES Converted):** 3.91/4.00, **Ranking:** 6/92
