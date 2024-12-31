@@ -109,12 +109,12 @@ body, html {
 ## Origami
 <div class="origami-gallery">
     <div class="gallery-item">
-        <img src="/images/dragon_phoenix.jpg" alt="Origami Piece 1">
-        <p>Ancient Dragon & Phoenix3.5 - Folded by Me, Designed by Satoshi Kamiya</p>
+        <img src="/images/angle_eagle.png" alt="Origami Piece 1">
+        <p>Icarus (Designed by Hojyo Takashi) & Eagle (Designed by Nguyen Hung Cuong) </p>
     </div>
     <div class="gallery-item">
-        <img src="/images/angle_eagle.png" alt="Origami Piece 2">
-        <p>Icarus (Designed by Hojyo Takashi) & Eagle (Designed by Nguyen Hung Cuong) </p>
+        <img src="/images/dragon_phoenix.jpg" alt="Origami Piece 2">
+        <p>Ancient Dragon & Phoenix3.5 - Folded by Me, Designed by Satoshi Kamiya</p>
     </div>
     <div class="gallery-item">
         <img src="/images/t_rex.jpg" alt="Origami Piece 3">
