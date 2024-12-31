@@ -5,7 +5,7 @@ permalink: /hobby_miscellaneous/
 ---
 
 <style>
-/* Inline CSS for Fullscreen Hero Section */
+/* Inline CSS for Fullscreen Hero Section and Gallery */
 body, html {
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ body, html {
 }
 
 .hero .overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+    background-color: rgba(0, 0, 0, 0.8); /* Adds a dark overlay */
     padding: 20px;
     border-radius: 10px;
 }
@@ -39,34 +39,104 @@ body, html {
     margin: 0.5em 0 0;
 }
 
-img {
+/* Gallery Section */
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 40px 0 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 300px;
+}
+
+.gallery-item img {
     width: 100%;
-    max-width: 600px;
-    margin: 10px 0;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0;
+}
+
+.long-rectangle {
+    max-width: 400px; /* Larger width for long rectangles */
+}
+
+.square {
+    max-width: 200px; /* Square size */
 }
 </style>
 
 <div class="hero">
   <div class="overlay">
     <h1>Welcome to My Art World!</h1>
-    <p>Explore my creative journey, from sketches to digital masterpieces.</p>
+    <p>Explore my creative journey, from Origami to Digital Masterpieces.</p>
   </div>
 </div>
 
-## My Art Gallery
-Here are some of my recent works:
-- **Sunset Dreams**: A vibrant digital painting inspired by summer evenings.
-- **Urban Chaos**: A sketch depicting the beauty in city noise.
-- **Nature’s Whisper**: Watercolor landscapes.
+## Origami
+<div class="gallery">
+    <!-- Long Rectangles -->
+    <div class="gallery-item long-rectangle">
+        <img src="/images/origami-rectangle1.jpg" alt="Origami Piece 1">
+        <p>Description for Origami Piece 1</p>
+    </div>
+    <div class="gallery-item long-rectangle">
+        <img src="/images/origami-rectangle2.jpg" alt="Origami Piece 2">
+        <p>Description for Origami Piece 2</p>
+    </div>
+    <!-- Squares -->
+    <div class="gallery-item square">
+        <img src="/images/origami-square1.jpg" alt="Origami Piece 3">
+        <p>Description for Origami Piece 3</p>
+    </div>
+    <div class="gallery-item square">
+        <img src="/images/origami-square2.jpg" alt="Origami Piece 4">
+        <p>Description for Origami Piece 4</p>
+    </div>
+    <div class="gallery-item square">
+        <img src="/images/origami-square3.jpg" alt="Origami Piece 5">
+        <p>Description for Origami Piece 5</p>
+    </div>
+</div>
 
-![Sunset Dreams](path/to/sunset-dreams.jpg)
-![Urban Chaos](path/to/urban-chaos.jpg)
-![Nature’s Whisper](path/to/natures-whisper.jpg)
+## Digital Art
+<div class="gallery">
+    <!-- Digital Art: Left and Right -->
+    <div class="gallery-item">
+        <img src="/images/digital-art1.jpg" alt="Digital Art 1">
+        <p>Description for Digital Art 1</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/digital-art2.jpg" alt="Digital Art 2">
+        <p>Description for Digital Art 2</p>
+    </div>
+</div>
 
-## About Me
-Hi, I'm [Your Name]! I've been an artist for X years, exploring various mediums like sketching, painting, and digital design. My art is inspired by [your inspirations].
-
-## Contact Me
-Feel free to reach out via [Email](mailto:your-email@example.com) or connect on [Instagram](https://instagram.com/yourusername).
+## Others
+<div class="gallery">
+    <!-- Others: Left and Right -->
+    <div class="gallery-item">
+        <img src="/images/other-art1.jpg" alt="Other Art 1">
+        <p>Description for Other Art 1</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/other-art2.jpg" alt="Other Art 2">
+        <p>Description for Other Art 2</p>
+    </div>
+</div>
