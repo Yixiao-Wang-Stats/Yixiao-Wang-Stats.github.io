@@ -97,20 +97,20 @@ body, html {
         <p>Description for Origami Piece 1</p>
     </div>
     <div class="gallery-item long-rectangle">
-        <img src="/images/origami-rectangle2.jpg" alt="Origami Piece 2">
+        <img src="/images/violin_girl.jpg" alt="Origami Piece 2">
         <p>Description for Origami Piece 2</p>
     </div>
     <!-- Squares -->
     <div class="gallery-item square">
-        <img src="/images/origami-square1.jpg" alt="Origami Piece 3">
+        <img src="/images/fox_marry.jpg" alt="Origami Piece 3">
         <p>Description for Origami Piece 3</p>
     </div>
     <div class="gallery-item square">
-        <img src="/images/origami-square2.jpg" alt="Origami Piece 4">
+        <img src="/images/dragon_phoenix.jpg" alt="Origami Piece 4">
         <p>Description for Origami Piece 4</p>
     </div>
     <div class="gallery-item square">
-        <img src="/images/origami-square3.jpg" alt="Origami Piece 5">
+        <img src="/images/china.jpg" alt="Origami Piece 5">
         <p>Description for Origami Piece 5</p>
     </div>
 </div>
@@ -119,11 +119,11 @@ body, html {
 <div class="gallery">
     <!-- Digital Art: Left and Right -->
     <div class="gallery-item">
-        <img src="/images/digital-art1.jpg" alt="Digital Art 1">
+        <img src="/images/moon&star.jpg" alt="Digital Art 1">
         <p>Description for Digital Art 1</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/digital-art2.jpg" alt="Digital Art 2">
+        <img src="/images/thinking girl.png" alt="Digital Art 2">
         <p>Description for Digital Art 2</p>
     </div>
 </div>
@@ -132,11 +132,11 @@ body, html {
 <div class="gallery">
     <!-- Others: Left and Right -->
     <div class="gallery-item">
-        <img src="/images/other-art1.jpg" alt="Other Art 1">
+        <img src="/images/USTC.jpg" alt="Other Art 1">
         <p>Description for Other Art 1</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/other-art2.jpg" alt="Other Art 2">
+        <img src="/images/I_love_china.jpg" alt="Other Art 2">
         <p>Description for Other Art 2</p>
     </div>
 </div>
