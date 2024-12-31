@@ -40,12 +40,6 @@ body, html {
 }
 
 /* Gallery Section */
-.section-title {
-    text-align: center;
-    font-size: 2em;
-    margin: 40px 0 20px;
-}
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -53,11 +47,18 @@ body, html {
     justify-content: center;
 }
 
+.origami-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Origami in 3 columns */
+    gap: 20px;
+    justify-items: center;
+}
+
 .gallery-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    max-width: 300px;
 }
 
 .gallery-item img {
@@ -68,17 +69,33 @@ body, html {
 }
 
 .gallery-item p {
-    font-size: 0.9em;
+    font-size: 1em;
     color: #555;
     margin: 0;
 }
 
-.long-rectangle {
-    max-width: 400px; /* Larger width for long rectangles */
+/* Digital Art and Others are adaptive */
+.digital-others-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-.square {
-    max-width: 200px; /* Square size */
+.digital-others-gallery .gallery-item {
+    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+    max-width: calc(50% - 20px); /* Max size for Digital Art & Others */
+}
+
+@media (max-width: 768px) {
+    .origami-gallery {
+        grid-template-columns: repeat(2, 1fr); /* Origami switches to 2 columns */
+    }
+
+    .digital-others-gallery .gallery-item {
+        flex: 1 1 100%; /* Switch to single column for small screens */
+        max-width: 100%;
+    }
 }
 </style>
 
@@ -90,34 +107,31 @@ body, html {
 </div>
 
 ## Origami
-<div class="gallery">
-    <!-- Long Rectangles -->
-    <div class="gallery-item long-rectangle">
+<div class="origami-gallery">
+    <div class="gallery-item">
         <img src="/images/origami-rectangle1.jpg" alt="Origami Piece 1">
         <p>Description for Origami Piece 1</p>
     </div>
-    <div class="gallery-item long-rectangle">
+    <div class="gallery-item">
         <img src="/images/violin_girl.jpg" alt="Origami Piece 2">
         <p>Description for Origami Piece 2</p>
     </div>
-    <!-- Squares -->
-    <div class="gallery-item square">
+    <div class="gallery-item">
         <img src="/images/fox_marry.jpg" alt="Origami Piece 3">
         <p>Description for Origami Piece 3</p>
     </div>
-    <div class="gallery-item square">
+    <div class="gallery-item">
         <img src="/images/dragon_phoenix.jpg" alt="Origami Piece 4">
         <p>Description for Origami Piece 4</p>
     </div>
-    <div class="gallery-item square">
+    <div class="gallery-item">
         <img src="/images/china.jpg" alt="Origami Piece 5">
         <p>Description for Origami Piece 5</p>
     </div>
 </div>
 
 ## Digital Art
-<div class="gallery">
-    <!-- Digital Art: Left and Right -->
+<div class="digital-others-gallery">
     <div class="gallery-item">
         <img src="/images/moon&star.jpg" alt="Digital Art 1">
         <p>Description for Digital Art 1</p>
@@ -129,8 +143,7 @@ body, html {
 </div>
 
 ## Others
-<div class="gallery">
-    <!-- Others: Left and Right -->
+<div class="digital-others-gallery">
     <div class="gallery-item">
         <img src="/images/USTC.jpg" alt="Other Art 1">
         <p>Description for Other Art 1</p>
