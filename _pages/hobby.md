@@ -109,7 +109,7 @@ body, html {
 ## Origami
 I am a passionate fan of origami! I love folding designs by other artists and have developed a deep understanding of shaping techniques, which bring models to life with various skills. However, I’m not particularly interested in designing my own models. The works showcased below are just a glimpse of my collection, all folded from a single square sheet of paper. Some models, like the Fox Wedding, use two-sided paper with different colors for added effect.
 
-In 2021, I served as the president of the Origami Club at the University of Science and Technology of China (USTC). During my term, our club organized USTC's first-ever origami exhibition named (跃然纸上)[https://ef.ustc.edu.cn/info/1061/1284.htm], a milestone I’m proud to have been part of.
+In 2021, I served as the president of the Origami Club at the University of Science and Technology of China (USTC). During my term, our club organized USTC's first-ever origami exhibition named [跃然纸上](https://ef.ustc.edu.cn/info/1061/1284.htm), a milestone I’m proud to have been part of.
 
 <div class="origami-gallery">
     <div class="gallery-item">
