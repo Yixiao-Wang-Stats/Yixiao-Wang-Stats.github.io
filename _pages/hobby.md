@@ -171,7 +171,7 @@ In 2021, I served as the president of the Origami Club at the University of Scie
     </div>
     <div class="gallery-item">
         <img src="/images/graduate.jpg" alt="Other Art 3">
-        <p>Description for Other Art 3</p>
+        <p>Description for Other Art  3</p>
     </div>
 </div>
 
