@@ -113,20 +113,24 @@ body, html {
         <p>Description for Origami Piece 1</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/violin_girl.jpg" alt="Origami Piece 2">
+        <img src="/images/dragon_phoenix.jpg" alt="Origami Piece 2">
         <p>Description for Origami Piece 2</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/fox_marry.jpg" alt="Origami Piece 3">
+        <img src="/images/violin_girl.jpg" alt="Origami Piece 3">
         <p>Description for Origami Piece 3</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/dragon_phoenix.jpg" alt="Origami Piece 4">
+        <img src="/images/fox_marry.jpg" alt="Origami Piece 4">
         <p>Description for Origami Piece 4</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/.jpg" alt="Origami Piece 5">
+        <img src="/images/t_rex.jpg" alt="Origami Piece 5">
         <p>Description for Origami Piece 5</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/angle_eagle.png" alt="Origami Piece 6">
+        <p>Description for Origami Piece 6</p>
     </div>
 </div>
 
