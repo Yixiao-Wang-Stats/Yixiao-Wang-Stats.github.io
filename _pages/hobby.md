@@ -140,22 +140,24 @@ In 2021, I served as the president of the Origami Club at the University of Scie
 </div>
 
 ## Digital Art
+Here are some of my digital artworks created using Procreate.
+
 <div class="digital-others-gallery">
     <div class="gallery-item">
         <img src="/images/moon&star.png" alt="Digital Art 1">
-        <p>Description for Digital Art 1</p>
+        <p>Star and Moon</p>
     </div>
     <div class="gallery-item">
         <img src="/images/thinking girl.png" alt="Digital Art 2">
-        <p>Description for Digital Art 2</p>
+        <p>The Thinking Girl</p>
     </div>
     <div class="gallery-item">
         <img src="/images/girl_col.jpg" alt="Digital Art 3">
-        <p>Description for Digital Art 3</p>
+        <p>A Glance Back (I was responsible for coloring, while my friend created the line art)</p>
     </div>
     <div class="gallery-item">
         <img src="/images/girl.jpg" alt="Digital Art 4">
-        <p>Description for Digital Art 4</p>
+        <p>The Smile</p>
     </div>
 </div>
 
@@ -163,34 +165,35 @@ In 2021, I served as the president of the Origami Club at the University of Scie
 <div class="digital-others-gallery">
     <div class="gallery-item">
         <img src="/images/USTC.jpg" alt="Other Art 1">
-        <p>Description for Other Art 1</p>
+        <p>This is a quilling artwork I created featuring the letters "USTC," which are the initials of my university, the University of Science and Technology of China. It was also my art course project, for which I received an A+.</p>
     </div>
     <div class="gallery-item">
         <img src="/images/dragon_flower.jpg" alt="Other Art 2">
-        <p>Description for Other Art 2</p>
+        <p>The lotus on the left was created using a type of 3D sand painting and was completed by my sister and me in Nanjing. The dragon on the right is a plaster painting project we designed together during the 2024 Spring Festival. It incorporates auspicious elements of Chinese red in its design.</p>
     </div>
     <div class="gallery-item">
         <img src="/images/graduate.jpg" alt="Other Art 3">
-        <p>Description for Other Art  3</p>
+        <p>This is the graduation cap I made for my sister.</p>
     </div>
 </div>
 
 ## Birthday Gift
+These are the birthday gifts my lovely sister made for my 22nd birthday. The piggy and bunny were created using different hand-stitching techniques, while the four-panel birthday wishes were crafted with melted crayon art.
 <div class="digital-others-gallery">
     <div class="gallery-item">
         <img src="/images/birthday_collection.jpg" alt="gift Art 1">
-        <p>Description for Other Art 1</p>
+        <p>Collection</p>
     </div>
     <div class="gallery-item">
         <img src="/images/happy_birthday.jpg" alt="gift Art 2">
-        <p>Description for Other Art 2</p>
+        <p>four-panel birthday wishes</p>
     </div>
     <div class="gallery-item">
         <img src="/images/bunny.jpg" alt="gift Art 3">
-        <p>Description for Other Art 1</p>
+        <p>Bunny</p>
     </div>
     <div class="gallery-item">
         <img src="/images/piggy.jpg" alt="gift Art 4">
-        <p>Description for Other Art 2</p>
+        <p>Piggy</p>
     </div>
 </div>
