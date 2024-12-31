@@ -49,7 +49,7 @@ body, html {
 
 .origami-gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Origami in 3 columns */
+    grid-template-columns: repeat(3, 1fr); /* Origami in 3 columns */
     gap: 20px;
     justify-items: center;
 }
@@ -63,7 +63,7 @@ body, html {
 
 .gallery-item img {
     width: auto;
-    height: 100%;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
 }
