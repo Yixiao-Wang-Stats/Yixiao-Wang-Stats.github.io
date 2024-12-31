@@ -28,6 +28,7 @@ redirect_from:
   <span style="text-align: right;"><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
 </div>
 
+<br>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div>
