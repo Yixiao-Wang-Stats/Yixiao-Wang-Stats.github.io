@@ -19,7 +19,6 @@ redirect_from:
 
 ## EDUCATION
 ---
-### 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div>
     <strong>Duke University</strong><br>
@@ -30,15 +29,16 @@ redirect_from:
 </div>
 
 
-### University of Science and Technology of China, School of the Gifted Young  
-<div style="display: flex; justify-content: space-between;">
-  <span><strong>B.S., Mathematics and Applied Mathematics (Outstanding Graduate)</strong></span>
-  <span><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
+<h3>University of Science and Technology of China, School of the Gifted Young</h3>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div>
+    <strong>B.S., Mathematics and Applied Mathematics (Outstanding Graduate)</strong><br>
+    <em>Major in Probability and Statistics track</em><br>
+    <strong>GPA (WES Converted):</strong> 3.91/4.00, <strong>Ranking:</strong> 6/92
+  </div>
+  <span style="text-align: right;"><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
 </div>
-****  
-_Major in Probability and Statistics track_  
-_Sep. 2020 - Jul. 2024_  
-**GPA (WES Converted):** 3.91/4.00, **Ranking:** 6/92
+
 
 ## ACADEMIC PROJECTS
 ---
