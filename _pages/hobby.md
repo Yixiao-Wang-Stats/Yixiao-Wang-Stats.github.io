@@ -125,7 +125,7 @@ body, html {
         <p>Description for Origami Piece 4</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/china.jpg" alt="Origami Piece 5">
+        <img src="/images/.jpg" alt="Origami Piece 5">
         <p>Description for Origami Piece 5</p>
     </div>
 </div>
@@ -149,7 +149,7 @@ body, html {
         <p>Description for Other Art 1</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/I_love_china.jpg" alt="Other Art 2">
+        <img src="/images/.jpg" alt="Other Art 2">
         <p>Description for Other Art 2</p>
     </div>
 </div>
