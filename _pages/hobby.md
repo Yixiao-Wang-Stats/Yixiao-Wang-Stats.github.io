@@ -149,6 +149,14 @@ In 2021, I served as the president of the Origami Club at the University of Scie
         <img src="/images/thinking girl.png" alt="Digital Art 2">
         <p>Description for Digital Art 2</p>
     </div>
+    <div class="gallery-item">
+        <img src="/images/girl_col.jpg" alt="Digital Art 3">
+        <p>Description for Digital Art 3</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/girl.jpg" alt="Digital Art 4">
+        <p>Description for Digital Art 4</p>
+    </div>
 </div>
 
 ## Others
@@ -158,7 +166,31 @@ In 2021, I served as the president of the Origami Club at the University of Scie
         <p>Description for Other Art 1</p>
     </div>
     <div class="gallery-item">
-        <img src="/images/.jpg" alt="Other Art 2">
+        <img src="/images/dragon_flower.jpg" alt="Other Art 2">
+        <p>Description for Other Art 2</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/graduate.jpg" alt="Other Art 3">
+        <p>Description for Other Art 3</p>
+    </div>
+</div>
+
+## Birthday Gift
+<div class="digital-others-gallery">
+    <div class="gallery-item">
+        <img src="/images/birthday_collection.jpg" alt="gift Art 1">
+        <p>Description for Other Art 1</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/happy_birthday.jpg" alt="gift Art 2">
+        <p>Description for Other Art 2</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/bunny.jpg" alt="gift Art 3">
+        <p>Description for Other Art 1</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/images/piggy.jpg" alt="gift Art 4">
         <p>Description for Other Art 2</p>
     </div>
 </div>
