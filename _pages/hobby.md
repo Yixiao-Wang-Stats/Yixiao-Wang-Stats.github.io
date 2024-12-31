@@ -122,7 +122,7 @@ body, html {
     </div>
     <div class="gallery-item">
         <img src="/images/turtle.jpg" alt="Origami Piece 4">
-        <p>Sea Turtle - Folded by Me, Designed by Satoshi Kamiya 1</p>
+        <p>Sea Turtle - Folded by Me, Designed by Satoshi Kamiya</p>
     </div>
     <div class="gallery-item">
         <img src="/images/fox_marry.jpg" alt="Origami Piece 5">
