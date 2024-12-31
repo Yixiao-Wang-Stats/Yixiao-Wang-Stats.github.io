@@ -29,12 +29,12 @@ redirect_from:
 </div>
 
 
-<h3>University of Science and Technology of China, School of the Gifted Young</h3>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div>
-    <strong>B.S., Mathematics and Applied Mathematics (Outstanding Graduate)</strong><br>
+    <strong>University of Science and Technology of China, School of the Gifted Young</strong><br>
+    <span>B.S., Mathematics and Applied Mathematics <strong>(Outstanding Graduate)</strong></span><br>
     <em>Major in Probability and Statistics track</em><br>
-    <strong>GPA (WES Converted):</strong> 3.91/4.00, <strong>Ranking:</strong> 6/92
+    <span><strong>GPA (WES Converted):</strong> 3.91/4.00, <strong>Ranking:</strong> 6/92</span>
   </div>
   <span style="text-align: right;"><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
 </div>
