@@ -49,7 +49,7 @@ body, html {
 
 .origami-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Origami in 3 columns */
+    grid-template-columns: repeat(2, 1fr); /* Origami in 3 columns */
     gap: 20px;
     justify-items: center;
 }
@@ -62,8 +62,8 @@ body, html {
 }
 
 .gallery-item img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -133,7 +133,7 @@ body, html {
 ## Digital Art
 <div class="digital-others-gallery">
     <div class="gallery-item">
-        <img src="/images/moon&star.jpg" alt="Digital Art 1">
+        <img src="/images/moon&star.png" alt="Digital Art 1">
         <p>Description for Digital Art 1</p>
     </div>
     <div class="gallery-item">
