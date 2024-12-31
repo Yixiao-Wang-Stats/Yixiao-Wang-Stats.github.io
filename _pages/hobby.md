@@ -110,27 +110,27 @@ body, html {
 <div class="origami-gallery">
     <div class="gallery-item">
         <img src="/images/turtle.jpg" alt="Origami Piece 1">
-        <p>Description for Origami Piece 1</p>
+        <p>Sea Turtle - Folded by Me, Designed by Satoshi Kamiya 1</p>
     </div>
     <div class="gallery-item">
         <img src="/images/dragon_phoenix.jpg" alt="Origami Piece 2">
-        <p>Description for Origami Piece 2</p>
+        <p>Ancient Dragon & Phoenix3.5 - Folded by Me, Designed by Satoshi Kamiya</p>
     </div>
     <div class="gallery-item">
         <img src="/images/violin_girl.jpg" alt="Origami Piece 3">
-        <p>Description for Origami Piece 3</p>
+        <p>Violinist -  Folded by Me, Designed by Hojyo Takashi </p>
     </div>
     <div class="gallery-item">
         <img src="/images/fox_marry.jpg" alt="Origami Piece 4">
-        <p>Description for Origami Piece 4</p>
+        <p>Fox Wedding - Folded by Me, Designed by Katsuta Kyohei</p>
     </div>
     <div class="gallery-item">
         <img src="/images/t_rex.jpg" alt="Origami Piece 5">
-        <p>Description for Origami Piece 5</p>
+        <p>T-Rex Origami Tutorial - Taught by Me as President of the Origami Club at USTC</p>
     </div>
     <div class="gallery-item">
         <img src="/images/angle_eagle.png" alt="Origami Piece 6">
-        <p>Description for Origami Piece 6</p>
+        <p>Icarus (Designed by Hojyo Takashi) & Eagle (Designed by Nguyen Hung Cuong) </p>
     </div>
 </div>
 
