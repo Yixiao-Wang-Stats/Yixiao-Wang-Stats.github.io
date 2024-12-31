@@ -109,7 +109,7 @@ body, html {
 ## Origami
 <div class="origami-gallery">
     <div class="gallery-item">
-        <img src="/images/origami-rectangle1.jpg" alt="Origami Piece 1">
+        <img src="/images/turtle.jpg" alt="Origami Piece 1">
         <p>Description for Origami Piece 1</p>
     </div>
     <div class="gallery-item">
