@@ -25,7 +25,7 @@ redirect_from:
     <span>M.S., Statistical Science</span><br>
     <span><strong>GPA:</strong> 4.00/4.00, <strong>Ranking:</strong> 1/45</span>
   </div>
-  <span style="text-align: right;"><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
+  <span style="text-align: right;"><em>Aug. 2024 - May. 2026 (Expected)</em></span>
 </div>
 
 <br>
@@ -37,7 +37,7 @@ redirect_from:
     <em>Major in Probability and Statistics track</em><br>
     <span><strong>GPA (WES Converted):</strong> 3.91/4.00, <strong>Ranking:</strong> 6/92</span>
   </div>
-  <span style="text-align: right;"><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
+  <span style="text-align: right;"><em>Aug. 2020 - Jun. 2024 </em></span>
 </div>
 
 <h2>RESEARCH</h2>
