@@ -121,6 +121,20 @@ redirect_from:
   <li>Summarized the data cleansing techniques and conducted team training sessions.</li>
 </ul>
 
+<h2>AWARDS & HONORS</h2>
+<hr>
+<ul>
+  <li><strong>Outstanding Graduate</strong> from the University of Science and Technology of China (USTC), Class of 2024 (Top 20%)</li>
+  <li><strong>China Petroleum Scholarship</strong> (2023): Awarded to only 3 students in the School of the Gifted Young</li>
+  <li><strong>Excellent Teaching Assistant</strong> (Spring 2023): Ranked in the top 3 at USTC</li>
+  <li><strong>Silver Prize for Outstanding Student Scholarship</strong> (2022 and 2021): Awarded to the top 15% of students at USTC</li>
+  <li><strong>First Prize</strong> in the Chinese Mathematical Competitions for University Students (2022 and 2021): Ranked in the top 1% of all participants</li>
+  <li><strong>Excellent President</strong> of the School Club (2022)</li>
+  <li><strong>QiangWeiFengGongDeYu (Diligence and Moral Conduct) Scholarship</strong> (2022)</li>
+  <li><strong>Bronze Prize</strong> for Outstanding Freshmen Scholarship (2020): Awarded to the top 35% of students at USTC</li>
+</ul>
+
+
 <h2>ACTIVITIES & LEADERSHIP</h2>
 <hr>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
@@ -142,16 +156,6 @@ redirect_from:
 
 <h2>ADDITIONAL INFORMATION</h2>
 <hr>
-<p><strong>Awards and Honors:</strong></p>
-<ul>
-  <li>Outstanding graduate from the University of Science and Technology of China (USTC) in 2024</li>
-  <li>China Petroleum Scholarship in 2023 (Only 3 Students in the School of the Gifted Young)</li>
-  <li>Excellent teaching assistant in the 2023 Spring (Third in the Whole School)</li>
-  <li>Silver Prize for Outstanding Students Scholarship in USTC in 2022 and 2021</li>
-  <li>First Prize in Chinese Mathematical Competitions for University Students in 2022 and 2021</li>
-  <li>Excellent President of The School Club in 2022</li>
-</ul>
-
 <p><strong>Language:</strong></p>
 <ul>
   <li>Chinese (Mandarin and Sichuanese dialect), English (TOEFL 103 with 23 in Speaking)</li>
