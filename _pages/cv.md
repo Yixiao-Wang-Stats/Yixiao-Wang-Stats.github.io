@@ -17,8 +17,8 @@ redirect_from:
   </a>
 </div>
 
-## EDUCATION
----
+<h2>EDUCATION</h2>
+<hr>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div>
     <strong>Duke University</strong><br>
@@ -40,69 +40,124 @@ redirect_from:
   <span style="text-align: right;"><em>Aug. 2024 - Jun. 2026 (Expected)</em></span>
 </div>
 
+<h2>RESEARCH</h2>
+<hr>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3>Trimmed Mean for Partially Observed Functional Data | Bachelor’s Thesis</h3>
+  <span style="text-align: right;"><em>Apr. 2024</em></span>
+</div>
+<p><em>Supervised by Associate Professor Lan Xiaohong from USTC.</em></p>
+<ul>
+  <li>Defined the trimmed mean for partially observed functional data.</li>
+  <li>Proved consistent convergence of the estimator and conducted numerical simulations.</li>
+  <li>The thesis is available on <a href="https://arxiv.org/abs/2408.13062">arXiv</a>, and the code is available on <a href="https://github.com/Yixiao-Wang-Stats/TMoPOFD">GitHub</a>.</li>
+</ul>
 
-## ACADEMIC PROJECTS
----
-### Trimmed Mean for Partially Observed Functional Data | Bachelor’s Thesis  
-_Supervised by Associate Professor Lan Xiaohong from USTC._  
-- Defined the trimmed mean for partially observed functional data.
-- Proved consistent convergence of the estimator and conducted numerical simulations.
-- The thesis is available on [arXiv](https://arxiv.org/abs/2408.13062), and the code is available on [GitHub](https://github.com/Yixiao-Wang-Stats/TMoPOFD).
+<h2>PROJECTS</h2>
+<hr>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3><strong>Basketball Breakdown: NCAA Shiny App</strong> | STA 532 R Programming Course Project</h3>
+  <span style="text-align: right;"><em>Dec. 2024</em></span>
+</div>
+<ul>
+  <li>Designed and developed the <strong>Competition Analysis</strong> and <strong>Schedule</strong> pages.</li>
+  <li>Integrated all pages into a cohesive app structure.</li>
+  <li>Enhanced user experience with animations for loading, smoother page navigation, and partial optimizations for the <strong>Prediction</strong> page.</li>
+  <li><strong>App:</strong> <a href="https://yixiao-wang.shinyapps.io/NCAA_Data_Archive/">NCAA Data Archive</a> | <strong>Report:</strong> <a href="https://yixiao-wang-stats.github.io/files/NCAA_write_up.pdf">PDF</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/Basketball-Breakdown-NCAA-Shiny-App">GitHub</a></li>
+</ul>
 
-### LSTM-GRU Hybrid Network | Course Project for Time Series Analysis  
-_Feb. 2024-Mar. 2024_  
-- Cleaned and preprocessed the PM2.5 pollution data from Chengdu.
-- Proposed an LSTM-GRU hybrid network architecture, inspired by GoogLeNet, for PM2.5 time series forecasting, which reduced the error rate by 30% compared to LSTM.
-- The report is available [here](https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf), and the code is available on [GitHub](https://github.com/Yixiao-Wang-Stats/LSTM-GRU-Hybrid-Network).
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3><strong>Airbnb Price Prediction in New York City</strong> | CS 671 Machine Learning Kaggle Competition</h3>
+  <span style="text-align: right;"><em>Nov. 2024</em></span>
+</div>
+<ul>
+  <li>Predicted Airbnb prices using property information and achieved <strong>top 5 out of 137 participants</strong>.</li>
+  <li>Developed an advanced stacking solution, outperforming all original submissions.</li>
+  <li><strong>Report:</strong> <a href="https://yixiao-wang-stats.github.io/files/Kaggle%20Writeup.pdf">PDF</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/Prices-of-AirBNBs-in-New-York-City">GitHub</a></li>
+</ul>
 
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3><strong>LSTM-GRU Hybrid Network</strong> | Time Series Analysis Course Project</h3>
+  <span style="text-align: right;"><em>Feb.–Mar. 2024</em></span>
+</div>
+<ul>
+  <li>Preprocessed PM2.5 pollution data from Chengdu.</li>
+  <li>Designed an <strong>LSTM-GRU hybrid network</strong>, inspired by GoogLeNet, achieving a <strong>30% error rate reduction</strong> over standard LSTM models.</li>
+  <li><strong>Report:</strong> <a href="https://yixiao-wang-stats.github.io/files/LSTMGRU.pdf">PDF</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/LSTM-GRU-Hybrid-Network">GitHub</a></li>
+</ul>
 
-## TEACHING
----
-### Linear Algebra B1 | Teaching Assistant  
-_Mar. 2023- Jul. 2023_  
-- Built the [course homepage](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) and served as the group leader, managing a course group with over 100 students.
-- Organized weekly problem-solving sessions during weekends, spent over 40 hours of personal teaching time, and engaged with more than 200 participants, showcasing strong teaching and communication skills.
-- Independently completed solution sets for over 100 post-course exercises and provided analysis and answers to all past exam papers.
+<h2>PRESENTATION</h2>
+<hr>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3>Probability Theory Seminar | Presenter</h3>
+  <span style="text-align: right;"><em>Apr. 2023</em></span>
+</div>
+<ul>
+  <li>Delivered a special presentation with more than 10 fellow students, focusing on random matrix methods.</li>
+  <li>The slides are available <a href="https://yixiao-wang-stats.github.io/files/random-matrix.pdf">here</a>.</li>
+</ul>
 
-### Probability Theory Seminar | Presenter  
-_April 2023_  
-- Delivered a special presentation with more than 10 fellow students, focusing on random matrix methods.
-- The slides are available [here](https://yixiao-wang-stats.github.io/files/random-matrix.pdf).
+<h2>TEACHING</h2>
+<hr>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3>Linear Algebra B1 | Teaching Assistant</h3>
+  <span style="text-align: right;"><em>Mar. 2023–Jul. 2023</em></span>
+</div>
+<ul>
+  <li>Built the <a href="http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/">course homepage</a> and served as the group leader, managing a course group with over 100 students.</li>
+  <li>Organized weekly problem-solving sessions during weekends, spending over 40 hours of personal teaching time, and engaging with more than 200 participants, showcasing strong teaching and communication skills.</li>
+  <li>Independently completed solution sets for over 100 post-course exercises and provided analysis and answers to all past exam papers.</li>
+</ul>
 
+<h2>INTERNSHIP</h2>
+<hr>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3>Thermo Fisher Scientific | Data Cleaning Intern</h3>
+  <span style="text-align: right;"><em>Sep. 2023–Dec. 2023</em></span>
+</div>
+<ul>
+  <li>Cleaned and categorized more than 2000 customer data queries and matched them with Excel.</li>
+  <li>Wrote Excel functions to add wildcards to the dataset to be cleaned, significantly improving team efficiency.</li>
+  <li>Summarized the data cleansing techniques and conducted team training sessions.</li>
+</ul>
 
-## INTERNSHIP
----
-### Thermo Fisher Scientific | Data Cleaning PTA  
-_Sep. 2023- Dec. 2023_  
-- Cleaned and categorized more than 2000 customer data queries and matched them with Excel.
-- Wrote Excel functions to add wildcards to the dataset to be cleaned, significantly improving team efficiency.
-- Summarized the data cleansing techniques and conducted team training sessions.
+<h2>ACTIVITIES & LEADERSHIP</h2>
+<hr>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3>Origami Club, USTC | President</h3>
+  <span style="text-align: right;"><em>Jun. 2021–Jun. 2022</em></span>
+</div>
+<ul>
+  <li>Designed and organized the first origami exhibition <a href="https://ef.ustc.edu.cn/info/1061/1284.htm">“Vividly Comes to Life on Paper”</a> in USTC.</li>
+  <li>Conducted origami teaching sessions twice per month, sharing the art of origami with over 200 participants.</li>
+</ul>
 
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3>Hefei Chunyu Parent Support Center for Intellectually Disabled Children | Volunteer</h3>
+  <span style="text-align: right;"><em>Sep. 2021–Jan. 2022</em></span>
+</div>
+<ul>
+  <li>Played basketball with autistic children and helped coaches to keep order in class once per week.</li>
+</ul>
 
-## ACTIVITIES & LEADERSHIP
----
-### Origami Club, USTC | President  
-_Jun. 2021- Jun. 2022_  
-- Designed and organized the first origami exhibition “Vividly Comes to Life on Paper” in USTC.
-- Conducted origami teaching sessions twice per month, sharing the art of origami with over 200 participants.
+<h2>ADDITIONAL INFORMATION</h2>
+<hr>
+<p><strong>Awards and Honors:</strong></p>
+<ul>
+  <li>Outstanding graduate from the University of Science and Technology of China (USTC) in 2024</li>
+  <li>China Petroleum Scholarship in 2023 (Only 3 Students in the School of the Gifted Young)</li>
+  <li>Excellent teaching assistant in the 2023 Spring (Third in the Whole School)</li>
+  <li>Silver Prize for Outstanding Students Scholarship in USTC in 2022 and 2021</li>
+  <li>First Prize in Chinese Mathematical Competitions for University Students in 2022 and 2021</li>
+  <li>Excellent President of The School Club in 2022</li>
+</ul>
 
-### Hefei Chunyu Parent Support Center for Intellectually Disabled Children | Volunteer  
-_Sep. 2021- Jan. 2022_  
-- Played basketball with autistic children and helped coaches to keep order in class once per week.
+<p><strong>Language:</strong></p>
+<ul>
+  <li>Chinese (Mandarin and Sichuanese dialect), English (TOEFL 103 with 23 in Speaking)</li>
+</ul>
 
-## ADDITIONAL INFORMATION
----
-**Awards and Honors:**  
-- Outstanding graduate from the University of Science and Technology of China (USTC) in 2024
-- China Petroleum Scholarship in 2023 (Only 3 Students in the School of the Gifted Young)
-- Excellent teaching assistant in the 2023 Spring (Third in the Whole School)
-- Silver Prize for Outstanding Students Scholarship in USTC in 2022 and 2021
-- First Prize in Chinese Mathematical Competitions for University Students in 2022 and 2021
-- Excellent President of The School Club in 2022
-
-**Language:**  
-- Chinese (Mandarin and Sichuanese dialect), English (TOEFL 103 with 23 in Speaking)
-
-**Programming & Software Skills:**  
-- Python (main),R, Latex, C, MATLAB, HTML, CSS, SPSS, Office, etc.
-
+<p><strong>Programming & Software Skills:</strong></p>
+<ul>
+  <li>Python (main), R, LaTeX, C, MATLAB, HTML, CSS, SPSS, Office, etc.</li>
+</ul>
