@@ -173,7 +173,7 @@ Here are some of my digital artworks created using Procreate.
     </div>
     <div class="gallery-item">
         <img src="/images/graduate.jpg" alt="Other Art 3">
-        <p>This is the graduation cap I designed and made for my sister. I chose her favorite thing, flowers, and her favorite color, blue, to make it special for her. It celebrates her graduation from Fudan University, where she majored in Computer Science, Class of 2024. Congratulations to her on this wonderful achievement!🎉🎓</p>
+        <p>This is the graduation cap I designed and made for my sister. I chose her favorite thing, flowers, and her favorite color, blue, to make it special for her. It celebrates her graduation from [Fudan University](https://www.fudan.edu.cn/en/), where she majored in [Computer Science](https://cs.fudan.edu.cn/), Class of 2024. Congratulations to her on this wonderful achievement!🎉🎓</p>
     </div>
 </div>
 
