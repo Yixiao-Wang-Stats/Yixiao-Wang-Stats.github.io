@@ -8,6 +8,9 @@ date: 2024-05-01
 location: "Anhui, China"
 excerpt: "This is my bachelor's thesis. I define the trimmed mean for partially observed functional data and proved consistent convergence of the estimator."
 ---
+## Thesis
+<iframe src="https://yixiao-wang-stats.github.io/files/Trimmed%20Mean%20for%20Partially%20Observed%20Functional%20Data.pdf" width="100%" height="800px" frameborder="0"></iframe>
+
 ## Overview
 
 In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong convergence of this method. The work primarily references the following studies:
@@ -34,16 +37,17 @@ The thesis is available at [this link](https://arxiv.org/abs/2408.13062).
 The \(\alpha\)-trimmed mean for partially observed functions is defined as the mean of the \(n - \lfloor n\alpha \rfloor\) deepest observed values. More precisely, for \(\beta > 0\), the sample version of the trimmed mean is given by:
 
   <p>
-    $$ \hat{\mu}_{n}(t) = \frac{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right) X_{i}(t)}{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right)} $$
+    $$ \hat{\mu}_{n}(t) = \frac{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(POIFD_{n}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right) X_{i}(t)}{\sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(POIFD_{n}\left(X_{i}\right)\right) \mathbf{1}_{\text{observed}}\left(X_{i}(t)\right)} $$
   </p>
   <p>where \(\beta\) satisfies:</p>
   <p>
-    $$ \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(\text{POIFD}\left(X_{i}\right)\right) \simeq 1-\alpha $$
+    $$ \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(POIFD_{n}\left(X_{i}\right)\right) \simeq 1-\alpha $$
   </p>
 
-where POIFD(X) is the Partially Observed Integrated Functional Depth of \(X\).
+where $POIFD_{n}(X)$ is the Partially Observed Integrated Functional Depth of \(X\).
 </div>
-For more details, see [Integrated Depths for Partially Observed Functional Data](https://doi.org/10.1080/10618600.2022.2070171).
+
+You can also download the original thesis at [Integrated Depths for Partially Observed Functional Data](https://doi.org/10.1080/10618600.2022.2070171) for more details.
 ## Coding
 
 I have created the code for this project, which is available in the repository: [TMoPOFD GitHub Repository](https://github.com/Yixiao-Wang-Stats/TMoPOFD). This repository contains the simulation code for the **Trimmed Mean for Partially Observed Functional Data (TMoPOFD)**, based on the Partially Observed Integrated Functional Depth (POIFD) method.
