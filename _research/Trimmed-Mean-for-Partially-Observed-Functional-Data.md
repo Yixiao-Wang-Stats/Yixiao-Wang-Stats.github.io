@@ -13,7 +13,7 @@ excerpt: "This is my bachelor's thesis. I define the trimmed mean for partially 
 
 ## Overview
 
-In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong convergence of this method. The work primarily references the following studies:
+In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong consistency of this method. The work primarily references the following studies:
 
 - **Integrated Depths for Partially Observed Functional Data**  
   *Authors*: A. Elías, R. Jiménez, A. M. Paganoni, L. M. Sangalli  
@@ -26,8 +26,6 @@ In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functiona
   *Year*: May 2001  
   *AMS 1980 Subject Classifications*: 62G07, 62G05  
   *DOI*: [10.1007/BF02595706](https://doi.org/10.1007/BF02595706)
-
-The thesis is available at [this link](https://arxiv.org/abs/2408.13062).
 
 ## Mathematical Definition
 <script type="text/javascript" async
