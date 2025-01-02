@@ -41,10 +41,10 @@ The \(\alpha\)-trimmed mean for partially observed functions is defined as the m
   </p>
   <p>where \(\beta\) satisfies:</p>
   <p>
-    $$ \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(POIFD_{n}\left(X_{i}\right)\right) \simeq 1-\alpha $$
+    $$ \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}_{[\beta,+\infty)}\left(POIFD_{n}\left(X_{i}\right)\right) \approx 1-\alpha $$
   </p>
 
-where $POIFD_{n}(X)$ is the Partially Observed Integrated Functional Depth of \(X\).
+where \(POIFD_{n}(X)\) is the Partially Observed Integrated Functional Depth of \(X\).
 </div>
 
 You can also download the original thesis at [Integrated Depths for Partially Observed Functional Data](https://doi.org/10.1080/10618600.2022.2070171) for more details.
