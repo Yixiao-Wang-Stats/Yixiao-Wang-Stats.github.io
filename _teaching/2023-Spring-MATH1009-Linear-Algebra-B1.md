@@ -6,7 +6,9 @@ permalink: /teaching/2023-Spring-MATH1009-Linear-Algebra-B1
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-03-01
 location: "Anhui, China"
-excerpt: "This course gives an introduction to the basic knowledge of linear algebra. I Ranked third among teaching assistants in the entire school for the semester (There is a total of 62 outstanding teaching assistants that year (ranked top 5% in all the TAs))." 
+excerpt: "This course gives an introduction to the basic knowledge of linear algebra. \\
+I **ranked third** among teaching assistants in the entire school for the semester. \\
+There was a total of 62 outstanding teaching assistants that year, ranked top 5% among all the TAs." 
 ---
 
 The main topics include:
