@@ -1,12 +1,12 @@
 ---
 title: "Random Matrices: Theory and Practice"
 collection: teaching
-type: "Workshop"
+type: "Seminar Presenter"
 permalink: /teaching/Random-Matrices
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-04-15
 location: "Anhui, China"
-excerpt: "This is a workshop on Probability Theory and Mathematical Statistics, initiated by the instructor associate professor [Dangzheng Liu](http://staff.ustc.edu.cn/~dzliu/). "
+excerpt: "This is a Seminar on Probability Theory and Mathematical Statistics, initiated by the instructor associate professor [Dangzheng Liu](http://staff.ustc.edu.cn/~dzliu/). "
 ---
 
 The main topics include:
