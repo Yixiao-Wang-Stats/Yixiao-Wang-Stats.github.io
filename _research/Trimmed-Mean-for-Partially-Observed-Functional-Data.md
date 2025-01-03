@@ -6,14 +6,14 @@ permalink: /research/Trimmed-Mean-for-Partially-Observed-Functional-Data
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2024-05-01
 location: "Anhui, China"
-excerpt: "This is my bachelor's thesis. I define the trimmed mean for partially observed functional data and proved consistent convergence of the estimator."
+excerpt: "This is my bachelor's thesis. I introduce the concept of the trimmed mean for partially observed functional data, prove the strong consistency of the estimator, and present results from simulation experiments."
 ---
 ## Thesis
 <iframe src="https://yixiao-wang-stats.github.io/files/Trimmed%20Mean%20for%20Partially%20Observed%20Functional%20Data.pdf" width="100%" height="800px" frameborder="0"></iframe>
 
 ## Overview
 
-In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we use the trimmed mean for partially observed functional data. We prove the robustness and strong consistency of this method. The work primarily references the following studies:
+In this bachelor's thesis, titled *Trimmed Mean for Partially Observed Functional Data*, we introduce the trimmed mean for partially observed functional data. We prove the robustness and strong consistency of this method. The work primarily references the following studies:
 
 - **Integrated Depths for Partially Observed Functional Data**  
   *Authors*: A. Elías, R. Jiménez, A. M. Paganoni, L. M. Sangalli  
@@ -48,11 +48,11 @@ where \(POIFD_{n}(X)\) is the Partially Observed Integrated Functional Depth of 
 You can also download the original thesis at [Integrated Depths for Partially Observed Functional Data](https://doi.org/10.1080/10618600.2022.2070171) for more details.
 ## Coding
 
-I have created the code for this project, which is available in the repository: [TMoPOFD GitHub Repository](https://github.com/Yixiao-Wang-Stats/TMoPOFD). This repository contains the simulation code for the **Trimmed Mean for Partially Observed Functional Data (TMoPOFD)**, based on the Partially Observed Integrated Functional Depth (POIFD) method.
+The code for this thesis is available in the repository: [TMoPOFD GitHub Repository](https://github.com/Yixiao-Wang-Stats/TMoPOFD). This repository contains the simulation code for the **Trimmed Mean for Partially Observed Functional Data (TMoPOFD)**, based on the Partially Observed Integrated Functional Depth (POIFD) method.
 
 The code aims to define the trimmed mean for partially observed functional data using the POIFD method and to establish the strong convergence of this estimator. Additionally, the code utilizes the package from the study *Integrated Depths for Partially Observed Functional Data* to generate POIFD-related work, which is available at [https://github.com/aefdz/fdaPOIFD](https://github.com/aefdz/fdaPOIFD).
 
-## Test Usage
+## Usage Example
 
 Below is an example of how to simulate data and plot the trimmed mean using this code:
 
