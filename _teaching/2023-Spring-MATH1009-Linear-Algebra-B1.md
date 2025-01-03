@@ -8,7 +8,7 @@ date: 2023-03-01
 location: "Anhui, China"
 excerpt: "This course gives an introduction to the basic knowledge of linear algebra. \n
 I **ranked third** among teaching assistants in the entire school for the semester. \n
-There was a total of 62 outstanding teaching assistants that year, ranked top 5% among all the TAs." 
+There was a total of 62 outstanding teaching assistants that semester, ranked top 5% among all the TAs." 
 ---
 
 The main topics include:
