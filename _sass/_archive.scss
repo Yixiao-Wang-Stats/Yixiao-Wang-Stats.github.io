@@ -66,14 +66,26 @@
   }
 }
 
+.archive__item-tags {
+  margin-top: 10px;
+}
+
 .archive__item-tags .tag {
   display: inline-block;
-  background-color: #f0f0f0; /* 背景颜色 */
-  color: #333; /* 文本颜色 */
+  background-color: #f0f0f0;
+  color: #333;
   padding: 5px 10px;
   margin: 3px;
   border-radius: 5px;
   font-size: 0.85em;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: default; /* 鼠标为默认指针，表示不可点击 */
+}
+
+.archive__item-tags .tag:hover {
+  background-color: #007acc; /* 鼠标悬停时的背景颜色 */
+  color: #fff; /* 鼠标悬停时的文字颜色 */
 }
 
 
