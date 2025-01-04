@@ -7,6 +7,11 @@ venue: "Duke University, CS 671 Theory & Alg Machine Learning"
 date: 2024-11-01
 location: "Durham, USA"
 excerpt: "This project was my Kaggle competition in CS 671 (Machine Learning). The task was to predict Airbnb prices in New York City. I achieved a top 5 ranking out of 137 participants and later developed an improved solution outperforming all original submissions in the competition."
+tags:
+  - Machine Learning
+  - Predictive Modeling
+  - Boosting
+  - Data Science
 ---
 
 ## Overview
