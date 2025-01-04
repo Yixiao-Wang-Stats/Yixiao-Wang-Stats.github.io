@@ -37,7 +37,7 @@ const
     //console.log(vh, y, fs);
     //console.log((y+fs)>vh?vh-y:fs);
     str.animate({
-      translate: `0 ${(y+fs)>vh?vh-y:fs}px`,
+      translate: `0 ${fs}px`,
       opacity: 0,
       transform: `rotateX(${rand(1, 500)}deg) rotateY(${rand(1, 500)}deg)`
     }, {
