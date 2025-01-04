@@ -8,5 +8,15 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.projects reversed %}
-  {% include archive-single.html %}
+  {% if post.pinned %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
+
+{% for post in site.projects reversed %}
+  {% unless post.pinned %}
+    {% include archive-single.html %}
+  {% endunless %}
+{% endfor %}
+
+
