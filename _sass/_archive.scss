@@ -66,6 +66,29 @@
   }
 }
 
+.archive__item-tags {
+  margin-top: 10px;
+}
+
+.archive__item-tags .tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #007acc;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  font-size: 0.85em;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.archive__item-tags .tag:hover {
+  background-color: #007acc;
+  color: #fff;
+}
+
+
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
