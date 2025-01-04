@@ -50,12 +50,13 @@ const
         str.remove();
       }, delay);
   }
-
 addEventListener("mousemove", (e) => {
-  const {clientX, clientY} = e;
-  if(shouldDraw(clientX, clientY)){
-    addStr(clientX, clientY);
-    x1 = clientX;
-    y1 = clientY;
+  const { pageX, pageY } = e; // 改用 pageX 和 pageY
+  if (shouldDraw(pageX, pageY)) { // 使用全局坐标
+    addStr(pageX, pageY); // 传递全局坐标
+    x1 = pageX; // 更新全局坐标
+    y1 = pageY;
   }
 });
+
+
