@@ -23,13 +23,13 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
     {% if project.tags %}
-        <p class="project-tags">
-          <strong>Tags:</strong>
-          {% for tag in project.tags %}
-            <a href="/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
-          {% endfor %}
-        </p>
-      {% endif %}
+      <p class="project-tags">
+        <strong>Tags:</strong>
+        {% for tag in project.tags %}
+          <a href="/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
+        {% endfor %}
+      </p>
+    {% endif %}
     
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
