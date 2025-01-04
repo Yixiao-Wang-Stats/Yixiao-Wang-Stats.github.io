@@ -9,8 +9,9 @@ location: "Anhui, China"
 excerpt: "This is my bachelor's thesis. I introduce the concept of the trimmed mean for partially observed functional data, prove the strong consistency of the estimator, and present results from simulation experiments."
 tags:
   - Functional Data
+  - Trimmed Mean
   - Data Depth
-  - Consistency
+  - Strong Consistency
   - R Language
 ---
 ## Thesis
