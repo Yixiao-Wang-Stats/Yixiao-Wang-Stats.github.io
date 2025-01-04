@@ -7,6 +7,11 @@ venue: "University of Science and Technology of China, Mathematics Department"
 date: 2024-05-01
 location: "Anhui, China"
 excerpt: "This is my bachelor's thesis. I introduce the concept of the trimmed mean for partially observed functional data, prove the strong consistency of the estimator, and present results from simulation experiments."
+tags:
+  - Functional Data
+  - Data Depth
+  - Consistency
+  - R Language
 ---
 ## Thesis
 <iframe src="https://yixiao-wang-stats.github.io/files/Trimmed%20Mean%20for%20Partially%20Observed%20Functional%20Data.pdf" width="100%" height="800px" frameborder="0"></iframe>
