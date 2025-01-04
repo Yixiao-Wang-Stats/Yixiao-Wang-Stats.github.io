@@ -7,6 +7,10 @@ venue: "Duke University, STA 523 R Programming"
 date: 2024-12-01
 location: "Durham, USA"
 excerpt: "This is my group's final project for STA 523 (R Programming): a data archive NCAA basketball data analysis Shiny app. It includes match, team, and player analysis, as well as visualization and prediction features."
+tags:
+  - Shiny App
+  - R Language
+  - Data Analysis
 ---
 ## Overview
 
