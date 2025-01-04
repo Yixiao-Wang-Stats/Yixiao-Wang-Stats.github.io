@@ -3,7 +3,6 @@
 let x1=0, y1=0;
 window.client
 const 
-  vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0),
   dist_to_draw = 20,
   delay = 2000,
   fsize = [
