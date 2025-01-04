@@ -2,16 +2,16 @@
   margin-top: 10px; // 顶部外边距
 
   .tag {
-    display: inline-block; // 行内块显示
-    background-color: $lighter-gray; // 使用预定义的较浅灰色变量
-    color: $text-color; // 使用文本颜色变量
-    padding: 5px 10px; // 内边距，调整标签的大小
-    margin: 3px; // 标签之间的间距
-    border-radius: 5px; // 圆角效果
-    font-size: $type-size-6; // 使用预定义的字体大小变量
-    text-decoration: none; // 去掉默认链接的下划线
-    transition: background-color 0.3s, color 0.3s; // 鼠标悬停时背景颜色和文字颜色的平滑过渡
-    cursor: default; // 鼠标为默认箭头，表示标签不可点击
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: default; /* 鼠标为默认指针，表示不可点击 */
   }
 
   .tag:hover {
