@@ -22,14 +22,6 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.tags %}
-      <p class="project-tags">
-        <strong>Tags:</strong>
-        {% for tag in page.tags %}
-          <a href="/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
-        {% endfor %}
-      </p>
-    {% endif %}
     
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
