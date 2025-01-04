@@ -4,8 +4,8 @@ let x1=0, y1=0;
 window.client
 const 
   vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0),
-  dist_to_draw = 50,
-  delay = 1000,
+  dist_to_draw = 20,
+  delay = 2000,
   fsize = [
     '1.1rem', '1.4rem', '.8rem', '1.7rem'
   ],
