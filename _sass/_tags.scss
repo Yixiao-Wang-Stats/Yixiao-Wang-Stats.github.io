@@ -3,18 +3,21 @@
 
     .tag {
         display: inline-block;
-        background-color: $lighter-gray; // Use existing variables, e.g., from _variables.scss
-        color: $text-color; // Example variable for text color
+        background-color: $lighter-gray; // 使用已定义的灰色变量
+        color: $text-color; // 使用文本颜色变量
         padding: 5px 10px;
         margin: 3px;
         border-radius: 5px;
-        font-size: $type-size-6; // Match font size variable
+        font-size: $type-size-6; // 匹配字体大小变量
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s;
+        cursor: default; // 鼠标变为默认箭头，表示不可点击
 
         &:hover {
-            background-color: $primary-color; // Example variable for hover color
-            color: $white; // Use white as the hover text color
+            background-color: $primary-color; // 鼠标悬停时的背景色
+            color: $white; // 鼠标悬停时的文本颜色
         }
+
+        pointer-events: none; // 禁用交互事件（不能点击）
     }
 }
