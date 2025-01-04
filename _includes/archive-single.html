@@ -52,14 +52,15 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    {% if post.tags %}
-    <p class="archive__item-tags" itemprop="keywords">
-      <strong>Tags:</strong>
-      {% for tag in post.tags %}
-        <a href="/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
-      {% endfor %}
-    </p>
+   {% if post.tags %}
+      <p class="archive__item-tags" itemprop="keywords">
+        <strong>Tags:</strong>
+        {% for tag in post.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </p>
     {% endif %}
+
     
     {% if post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
