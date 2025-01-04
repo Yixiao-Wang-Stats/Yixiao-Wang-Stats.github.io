@@ -8,9 +8,9 @@ date: 2024-12-01
 location: "Durham, USA"
 excerpt: "This is my final project for STA 521 (Predictive Inference), focusing on how to improve the effectiveness of recommendations using personal information on Amazon."
 tags:
-  - recommendation system
-  - predictive inference
-  - data science
+  - Recommendation system
+  - Predictive inference
+  - Data science
 ---
 
 ## Overview
