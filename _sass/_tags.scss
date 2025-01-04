@@ -12,12 +12,5 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s;
         cursor: default; // 鼠标变为默认箭头，表示不可点击
-
-        &:hover {
-            background-color: $primary-color; // 鼠标悬停时的背景色
-            color: $white; // 鼠标悬停时的文本颜色
-        }
-
-        pointer-events: none; // 禁用交互事件（不能点击）
     }
 }
