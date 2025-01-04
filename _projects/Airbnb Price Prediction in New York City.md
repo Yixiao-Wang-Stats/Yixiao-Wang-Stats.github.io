@@ -12,6 +12,7 @@ tags:
   - Predictive Modeling
   - Boosting
   - Data Science
+pinned: true
 ---
 
 ## Overview
