@@ -1,0 +1,20 @@
+.tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tag:hover {
+    background-color: #007acc;
+    color: #fff;
+}
+
+.page__tags {
+    margin-top: 10px;
+}
