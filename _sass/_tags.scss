@@ -15,7 +15,8 @@
   }
 
   .tag:hover {
-    background-color: $primary-color; // 鼠标悬停时的背景颜色，使用主色变量
-    color: $white; // 鼠标悬停时的文字颜色，使用白色
+    background-color: #007acc; /* 鼠标悬停时的背景颜色 */
+    color: #fff; /* 鼠标悬停时的文字颜色 */
   }
+
 }
