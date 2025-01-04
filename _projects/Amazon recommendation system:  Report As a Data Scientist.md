@@ -7,6 +7,7 @@ venue: "Duke University, STA 521 Predictive Inference"
 date: 2024-12-01
 location: "Durham, USA"
 excerpt: "This is my final project for STA 521 (Predictive Inference), focusing on how to improve the effectiveness of recommendations using personal information on Amazon."
+---
 ## Overview
 This was my final project for STA 521 (Predictive Inference), focusing on how to improve the effectiveness of recommendations using personal information on Amazon. It is a project designed to demonstrate my ability to report as a data scientist, rather than involving actual computation or specific datasets.
 
