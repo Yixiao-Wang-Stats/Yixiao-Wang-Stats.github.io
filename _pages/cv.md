@@ -116,7 +116,7 @@ redirect_from:
 <h2>INTERNSHIP</h2>
 <hr>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <h3>Thermo Fisher Scientific | Data Cleaning Intern</h3>
+  <h3>Thermo Fisher Scientific | Data Cleaning Internship</h3>
   <span style="text-align: right;"><em>Sep. 2023–Dec. 2023</em></span>
 </div>
 <ul>
