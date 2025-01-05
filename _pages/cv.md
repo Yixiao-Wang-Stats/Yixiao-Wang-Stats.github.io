@@ -61,7 +61,7 @@ redirect_from:
 </div>
 <ul>
   <li>Designed and developed the <strong>Competition Analysis</strong> and <strong>Schedule</strong> pages.</li>
-  <li>Integrated all pages into a cohesive app structure.</li>
+  <li>Integrated all pages into a cohesive shiny app.</li>
   <li>Enhanced user experience with animations for loading, smoother page navigation, and partial optimizations for the <strong>Prediction</strong> page.</li>
   <li><strong>App:</strong> <a href="https://yixiaowang.shinyapps.io/NCAA_Data_Archive/">NCAA Data Archive</a> | <strong>Report:</strong> <a href="https://yixiao-wang-stats.github.io/files/NCAA_write_up.pdf">PDF</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/Basketball-Breakdown-NCAA-Shiny-App">GitHub</a></li>
 </ul>
