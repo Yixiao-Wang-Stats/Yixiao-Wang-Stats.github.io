@@ -4,7 +4,7 @@ let x1=0, y1=0;
 window.client
 const 
   dist_to_draw = 20,
-  delay = 2000,
+  delay = 1000,
   fsize = [
     '1.1rem', '1.4rem', '.8rem', '1.7rem'
   ],
