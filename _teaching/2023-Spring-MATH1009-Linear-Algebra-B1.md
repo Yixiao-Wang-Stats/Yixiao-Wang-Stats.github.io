@@ -19,7 +19,7 @@ The main topics include:
 - Euclidian space
 - Quadratic form
 
- You are welcome to explore the homepage of the course [here](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) .
+You are welcome to explore the homepage of the course [here](http://home.ustc.edu.cn/~wyx_mail/linear_algebra_b1.html/) . ❗It's not available now because I graduated from USTC, and my domain name was reclaimed.
  
 <div id="echart" style="width: 100%; max-width: 800px; height: 400px; margin: 2em auto;"></div>
 <script type="text/javascript">
