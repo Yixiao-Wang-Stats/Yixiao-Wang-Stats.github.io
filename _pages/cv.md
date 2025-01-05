@@ -42,7 +42,7 @@ redirect_from:
 
 <h2>RESEARCH</h2>
 <hr>
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <h3>Trimmed Mean for Partially Observed Functional Data | Bachelor’s Thesis</h3>
     <p><em>Supervised by Associate Professor Lan Xiaohong from USTC.</em></p>
