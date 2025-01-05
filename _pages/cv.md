@@ -53,6 +53,20 @@ redirect_from:
       <li><strong>Thesis:</strong> <a href="https://arxiv.org/abs/2408.13062">arXiv</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/TMoPOFD">GitHub</a>.</li>
     </ul>
   </div>
+  <span style="text-align: right;"><em>Aug. 2020 - Jun. 2024 </em></span>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div>
+    <h3>Trimmed Mean for Partially Observed Functional Data | Bachelor’s Thesis</h3>
+    <p><em>Supervised by Associate Professor Lan Xiaohong from USTC.</em></p>
+    <ul>
+      <li>Defined the trimmed mean for partially observed functional data.</li>
+      <li>Proved strong consistency of depth function for partially observed functional data and the trimmed mean.</li>
+      <li>Conducted numerical simulations experiment and corresponding R code.</li>
+      <li><strong>Thesis:</strong> <a href="https://arxiv.org/abs/2408.13062">arXiv</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/TMoPOFD">GitHub</a>.</li>
+    </ul>
+  </div>
   <span style="text-align: right;"><em>Feb. 2024 - May. 2024</em></span>
 </div>
 
