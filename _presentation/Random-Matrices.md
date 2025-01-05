@@ -2,7 +2,7 @@
 title: "Random Matrices: Theory and Practice"
 collection: presentation
 type: "Seminar Presenter"
-permalink: /pre/Random-Matrices
+permalink: /presentation/Random-Matrices
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-04-15
 location: "Anhui, China"
