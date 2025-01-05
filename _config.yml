@@ -229,6 +229,9 @@ collections:
   hobby:
     output: true
     permalink: /:collection/:path/
+  presentation:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -312,6 +315,16 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _presentation
+  - scope:
+      path: ""
+      type: pre
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
 
 # Sass/SCSS
 sass:
