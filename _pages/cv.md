@@ -53,7 +53,7 @@ redirect_from:
       <li><strong>Thesis:</strong> <a href="https://arxiv.org/abs/2408.13062">arXiv</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/TMoPOFD">GitHub</a>.</li>
     </ul>
   </div>
-  <span style="text-align: right; white-space: nowrap;"><em>Apr. 2024</em></span>
+  <span style="text-align: right; white-space: nowrap;"><em>Feb. 2024 - May. 2024</em></span>
 </div>
 
 
