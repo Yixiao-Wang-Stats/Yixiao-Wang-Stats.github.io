@@ -7,13 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.projects reversed %}
+{% for post in site.presentation reversed %}
   {% if post.pinned %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-{% for post in site.projects reversed %}
+{% for post in site.presentation reversed %}
   {% unless post.pinned %}
     {% include archive-single.html %}
   {% endunless %}
