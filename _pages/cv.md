@@ -49,9 +49,12 @@ redirect_from:
 <p><em>Supervised by Associate Professor Lan Xiaohong from USTC.</em></p>
 <ul>
   <li>Defined the trimmed mean for partially observed functional data.</li>
-  <li>Proved consistent convergence of the estimator and conducted numerical simulations.</li>
-  <li>The thesis is available on <a href="https://arxiv.org/abs/2408.13062">arXiv</a>, and the code is available on <a href="https://github.com/Yixiao-Wang-Stats/TMoPOFD">GitHub</a>.</li>
+  <li>Proved strong consistency of depth function for partially observed functional data and the trimmed mean.</li>
+  <li>Conducted numerical simulations experiment and corresponding R code.
+</li>
+  <li><strong>Thesis:</strong> <a href="https://arxiv.org/abs/2408.13062">arXiv</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/TMoPOFD">GitHub</a>.</li>
 </ul>
+
 
 <h2>PROJECTS</h2>
 <hr>
