@@ -170,3 +170,7 @@ redirect_from:
 <ul>
   <li>Python (main), R, LaTeX, C, MATLAB, HTML, CSS, SPSS, Office, etc.</li>
 </ul>
+<p><strong>Interests:</strong></p>
+<ul>
+  <li>Origami, click <a href="https://yixiao-wang-stats.github.io/hobby_miscellaneous/">here</a>  to see my  artwork.</li>
+</ul>
