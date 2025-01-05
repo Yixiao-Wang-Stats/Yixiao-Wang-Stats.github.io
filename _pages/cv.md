@@ -128,14 +128,14 @@ redirect_from:
 <h2>AWARDS & HONORS</h2>
 <hr>
 <ul>
-  <li><strong>Outstanding Graduate</strong> from the University of Science and Technology of China (USTC), Class of 2024 (Top 20%)</li>
-  <li><strong>China Petroleum Scholarship</strong> (2023): Awarded to only 3 students in the School of the Gifted Young</li>
-  <li><strong>Excellent Teaching Assistant</strong> (Spring 2023): Ranked in the top 3 at USTC</li>
-  <li><strong>Silver Prize for Outstanding Student Scholarship</strong> (2022 and 2021): Awarded to the top 15% of students at USTC</li>
-  <li><strong>First Prize</strong> in the Chinese Mathematical Competitions for University Students (2022 and 2021): Ranked in the top 1% of all participants</li>
-  <li><strong>Excellent President</strong> of the School Club (2022)</li>
-  <li><strong>QiangWeiFengGongDeYu (Diligence and Moral Conduct) Scholarship</strong> (2022)</li>
-  <li><strong>Bronze Prize</strong> for Outstanding Freshmen Scholarship (2020): Awarded to the top 35% of students at USTC</li>
+  <li><strong>Outstanding Graduate</strong> from the University of Science and Technology of China (USTC), Class of 2024 (Top 20%).</li>
+  <li><strong>China Petroleum Scholarship</strong> (2023): Awarded to only 3 students in the School of the Gifted Young at USTC.</li>
+  <li><strong>Excellent Teaching Assistant</strong> (Spring 2023): Ranked in the top 3 at USTC, among over 1000 TAs.</li>
+  <li><strong>Silver Prize for Outstanding Student Scholarship</strong> (2022 and 2021): Awarded to the top 15% of students at USTC.</li>
+  <li><strong>First Prize</strong> in the Chinese Mathematical Competitions for University Students (2022 and 2021): Ranked in the top 1% of all participants.</li>
+  <li><strong>Excellent President</strong> of the School Club (2022).</li>
+  <li><strong>QiangWeiFengGongDeYu (Diligence and Moral Conduct) Scholarship</strong> (2022).</li>
+  <li><strong>Bronze Prize</strong> for Outstanding Freshmen Scholarship (2020): Awarded to the top 35% of students at USTC.</li>
 </ul>
 
 
