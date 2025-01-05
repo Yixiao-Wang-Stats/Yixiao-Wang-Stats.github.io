@@ -61,6 +61,16 @@ redirect_from:
 <h2>PROJECTS</h2>
 <hr>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <h3><strong>Airbnb Price Prediction in New York City</strong> | CS 671 Machine Learning Kaggle Competition</h3>
+  <span style="text-align: right;"><em>Nov. 2024</em></span>
+</div>
+<ul>
+  <li>Predicted Airbnb prices using property information and achieved <strong>top 5 out of 137 participants</strong>.</li>
+  <li>Developed an advanced stacking solution, outperforming all original submissions.</li>
+  <li><strong>Report:</strong> <a href="https://yixiao-wang-stats.github.io/files/Kaggle%20Writeup.pdf">PDF</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/Prices-of-AirBNBs-in-New-York-City">GitHub</a></li>
+</ul>
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <h3><strong>Basketball Breakdown: NCAA Shiny App</strong> | STA 532 R Programming Course Project</h3>
   <span style="text-align: right;"><em>Dec. 2024</em></span>
 </div>
@@ -69,16 +79,6 @@ redirect_from:
   <li>Integrated all pages into a cohesive shiny app.</li>
   <li>Enhanced user experience with animations for loading, smoother page navigation, and partial optimizations for the <strong>Prediction</strong> page.</li>
   <li><strong>App:</strong> <a href="https://yixiaowang.shinyapps.io/NCAA_Data_Archive/">NCAA Data Archive</a> | <strong>Report:</strong> <a href="https://yixiao-wang-stats.github.io/files/NCAA_write_up.pdf">PDF</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/Basketball-Breakdown-NCAA-Shiny-App">GitHub</a></li>
-</ul>
-
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <h3><strong>Airbnb Price Prediction in New York City</strong> | CS 671 Machine Learning Kaggle Competition</h3>
-  <span style="text-align: right;"><em>Nov. 2024</em></span>
-</div>
-<ul>
-  <li>Predicted Airbnb prices using property information and achieved <strong>top 5 out of 137 participants</strong>.</li>
-  <li>Developed an advanced stacking solution, outperforming all original submissions.</li>
-  <li><strong>Report:</strong> <a href="https://yixiao-wang-stats.github.io/files/Kaggle%20Writeup.pdf">PDF</a> | <strong>Code:</strong> <a href="https://github.com/Yixiao-Wang-Stats/Prices-of-AirBNBs-in-New-York-City">GitHub</a></li>
 </ul>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
