@@ -1,6 +1,6 @@
 ---
 title: "Random Matrices: Theory and Practice"
-collection: pre
+collection: presentation
 type: "Seminar Presenter"
 permalink: /pre/Random-Matrices
 venue: "University of Science and Technology of China, Mathematics Department"
