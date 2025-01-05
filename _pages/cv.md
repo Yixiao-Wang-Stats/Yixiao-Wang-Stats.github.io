@@ -12,7 +12,7 @@ redirect_from:
 <link rel="stylesheet" href="/assets/css/cv.css">
 
 <div id="as_pdf">
-  <a href="/files/CV_Yixiao_Wang_revised.pdf">
+  <a href="/files/CV_YixiaoWang_revised.pdf">
     <i class="fas fa-file-pdf" aria-hidden="true"></i> Download
   </a>
 </div>
