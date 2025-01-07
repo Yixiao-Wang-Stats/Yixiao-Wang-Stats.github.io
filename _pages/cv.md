@@ -40,6 +40,14 @@ redirect_from:
   <span style="text-align: right;"><em>Aug. 2020 - Jun. 2024 </em></span>
 </div>
 
+<h2>RELEVANT COURSEWORK</h2>
+<hr>
+<div>
+  <p><strong>Mathematics & Statistics:</strong> Probability Theory (Original & Advanced, Honors, both A+), Advanced Probability Theory (A+), Mathematical Statistics (Original & Advanced, Honors, both A+), Bayesian Analysis, Time Series Analysis (A), Stochastic Processes (A-), Predictive Inference (A), Statistical Inference (A), Functional Analysis (A-), Real Analysis (A-), Complex Analysis, Mathematical Analysis I (A+), II (A), III (A-), Abstract Algebra (A-), Linear Algebra I (A+), II (A-), Fundamentals of Algebra (A), Differential Equations (A+), Operations Research, Differential Geometry (A), Fundamentals of Geometry (A).</p>
+  <p><strong>Computer Science:</strong> Machine Learning Theory & Algorithms (A), Data Structures and Databases (A), C Programming (A+), R Programming (A), Python Programming (A), MATLAB (A-), Linux (A-).</p>
+  <p><strong>Physics:</strong> Mechanics (A-), Optics (A), Electromagnetism (A), Atomic Physics (A+), Thermodynamics (A+), Basic Circuit Theory (A), University Physics Laboratory I (A-).</p>
+</div>
+
 <h2>RESEARCH</h2>
 <hr>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
