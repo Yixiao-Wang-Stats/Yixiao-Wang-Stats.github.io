@@ -23,5 +23,4 @@ Originally from China, I skipped grades and was admitted to the [University of S
 
 Research Interests
 ------
-- Machine Learning Theory
-- Functional Data Analysis
+I am passionate about machine learning theory, with a focus on developing advanced algorithms that are both accelerated and robust. My work emphasizes traditional models—such as regression models—with a strong commitment to interpretability, which I believe is essential for trustworthy models. I am also dedicated to providing solid theoretical foundations for large-scale models while continually pursuing efficient and stable algorithmic solutions. Additionally, I have a keen interest in functional data analysis and am exploring further connections between machine learning and statistical theory.
