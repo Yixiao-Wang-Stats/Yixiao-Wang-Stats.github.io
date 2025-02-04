@@ -4,7 +4,7 @@ collection: research
 type: "ICML in submit"
 permalink: /research/SADA
 venue: "Duke University"
-date: 2024-05-01
+date: 2025-01-01
 location: "NC, United States"
 excerpt: "In this paper, we propose the Stable Accelerated Adaptive
 Diffusion (SADA) method, which introduces a dual pruning approach—step-wise pruning (skipping) and token-wise
