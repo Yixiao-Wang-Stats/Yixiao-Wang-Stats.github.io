@@ -1,12 +1,12 @@
 ---
 title: "Trimmed Mean for Partially Observed Functional Data"
 collection: research
-type: "Bachelor's thesis"
+type: "Bachelor's Thesis"
 permalink: /research/Trimmed-Mean-for-Partially-Observed-Functional-Data
 venue: "University of Science and Technology of China, Mathematics Department"
 date: 2024-05-01
 location: "Anhui, China"
-excerpt: "This is my bachelor's thesis. I introduce the concept of the trimmed mean for partially observed functional data, prove the strong consistency of the estimator, and present results from simulation experiments."
+excerpt: "This is my bachelor's thesis. In this thesis, I introduce the concept of the trimmed mean for partially observed functional data, prove the strong consistency of the estimator, and present results from simulation experiments."
 tags:
   - Functional Data
   - Trimmed Mean
