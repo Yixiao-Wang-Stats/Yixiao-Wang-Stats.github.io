@@ -1,5 +1,5 @@
 ---
-title: "Trimmed Mean for Partially Observed Functional Data"
+title: "TMfPOFD: Trimmed Mean for Partially Observed Functional Data"
 collection: research
 type: "Bachelor's Thesis"
 permalink: /research/Trimmed-Mean-for-Partially-Observed-Functional-Data
