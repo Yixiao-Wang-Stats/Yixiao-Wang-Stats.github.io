@@ -16,6 +16,7 @@ tags:
   - Machine Learning Theory
   - Stable Accelerating
 ---
+
 ## Overview
 
 We propose the **Stable Accelerated Adaptive Diffusion (SADA)** method, introducing a **dual pruning approach**—step-wise pruning (skipping) and token-wise pruning—to accelerate diffusion models while maintaining stability.
