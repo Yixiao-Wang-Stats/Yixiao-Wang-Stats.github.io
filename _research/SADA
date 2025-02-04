@@ -1,0 +1,24 @@
+---
+title: "SADA: Stability-guided Adaptive Diffusion Acceleration"
+collection: research
+type: "ICML in submit"
+permalink: /research/SADA
+venue: "Duke University"
+date: 2024-05-01
+location: "NC, United States"
+excerpt: "In this paper, we propose the Stable Accelerated Adaptive
+Diffusion (SADA) method, which introduces a dual pruning approach—step-wise pruning (skipping) and token-wise
+pruning—to accelerate diffusion models while maintaining
+stability."
+tags:
+  - Diffusion
+  - AM method
+  - Stable Accelerating
+---
+## Overview
+
+We propose the **Stable Accelerated Adaptive Diffusion (SADA)** method, introducing a **dual pruning approach**—step-wise pruning (skipping) and token-wise pruning—to accelerate diffusion models while maintaining stability.
+
+This work is currently under submission to ICML, and I am a **co-first author**. My contributions include the **development of the approximation framework, step selection criteria, and all theoretical formulations and proofs**. Additionally, I contributed to the **writing** of the paper. 
+
+More details will be shared once the review process is complete.
