@@ -20,8 +20,8 @@ main:
   - title: "Presentation"
     url: /presentation/  
     
-  - title: "CV"
-    url: /cv/
+# - title: "CV"
+#   url: /cv/
 
   - title: "Hobby & Miscellaneous"
     url: /hobby_miscellaneous/
