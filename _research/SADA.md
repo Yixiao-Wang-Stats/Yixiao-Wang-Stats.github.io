@@ -11,9 +11,8 @@ Diffusion (SADA) method, which introduces a dual pruning approach—step-wise pr
 pruning—to accelerate diffusion models while maintaining
 stability."
 tags:
-  - Diffusion Model
+  - Generative Model
   - Numerical Method
-  - Machine Learning Theory
   - Stable Accelerating
 ---
 
