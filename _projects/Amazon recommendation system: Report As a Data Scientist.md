@@ -1,5 +1,5 @@
 ---
-title: "Amazon recommendation system: Report As a Data Scientist"
+title: "Amazon recommendation system - Report As a Data Scientist"
 collection: projects
 type: "Course Project"
 permalink: /projects/amazon_recommendation_system
