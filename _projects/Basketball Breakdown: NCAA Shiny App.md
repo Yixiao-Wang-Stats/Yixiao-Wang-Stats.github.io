@@ -1,5 +1,5 @@
 ---
-title: "Basketball Breakdown: NCAA Shiny App"
+title: "Basketball Breakdown - NCAA Shiny App"
 collection: projects
 type: "Course Project"
 permalink: /projects/NCAA_Data_Archive_Shiny_App
