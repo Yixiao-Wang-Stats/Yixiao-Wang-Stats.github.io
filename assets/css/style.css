@@ -26,7 +26,27 @@
   background-image: radial-gradient(circle at 50% 50%, #2f3040, #1f2020) !important;
 }
 
-.site-title img {
-  max-height: 28px;
-  margin-right: 8px;
+/* --- Custom Duke Header --- */
+
+.duke-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: #001A57; /* Duke blue */
+  white-space: nowrap;
+}
+
+.duke-logo {
+  height: 56px;        /* 明显放大 logo */
+  min-height: 56px;
+  width: auto;
+}
+
+.duke-title {
+  font-size: 1.8rem;    /* 比导航栏文字大 */
+  font-family: "UnifrakturCook", "Old English Text MT", "Georgia", serif;
+  font-weight: bold;
+  color: #001A57;       /* Duke blue */
+  white-space: nowrap;
 }
