@@ -21,6 +21,7 @@ redirect_from:
 </div>
 
 <div class="background-container">
+  <div class="watermark"></div> <!-- 水印背景 -->
   <div class="overlay-content">
     <h1>About Me</h1>
     <p>
@@ -40,6 +41,7 @@ redirect_from:
     </p>
   </div>
 </div>
+
 
 Research Interests
 ===============
