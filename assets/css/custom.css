@@ -1,16 +1,17 @@
-/* ========== ① 页面整体宽度控制 ========== */
-/* 全宽展示（覆盖 minimal-mistakes 默认 max-width: 800px） */
+/* ✅ 最彻底地解除宽度限制，使 Projects 展示区域真正铺开 */
+
+.page__content,
 .page .page__inner-wrap,
-.page__content {
-  max-width: none !important;
+.page,
+.layout--single {
+  max-width: 100% !important;
   width: 100% !important;
   padding-left: 2rem;
   padding-right: 2rem;
   box-sizing: border-box;
 }
 
-
-/* ========== ② 项目展示卡片样式 ========== */
+/* ✅ 项目展示卡片样式 */
 .project-block {
   display: flex;
   flex-wrap: nowrap;
@@ -21,8 +22,8 @@
   border: 1px solid #eee;
   padding: 1.5rem;
   border-radius: 14px;
-  background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
   transition: box-shadow 0.3s ease;
 }
 
@@ -30,10 +31,10 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* ========== ③ 项目图片样式 ========== */
+/* ✅ 图片样式 + 阴影 */
 .project-block img {
   width: 45%;
-  max-width: 450px;
+  max-width: 500px;
   border-radius: 10px;
   border: 1px solid #ccc;
   object-fit: cover;
@@ -45,7 +46,7 @@
   transform: scale(1.015);
 }
 
-/* ========== ④ 项目信息文字区 ========== */
+/* ✅ 右侧文字样式 */
 .project-info {
   flex: 1;
   min-width: 0;
