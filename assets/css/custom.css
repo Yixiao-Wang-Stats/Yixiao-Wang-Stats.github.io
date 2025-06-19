@@ -87,6 +87,7 @@ h1, h2, h3 {
   margin: auto;
   color: #111;
   line-height: 1.75;
+  text-align: left;
 }
 
 .overlay-content a {
