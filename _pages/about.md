@@ -97,7 +97,7 @@ Recent Projects
 Thesis
 ===============
 <div class="project-block">
-  <img src="/images/tmofa.png" alt="trimmed mean for functinoal analysis Project Figure">
+  <img src="/images/trimmedmean.png" alt="trimmed mean for functinoal analysis Project Figure">
   <div class="project-info">
     <p class="project-title">
     <a href="https://yixiao-wang-stats.github.io/research/Trimmed-Mean-for-Partially-Observed-Functional-Data" style="color: inherit; text-decoration: none;">
