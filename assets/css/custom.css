@@ -102,11 +102,4 @@ h1, h2, h3 {
   text-decoration: underline;
 }
 
-/* 覆盖 Minimal-Mistakes 默认的 1200px 限制 */
-.masthead .masthead__inner-wrap{
-  max-width: none !important;   /* 关键：彻底去掉最大宽度 */
-  width: 100% !important;       /* 让它跟随 viewport */
-  padding-left: 32px;
-  padding-right: 32px;
-}
 
