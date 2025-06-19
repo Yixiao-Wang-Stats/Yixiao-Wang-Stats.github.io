@@ -78,7 +78,7 @@ Recent Projects
   <div class="project-info">
     <p class="project-title">
     <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
-      <strong>ECCD: Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+      <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
     </a>
   </p>
 
@@ -94,4 +94,24 @@ Recent Projects
   </div>
 </div>
 
+Thesis
+===============
+<div class="project-block">
+  <img src="/images/tmofa.png" alt="trimmed mean for functinoal analysis Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/Trimmed-Mean-for-Partially-Observed-Functional-Data" style="color: inherit; text-decoration: none;">
+      <strong>Trimmed Mean for Partially Observed Functional Data</strong>
+    </a>
+  </p>
 
+    <p>
+      <strong>Yixiao Wang</strong><br>
+      <em>Bachelor's Thesis</em>
+    </p>
+    <p class="project-links">
+      <a href="https://arxiv.org/abs/2408.13062">Paper</a> |
+      <a href="https://github.com/Yixiao-Wang-Stats/TMoPOFD">Code</a> 
+    </p>
+  </div>
+</div>
