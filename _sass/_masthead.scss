@@ -1,21 +1,18 @@
-/* 导航栏主容器 - 亮色玻璃感 */
 .masthead {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 20;
 
-  background: rgba(255, 255, 255, 0.15);  /* 更加通透 */
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(14px) saturate(180%);
   -webkit-backdrop-filter: blur(14px) saturate(180%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   font-family: Georgia, serif;
-  color: #003087;  /* 深蓝字 */
+  color: #003087;
 }
 
-/* 内层包裹容器 */
 .masthead__inner-wrap {
   display: flex;
   align-items: center;
@@ -25,15 +22,14 @@
   margin: 0 auto;
 }
 
-/* Greedy nav 的整体 */
+/* 确保子元素透明，不遮挡 */
+.masthead__menu,
 .greedy-nav {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+  background: transparent !important;
+  box-shadow: none;
 }
 
-/* LOGO 样式优化（如有） */
+/* LOGO 样式 */
 .duke-header {
   display: flex;
   align-items: center;
@@ -48,34 +44,26 @@
   margin-right: 10px;
 }
 
-.duke-title {
-  font-family: Georgia, serif;
-  font-weight: 700;
-  color: #003087;
-}
-
-/* 菜单列表项 */
+/* 导航链接 */
 .masthead__menu-item a {
   color: #003087;
+  font-family: Georgia, serif;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
-  font-family: Georgia, serif;
   transition: color 0.2s ease;
 }
 
 .masthead__menu-item a:hover {
-  color: #0073e6;  /* Duke 蓝 hover 色 */
+  color: #0073e6;
 }
 
-/* 响应式按钮 */
 .greedy-nav button {
   background: none;
   border: none;
   cursor: pointer;
 }
 
-/* 避免正文被遮挡 */
 body {
   padding-top: 72px;
 }
