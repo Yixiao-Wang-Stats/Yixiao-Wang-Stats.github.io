@@ -1,32 +1,39 @@
-/* ----------------------------- */
-/* 1. 彻底解除宽度限制（保持你已有的样式） */
+/* 1. 解除默认宽度限制 + 保证不会自动居中 */
 .page,
 .layout--single,
 .page__content,
 .page .page__inner-wrap {
-  /* ① 取消任何 max-width 限制 */
   max-width: none !important;
-  /* ② 宽度让浏览器自主撑满，而不是强制100% */
   width: auto !important;
-  /* ③ 取消自动居中 */
   margin: 0 !important;
   box-sizing: border-box;
 }
 
-/* 2. 只在桌面端给正文“让位”侧边栏 */
+/* 2. 桌面端给内容让出侧边栏空间 */
 @media screen and (min-width: 1024px) {
   :root {
-    --mm-sidebar-width: 18rem;
+    --mm-sidebar-width: 18rem;  /* 侧边栏宽度 */
   }
 
   .page,
   .layout--single,
   .page__content,
   .page .page__inner-wrap {
-    /* 在桌面端才让出侧边栏宽度 */
-    margin-left: var(--mm-sidebar-width);
+    margin-left: var(--mm-sidebar-width); /* 👉 让出头像栏空间 */
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+/* 3. 移动端下（<1024px）内容顶格排，不留白，不重叠 */
+@media screen and (max-width: 1023px) {
+  .page,
+  .layout--single,
+  .page__content,
+  .page .page__inner-wrap {
+    margin-left: 0 !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
