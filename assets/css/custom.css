@@ -1,0 +1,26 @@
+.project-block {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+}
+.project-block img {
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.project-info {
+  flex: 1;
+}
+.project-title {
+  font-size: 1.1rem;
+  color: #b30000;
+  margin-bottom: 0.5rem;
+}
+.project-links a {
+  margin-right: 1rem;
+  color: #0056b3;
+  text-decoration: none;
+}
