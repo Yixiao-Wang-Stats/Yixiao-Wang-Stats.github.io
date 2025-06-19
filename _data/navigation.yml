@@ -14,11 +14,11 @@ main:
   - title: "Projects"
     url: /projects/
     
-  - title: "Teaching"
-    url: /teaching/    
+ # - title: "Teaching"
+  #  url: /teaching/    
 
-  - title: "Presentation"
-    url: /presentation/  
+#  - title: "Presentation"
+#    url: /presentation/  
     
 # - title: "CV"
 #   url: /cv/
