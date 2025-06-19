@@ -22,7 +22,6 @@ redirect_from:
 
 <div class="background-container">
   <div class="watermark"></div>   <!-- 水印层 -->
-  
   <!-- 纯正文（无白框） -->
   <div class="overlay-content">
     <h1>About Me</h1>
@@ -46,7 +45,6 @@ redirect_from:
 
 <div class="background-container">
   <div class="watermark"></div>   <!-- 水印层 -->
-  
     <!-- 纯正文（无白框） -->
   <div class="overlay-content">
       <h1>Research Interests</h1>
