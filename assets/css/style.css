@@ -61,20 +61,5 @@
   box-shadow: none !important;
 }
 
-/* Duke-themed translucent navbar */
-.masthead {
-  background-color: rgba(0, 26, 87, 0.9);  // Duke Blue + 半透明
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); // 微弱阴影增强悬浮感
-  border-bottom: none;                     // 去除横线
-}
-
-.masthead a,
-.masthead__menu-item {
-  color: #f9f9f9 !important;               // 导航文字变亮，适应深底色
-}
-
-.masthead__menu-item--lg .duke-title {
-  color: white !important;                 // 标题保持亮色（logo文字）
-}
 
 
