@@ -50,3 +50,9 @@
   color: #001A57;       /* Duke blue */
   white-space: nowrap;
 }
+
+// ===== Custom overrides for Duke header layout =====
+.masthead__inner-wrap {
+  padding: 1.5em 1em 1.5em;
+}
+
