@@ -1,29 +1,45 @@
-/* ✅ 最彻底地解除宽度限制，使 Projects 展示区域真正铺开 */
-
-.page__content,
-.page .page__inner-wrap,
+/* ----------------------------- */
+/* 1. 彻底解除宽度限制（保持你已有的样式） */
 .page,
-.layout--single {
+.layout--single,
+.page__content,
+.page .page__inner-wrap {
   max-width: 100% !important;
   width: 100% !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
   box-sizing: border-box;
 }
 
-/* ✅ 项目展示卡片样式 */
+/* 2. 只在桌面端给正文“让位”侧边栏 */
+@media screen and (min-width: 1024px) {       /* 1024px 以上视为桌面 */
+  :root {
+    /* 如果你在 _variables.scss 里改过侧栏宽度，
+       把 18rem 换成对应值即可 */
+    --mm-sidebar-width: 18rem;
+  }
+
+  .page,
+  .layout--single,
+  .page__content,
+  .page .page__inner-wrap {
+    margin-left: var(--mm-sidebar-width);     /* 让出头像栏宽度 */
+    padding-left: 2rem;                       /* 保持内边距 */
+    padding-right: 2rem;
+  }
+}
+
+/* ----------------------------- */
+/* 3. 你的项目卡片和图片阴影样式 */
 .project-block {
   display: flex;
   flex-wrap: nowrap;
   gap: 1.5rem;
   margin-top: 2rem;
   align-items: flex-start;
-
   border: 1px solid #eee;
   padding: 1.5rem;
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
+  background-color: #fff;
   transition: box-shadow 0.3s ease;
 }
 
@@ -31,14 +47,13 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* ✅ 图片样式 + 阴影 */
 .project-block img {
   width: 45%;
   max-width: 500px;
   border-radius: 10px;
   border: 1px solid #ccc;
   object-fit: cover;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* 图片阴影 */
   transition: transform 0.3s ease;
 }
 
@@ -46,26 +61,8 @@
   transform: scale(1.015);
 }
 
-/* ✅ 右侧文字样式 */
-.project-info {
-  flex: 1;
-  min-width: 0;
-}
+.project-info { flex: 1; min-width: 0; }
 
-.project-title {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #c0392b;
-  margin-bottom: 0.5rem;
-}
-
-.project-links a {
-  margin-right: 1rem;
-  color: #0056b3;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.project-links a:hover {
-  text-decoration: underline;
-}
+.project-title   { font-size: 1.4rem; font-weight: 700; color: #c0392b; margin-bottom: .5rem; }
+.project-links a { margin-right: 1rem; color: #0056b3; font-weight: 600; text-decoration: none; }
+.project-links a:hover { text-decoration: underline; }
