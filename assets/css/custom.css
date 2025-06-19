@@ -42,7 +42,7 @@
 .background-container {
   position: relative;
   overflow: hidden;
-  padding: 4rem 1rem;
+  padding: 0 1rem;
   font-family: Georgia, serif;
   background-color: #fff;
 }
@@ -56,13 +56,13 @@
 
   /* 使用嵌入式 SVG 作为背景，既能横向也能纵向平铺 */
   background-image: url("data:image/svg+xml;utf8, \
-    <svg xmlns='http://www.w3.org/2000/svg' width='800' height='120'> \
-      <text x='0' y='90' font-size='80' font-weight='700' \
+    <svg xmlns='http://www.w3.org/2000/svg' width='800' height='90'> \
+      <text x='0' y='70' font-size='70' font-weight='700' \
             fill='rgba(0,48,135,0.04)'>DUKE UNIVERSITY</text> \
     </svg>");
   
   background-repeat: repeat;       /* 横、纵方向都重复 */
-  background-size: 600px 120px;    /* 调节字距 (宽度 × 行高) */
+  background-size: 500px 90px;    /* 调节字距 (宽度 × 行高) */
 }
 
 /* 正文：去掉白框、阴影，只保留排版宽度 */
