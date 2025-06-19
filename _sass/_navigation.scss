@@ -432,3 +432,31 @@
     }
   }
 }
+
+
+/* === 覆盖默认导航行为，使 visible-links 铺满宽度 === */
+
+.greedy-nav {
+  display: flex;
+  flex: 1 1 auto;
+  max-width: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 992px) {
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
+  .greedy-nav button {
+    display: none !important;
+  }
+}
