@@ -47,6 +47,7 @@
   font-size: 1.8rem;    /* 比导航栏文字大 */
   font-weight: bold;
   color: #001A57;       /* Duke blue */
+  font-family: "UnifrakturCook", "Old English Text MT", "Georgia", serif;
   white-space: nowrap;
 }
 
