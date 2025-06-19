@@ -44,11 +44,15 @@ redirect_from:
   </div>
 </div>
 
-<div class="overlay-content">
-    <h1>Research Interests</h1>
-    <p>
-      Statistical and Machine Learning, Deep Learning, Generative Models, with a focus on both theoretical foundations and real-world applications.
-    </p>
+<div class="background-container">
+  <div class="watermark"></div>   <!-- 水印层 -->
+  
+    <!-- 纯正文（无白框） -->
+  <div class="overlay-content">
+      <h1>Research Interests</h1>
+      <p>
+        Statistical and Machine Learning, Deep Learning, Generative Models, with a focus on both theoretical foundations and real-world applications.
+      </p>
   </div>
 </div>
 
