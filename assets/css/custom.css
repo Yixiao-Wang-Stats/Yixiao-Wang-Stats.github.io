@@ -1,39 +1,54 @@
-/* 1. 解除默认宽度限制 + 保证不会自动居中 */
-.page,
-.layout--single,
-.page__content,
-.page .page__inner-wrap {
-  max-width: none !important;
-  width: auto !important;
-  margin: 0 !important;
-  box-sizing: border-box;
+/* 0. 先定义一个全局变量，表示侧边栏宽度 */
+:root {
+  --mm-sidebar-width: 18rem;  /* 你想要留给头像栏的宽度 */
 }
 
-/* 2. 桌面端给内容让出侧边栏空间 */
+/* ---------------- desktop: ≥1024px 两栏布局 ---------------- */
 @media screen and (min-width: 1024px) {
-  :root {
-    --mm-sidebar-width: 18rem;  /* 侧边栏宽度 */
+  /* 1. 父容器横向排列 */
+  #main {
+    display: flex !important;
+    align-items: flex-start;
   }
 
+  /* 2. 左侧栏固定宽度，不要任何负 margin */
+  .sidebar.sticky {
+    flex: 0 0 var(--mm-sidebar-width) !important;
+    width: var(--mm-sidebar-width)   !important;
+    margin: 0                         !important;
+    /* 保持原来 sticky 行为 */
+    position: sticky  !important;
+    top: 2rem         !important;  /* 根据你原来主题的 top 值调整 */
+  }
+
+  /* 3. 正文区填满剩余空间 */
+  /* 这里把你之前对 .page/.page__inner-wrap 的重写全部放在这儿 */
   .page,
   .layout--single,
   .page__content,
   .page .page__inner-wrap {
-    margin-left: var(--mm-sidebar-width); /* 👉 让出头像栏空间 */
-    padding-left: 2rem;
-    padding-right: 2rem;
+    flex: 1 1 auto     !important;
+    max-width: none    !important;
+    width: auto        !important;
+    margin: 0          !important;
+    padding-left: 2rem !important;
+    padding-right:2rem !important;
+    box-sizing: border-box;
   }
 }
 
-/* 3. 移动端下（<1024px）内容顶格排，不留白，不重叠 */
+/* ---------------- mobile: <1024px 恢复单列---------------- */
 @media screen and (max-width: 1023px) {
+  #main {
+    display: block !important;
+  }
+  .sidebar.sticky,
   .page,
   .layout--single,
   .page__content,
   .page .page__inner-wrap {
-    margin-left: 0 !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: 0      !important;
+    padding: 1rem  !important;  /* 移动端的左右内边距 */
   }
 }
 
