@@ -37,3 +37,55 @@
 .project-title   { font-size: 1.4rem; font-weight: 700; color: #c0392b; margin-bottom: .5rem; }
 .project-links a { margin-right: 1rem; color: #0056b3; font-weight: 600; text-decoration: none; }
 .project-links a:hover { text-decoration: underline; }
+
+
+.background-container {
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  font-family: 'Georgia', serif;
+}
+
+/* 水印背景 */
+.background-container::before {
+  content: "DUKE UNIVERSITY DUKE UNIVERSITY DUKE UNIVERSITY DUKE UNIVERSITY ";
+  position: absolute;
+  top: 0;
+  left: -10%;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #003087; /* Duke Blue */
+  opacity: 0.05;
+  white-space: nowrap;
+  width: 300%;
+  height: 100%;
+  transform: rotate(-30deg);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* 正文内容样式 */
+.overlay-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  line-height: 1.75;
+  color: #111;
+}
+
+.overlay-content a {
+  color: #003087;
+  text-decoration: none;
+}
+
+.overlay-content a:hover {
+  text-decoration: underline;
+}
+
