@@ -4,9 +4,7 @@
   width: 100%;
   z-index: 20;
 
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  background: rgba(255, 255, 255, 0.7);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   font-family: Georgia, serif;
@@ -67,21 +65,33 @@
 body {
   padding-top: 72px;
 }
+
+
 .greedy-nav .dropdown-menu,
 .greedy-nav .hidden-links {
-  min-width: 240px;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  min-width: 300px;             /* ✅ 你想要的更宽 */
+  max-width: 400px;             /* ✅ 避免极宽也控制一下上限 */
+  padding: 0.75rem 1.25rem;     /* ✅ 增加左右空白 */
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   font-family: Georgia, serif;
-  background-color: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(10px);
-}
-
-.hidden-links a {
-  display: block;
+  background-color: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   white-space: nowrap;
-  font-size: 1rem;
-  padding: 0.4rem 0;
+  box-sizing: border-box;
 }
 
+.hidden-links a,
+.dropdown-menu a {
+  display: block;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  color: #003087;
+  text-decoration: none;
+}
+
+.hidden-links a:hover,
+.dropdown-menu a:hover {
+  color: #0073e6;
+}
