@@ -94,8 +94,7 @@ Recent Projects
   </div>
 </div>
 
-Thesis
-===============
+
 <div class="project-block">
   <img src="/images/trimmedmean.png" alt="trimmed mean for functinoal analysis Project Figure">
   <div class="project-info">
