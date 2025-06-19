@@ -1,9 +1,16 @@
-/* 1. 让容器最大化宽度（解除 minimal-mistakes 限制） */
+/* ========== ① 页面整体宽度控制 ========== */
+/* 全宽展示（覆盖 minimal-mistakes 默认 max-width: 800px） */
+.page .page__inner-wrap,
 .page__content {
-  max-width: 1200px !important;
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
 }
 
-/* 2. 项目展示卡片样式 */
+
+/* ========== ② 项目展示卡片样式 ========== */
 .project-block {
   display: flex;
   flex-wrap: nowrap;
@@ -14,8 +21,8 @@
   border: 1px solid #eee;
   padding: 1.5rem;
   border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s ease;
 }
 
@@ -23,22 +30,22 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* 3. 图片样式 */
+/* ========== ③ 项目图片样式 ========== */
 .project-block img {
   width: 45%;
   max-width: 450px;
   border-radius: 10px;
   border: 1px solid #ccc;
   object-fit: cover;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* ✅ 图片阴影 */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
 
 .project-block img:hover {
-  transform: scale(1.015); /* 可选：鼠标悬浮放大一点点 */
+  transform: scale(1.015);
 }
 
-/* 4. 文字部分样式 */
+/* ========== ④ 项目信息文字区 ========== */
 .project-info {
   flex: 1;
   min-width: 0;
