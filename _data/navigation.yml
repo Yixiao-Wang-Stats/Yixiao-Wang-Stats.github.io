@@ -5,7 +5,7 @@
 # prevent it from being included in the site.
 # This is a test information
 main:
-  - title: "About"
+  - title: "Home"
     url: /about/
     
   - title: "Research"
