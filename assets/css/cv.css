@@ -8,8 +8,9 @@
 }
 
 #as_pdf > a {
+  color: #003087;               /* ✅ Duke 蓝 */
   text-decoration: none;
-  color: rgb(73, 78, 82);
+  font-weight: 500;
 }
 
 .archive > h1 {
