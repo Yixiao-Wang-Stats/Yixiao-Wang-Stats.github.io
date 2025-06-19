@@ -1,30 +1,37 @@
-/* ---------------------------------------- */
-/* 1. 解除 max-width，并让宽度自动占满剩余空间 */
-.page,
-.layout--single,
-.page__content,
-.page .page__inner-wrap {
-  max-width: 100%;        /* 不再限制 812px */
-  box-sizing: border-box; /* 让 padding 算进宽度 */
+/*===========================*/
+/* 0️⃣ 统一侧栏宽度变量        */
+:root { --aside: 18rem; }     /* 若你改过 _sass/_variables.scss，这里同步 */
+
+/*===========================*/
+/* 1️⃣ 桌面端 (≥1025px)       */
+@media (min-width: 1025px) {
+
+  /* 主内容容器：给侧栏让位 + 稍微放宽 max-width */
+  .page__content,
+  .page .page__inner-wrap,
+  .layout--single {
+    margin-left: var(--aside);      /* 挪开侧栏 */
+    max-width: 1100px;              /* 原 ~880px，按需改 */
+    padding-inline: 2rem;           /* 左右留 32px 呼吸 */
+    box-sizing: border-box;
+  }
+
+  /* 彻底禁止水平滚动条闪现 */
+  html, body { overflow-x: hidden; }
 }
 
-/* 2. 桌面端（≥1024px）侧栏让位，但不再 width:100%  */
-@media screen and (min-width: 1024px) {
-  :root { --mm-sidebar-width: 18rem; }   /* 若侧栏宽度改过，这里同步 */
-
-  .page,
-  .layout--single,
+/*===========================*/
+/* 2️⃣ 小屏 (<1025px) 保持默认 */
+@media (max-width: 1024px) {
+  /* 确保我们桌面端的 margin 不污染小屏 */
   .page__content,
-  .page .page__inner-wrap {
-    margin-left: var(--mm-sidebar-width);   /* 让出头像栏 */
-    padding: 0 2rem;                        /* 两侧留点呼吸 */
-    width: auto;            /* 🔑 让浏览器自己算“剩余宽度” */
-    max-width: calc(100vw - var(--mm-sidebar-width));
+  .page .page__inner-wrap,
+  .layout--single {
+    margin-left: 0;
+    padding-inline: 1.25rem;
+    max-width: none;
   }
 }
-
-/* （可选）彻底禁止横向滚动条闪现 */
-html, body { overflow-x: hidden; }
 
 /* ----------------------------- */
 /* 3. 你的项目卡片和图片阴影样式 */
