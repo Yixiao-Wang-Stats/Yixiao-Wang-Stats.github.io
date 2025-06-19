@@ -1,14 +1,18 @@
-/* 导航栏主容器 */
+/* 导航栏主容器 - 亮色玻璃感 */
 .masthead {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 20;
-  background: linear-gradient(to right, #003087cc, #0050b3cc);
-  backdrop-filter: blur(6px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  background: rgba(255, 255, 255, 0.15);  /* 更加通透 */
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   font-family: Georgia, serif;
-  color: white;
+  color: #003087;  /* 深蓝字 */
 }
 
 /* 内层包裹容器 */
@@ -29,11 +33,30 @@
   flex-wrap: wrap;
 }
 
+/* LOGO 样式优化（如有） */
+.duke-header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #003087;
+  text-decoration: none;
+}
 
+.duke-logo {
+  height: 36px;
+  margin-right: 10px;
+}
+
+.duke-title {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  color: #003087;
+}
 
 /* 菜单列表项 */
 .masthead__menu-item a {
-  color: white;
+  color: #003087;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
@@ -42,7 +65,7 @@
 }
 
 .masthead__menu-item a:hover {
-  color: #aad4ff;
+  color: #0073e6;  /* Duke 蓝 hover 色 */
 }
 
 /* 响应式按钮 */
