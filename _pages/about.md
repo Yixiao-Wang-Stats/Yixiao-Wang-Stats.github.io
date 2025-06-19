@@ -43,7 +43,8 @@ Recent Projects
     </p>
     <p class="project-links">
       <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
-      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a>
+      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a> |
+      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
     </p>
     <p>
       A training-free diffusion acceleration framework that jointly exploits step-wise and token-wise sparsity via a unified stability criterion.
@@ -65,6 +66,7 @@ Recent Projects
     <p class="project-links">
       <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
       <a href="https://github.com/Yixiao-Wang/eccd-neurips">Code</a>
+      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
     </p>
     <p>
       A theoretically grounded optimization method that enhances classical coordinate descent by unrolling updates across blocks and applying Taylor-based curvature correction. ECCD achieves up to 13× speedup and maintains sub-10⁻⁵ relative error across logistic and Poisson GLMs, outperforming glmnet, biglasso, and ncvreg on high-dimensional benchmarks.
