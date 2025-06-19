@@ -1,116 +1,52 @@
-/*————————————————————————————————————
+/*—————————————————————————————
   全局变量：侧边栏宽度 & 导航栏高度
-————————————————————————————————————*/
+—————————————————————————————*/
 :root {
-  /* 给头像栏预留的宽度，和你侧边栏实际宽度保持一致 */
-  --mm-sidebar-width: 18rem;
-  /* 你的固定导航栏（header）高度，用开发者工具量一下改成对应值 */
-  --mm-navbar-height: 64px;
+  --mm-sidebar-width: 18rem;  /* 你侧栏的实际宽度 */
+  --mm-navbar-height: 64px;   /* 你的 header 高度，测量后填入正确值 */
 }
 
-/*————————————————————————————————————
-  通用：整体主区域下移，给 header 腾出空间
-————————————————————————————————————*/
+/*—————————————————————————————
+  给 #main 下方空出 header 的高度，防止顶部遮挡
+—————————————————————————————*/
 #main {
-  /* 下移正文和侧边栏，避免被固定 header 遮挡 */
   padding-top: var(--mm-navbar-height) !important;
   box-sizing: border-box;
 }
 
-/*————————————————————————————————————
-  桌面端 (≥1024px)：两栏布局
-————————————————————————————————————*/
+/*—————————————————————————————
+  桌面端 (≥1024px)：只加左侧边距，保留原 max-width
+—————————————————————————————*/
 @media screen and (min-width: 1024px) {
-
-  /* 1. 将 #main 变成 flex 两列 */
-  #main {
-    display: flex !important;
-    align-items: flex-start;
-  }
-
-  /* 2. 左侧栏固定宽度、粘性定位 */
+  /* 1) 侧边栏仍旧 sticky，不改它原本的 display/float，只修 top */
   .sidebar.sticky {
-    flex: 0 0 var(--mm-sidebar-width) !important;
-    width: var(--mm-sidebar-width)   !important;
-    margin: 0                          !important;
-    position: sticky                  !important;
-    top: var(--mm-navbar-height)      !important;
-    box-sizing: border-box;
+    position: sticky !important;
+    top: var(--mm-navbar-height) !important;
   }
 
-  /* 3. 正文区占满剩余空间，取消所有默认 max-width / margin */
+  /* 2) 正文容器整体右移，保留自身 max-width */
   .page,
   .layout--single,
   .page__content,
   .page .page__inner-wrap {
-    flex: 1 1 auto      !important;
-    max-width: none     !important;
-    width: auto         !important;
-    margin: 0           !important;
-    padding-left: 2rem  !important;
-    padding-right: 2rem !important;
+    margin-left: var(--mm-sidebar-width) !important;
+    padding-left: 2rem           !important; /* 侧边栏和正文的内间距 */
+    padding-right: 2rem          !important;
     box-sizing: border-box;
   }
 }
 
-/*————————————————————————————————————
-  移动端 (<1024px)：单列布局回落
-————————————————————————————————————*/
+/*—————————————————————————————
+  移动端 (<1024px)：恢复单列，去掉左侧边距
+—————————————————————————————*/
 @media screen and (max-width: 1023px) {
-  /* 恢复 block 布局 */
-  #main {
-    display: block !important;
-  }
-
-  /* 侧边栏和正文都用统一 padding，避免贴边 */
-  .sidebar.sticky,
   .page,
   .layout--single,
   .page__content,
   .page .page__inner-wrap {
-    margin: 0       !important;
-    padding: 1rem   !important;
+    margin-left: 0         !important;
+    padding-left: 1rem     !important;
+    padding-right: 1rem    !important;
     box-sizing: border-box;
   }
 }
-
-
-/* ----------------------------- */
-/* 3. 你的项目卡片和图片阴影样式 */
-.project-block {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 1.5rem;
-  margin-top: 2rem;
-  align-items: flex-start;
-  border: 1px solid #eee;
-  padding: 1.5rem;
-  border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  background-color: #fff;
-  transition: box-shadow 0.3s ease;
-}
-
-.project-block:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-}
-
-.project-block img {
-  width: 45%;
-  max-width: 500px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  object-fit: cover;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* 图片阴影 */
-  transition: transform 0.3s ease;
-}
-
-.project-block img:hover {
-  transform: scale(1.015);
-}
-
-.project-info { flex: 1; min-width: 0; }
-
-.project-title   { font-size: 1.4rem; font-weight: 700; color: #c0392b; margin-bottom: .5rem; }
-.project-links a { margin-right: 1rem; color: #0056b3; font-weight: 600; text-decoration: none; }
-.project-links a:hover { text-decoration: underline; }
