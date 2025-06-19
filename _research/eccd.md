@@ -8,11 +8,6 @@ venue: "Duke University"
 date: 2025-05-15
 location: "NC, United States"
 excerpt: "A theoretically grounded optimization method that enhances classical coordinate descent by unrolling updates across blocks and applying Taylor-based curvature correction. ECCD achieves up to 13× speedup and maintains sub-10⁻⁵ relative error across logistic and Poisson GLMs, outperforming glmnet, biglasso, and ncvreg on high-dimensional benchmarks."
-
-Sitemap
-Follow: GitHub Feed
-© 2025 Your Name. Powered by Jekyll & AcademicPages, a fork of Minimal Mistakes.
-✦"
 tags:
   - Generalized Linear Model
   - Block Coordinate Descent
