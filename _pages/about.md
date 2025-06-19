@@ -66,8 +66,8 @@ Recent Projects
       <em>ICML 2025</em>
     </p>
     <p class="project-links">
-      <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
-      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a> |
+      <a href="#">Paper</a> |
+      <a href="#">Code</a> |
       <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
     </p>
   </div>
@@ -87,9 +87,9 @@ Recent Projects
       <em>NeurIPS 2025 (Submitted)</em>
     </p>
     <p class="project-links">
-      <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
-      <a href="https://github.com/Yixiao-Wang/eccd-neurips">Code</a> |
-      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
+      <a href="#">Paper</a> |
+      <a href="#">Code</a> |
+      <a href="#">Slide</a>
     </p>
   </div>
 </div>
