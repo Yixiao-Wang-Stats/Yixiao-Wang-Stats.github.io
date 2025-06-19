@@ -4,7 +4,7 @@
   width: 100%;
   z-index: 20;
 
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   font-family: Georgia, serif;
@@ -16,7 +16,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 32px;
-  max-width: 1200px;
+  max-width: none;   /* 或注释掉这一行 */
+  width: 100%;
   margin: 0 auto;
 }
 
