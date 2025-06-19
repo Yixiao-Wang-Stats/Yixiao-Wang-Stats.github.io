@@ -38,70 +38,51 @@
 .project-links a { margin-right: 1rem; color: #0056b3; font-weight: 600; text-decoration: none; }
 .project-links a:hover { text-decoration: underline; }
 
-
+/* 容器：负责定位 */
 .background-container {
   position: relative;
   overflow: hidden;
   padding: 4rem 1rem;
-  font-family: 'Georgia', serif;
-  background-color: white;
+  font-family: Georgia, serif;
+  background-color: #fff;
 }
 
-/* 水印背景块（在下方） */
+/* ✨ 水印层：用可重复的 SVG 文字做背景图 */
 .watermark {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 40px,
-    rgba(0, 48, 135, 0.04) 40px,
-    rgba(0, 48, 135, 0.04) 80px
-  );
-  background-size: auto;
+  inset: 0;               /* 等价于 top/right/bottom/left: 0 */
   z-index: 0;
   pointer-events: none;
 
-  /* 使用生成内容叠加文字 */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 48px;
-  font-weight: 800;
-  color: rgba(0, 48, 135, 0.04); /* 淡淡的 Duke 蓝 */
-  white-space: nowrap;
+  /* 使用嵌入式 SVG 作为背景，既能横向也能纵向平铺 */
+  background-image: url("data:image/svg+xml;utf8, \
+    <svg xmlns='http://www.w3.org/2000/svg' width='800' height='120'> \
+      <text x='0' y='90' font-size='80' font-weight='700' \
+            fill='rgba(0,48,135,0.04)'>DUKE UNIVERSITY</text> \
+    </svg>");
+  
+  background-repeat: repeat;       /* 横、纵方向都重复 */
+  background-size: 600px 120px;    /* 调节字距 (宽度 × 行高) */
 }
 
-.watermark::before {
-  content: "DUKE UNIVERSITY DUKE UNIVERSITY DUKE UNIVERSITY ";
-  line-height: 80px;
-  display: block;
-  height: 100%;
-  width: 200%;
-  pointer-events: none;
-}
-
-/* 正文卡片 */
+/* 正文：去掉白框、阴影，只保留排版宽度 */
 .overlay-content {
   position: relative;
-  z-index: 1;
-  background-color: white;
+  z-index: 1;             /* 保证盖在水印之上 */
   max-width: 800px;
   margin: auto;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
   color: #111;
   line-height: 1.75;
 }
 
 .overlay-content a {
-  color: #003087;
+  color: #003087;         /* Duke 蓝 */
   text-decoration: none;
 }
+.overlay-content a:hover {
+  text-decoration: underline;
+}
+
 
 .overlay-content a:hover {
   text-decoration: underline;
