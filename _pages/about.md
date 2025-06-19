@@ -10,6 +10,7 @@ redirect_from:
 <!-- 加载图标样式（如果还没加载） -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="/assets/css/cv.css">
+<link rel="stylesheet" href="/assets/css/custom.css">
 
 <!-- 顶部标题与下载按钮对齐 -->
 <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem;">
@@ -37,8 +38,8 @@ Recent Projects
       <strong>SADA: Stability-guided Adaptive Diffusion Acceleration</strong>
     </p>
     <p>
-      Ting Jiang*, <strong>Yixiao Wang*</strong>, Hancheng Ye, Zishan Shao, Jingwei Sun, Jingyang Zhang, Zekai Chen, Jianyi Zhang, Yiran Chen, Hai Li<br>
-      <em>ICML 2025 (PMLR 267)</em>
+      Ting Jiang*, <strong>Yixiao Wang*</strong>, Hancheng Ye*, Zishan Shao, Jingwei Sun, Jingyang Zhang, Zekai Chen, Jianyi Zhang, Yiran Chen, Hai Li<br>
+      <em>ICML 2025</em>
     </p>
     <p class="project-links">
       <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
@@ -50,4 +51,25 @@ Recent Projects
     </p>
   </div>
 </div>
+
+<div class="project-block">
+  <img src="/images/eccd.png" alt="ECCD Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+      <strong>ECCD: Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+    </p>
+    <p>
+      <strong>Yixiao Wang*</strong>, Zishan Shao*, Ting Jiang, Aditya Devarakonda<br>
+      <em>NeurIPS 2025 (Submitted)</em>
+    </p>
+    <p class="project-links">
+      <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
+      <a href="https://github.com/Yixiao-Wang/eccd-neurips">Code</a>
+    </p>
+    <p>
+      A theoretically grounded optimization method that enhances classical coordinate descent by unrolling updates across blocks and applying Taylor-based curvature correction. ECCD achieves up to 13× speedup and maintains sub-10⁻⁵ relative error across logistic and Poisson GLMs, outperforming glmnet, biglasso, and ncvreg on high-dimensional benchmarks.
+    </p>
+  </div>
+</div>
+
 
