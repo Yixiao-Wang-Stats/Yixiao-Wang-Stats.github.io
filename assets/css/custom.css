@@ -1,3 +1,17 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #111;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #111;
+}
+
+
 /* ----------------------------- */
 /* 3. 你的项目卡片和图片阴影样式 */
 .project-block {
@@ -34,7 +48,7 @@
 
 .project-info { flex: 1; min-width: 0; }
 
-.project-title   { font-size: 1.4rem; font-weight: 700; color: #c0392b; margin-bottom: .5rem; }
+.project-title   { font-size: 1.4rem; font-weight: 700; color: #003087; margin-bottom: .5rem; }
 .project-links a { margin-right: 1rem; color: #0056b3; font-weight: 600; text-decoration: none; }
 .project-links a:hover { text-decoration: underline; }
 
