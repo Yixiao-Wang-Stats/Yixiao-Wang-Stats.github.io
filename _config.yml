@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yixiao Wang (王怿骁)"
+title                    : "Duke University"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
