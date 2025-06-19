@@ -1,35 +1,30 @@
-/*===========================*/
-/* 0️⃣ 统一侧栏宽度变量        */
-:root { --aside: 18rem; }     /* 若你改过 _sass/_variables.scss，这里同步 */
-
-/*===========================*/
-/* 1️⃣ 桌面端 (≥1025px)       */
-@media (min-width: 1025px) {
-
-  /* 主内容容器：给侧栏让位 + 稍微放宽 max-width */
-  .page__content,
-  .page .page__inner-wrap,
-  .layout--single {
-    margin-left: var(--aside);      /* 挪开侧栏 */
-    max-width: 1100px;              /* 原 ~880px，按需改 */
-    padding-inline: 2rem;           /* 左右留 32px 呼吸 */
-    box-sizing: border-box;
-  }
-
-  /* 彻底禁止水平滚动条闪现 */
-  html, body { overflow-x: hidden; }
+/* ----------------------------- */
+/* 1. 彻底解除宽度限制（保持你已有的样式） */
+.page,
+.layout--single,
+.page__content,
+.page .page__inner-wrap {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-inline: auto;
+  box-sizing: border-box;
 }
 
-/*===========================*/
-/* 2️⃣ 小屏 (<1025px) 保持默认 */
-@media (max-width: 1024px) {
-  /* 确保我们桌面端的 margin 不污染小屏 */
+/* 2. 只在桌面端给正文“让位”侧边栏 */
+@media screen and (min-width: 1024px) {       /* 1024px 以上视为桌面 */
+  :root {
+    /* 如果你在 _variables.scss 里改过侧栏宽度，
+       把 18rem 换成对应值即可 */
+    --mm-sidebar-width: 18rem;
+  }
+
+  .page,
+  .layout--single,
   .page__content,
-  .page .page__inner-wrap,
-  .layout--single {
-    margin-left: 0;
-    padding-inline: 1.25rem;
-    max-width: none;
+  .page .page__inner-wrap {
+    margin-left: var(--mm-sidebar-width);     /* 让出头像栏宽度 */
+    padding-left: 2rem;                       /* 保持内边距 */
+    padding-right: 2rem;
   }
 }
 
