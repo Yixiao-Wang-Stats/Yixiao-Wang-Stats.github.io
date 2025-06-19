@@ -4,17 +4,18 @@
 .layout--single,
 .page__content,
 .page .page__inner-wrap {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin-inline: auto;
+  /* ① 取消任何 max-width 限制 */
+  max-width: none !important;
+  /* ② 宽度让浏览器自主撑满，而不是强制100% */
+  width: auto !important;
+  /* ③ 取消自动居中 */
+  margin: 0 !important;
   box-sizing: border-box;
 }
 
 /* 2. 只在桌面端给正文“让位”侧边栏 */
-@media screen and (min-width: 1024px) {       /* 1024px 以上视为桌面 */
+@media screen and (min-width: 1024px) {
   :root {
-    /* 如果你在 _variables.scss 里改过侧栏宽度，
-       把 18rem 换成对应值即可 */
     --mm-sidebar-width: 18rem;
   }
 
@@ -22,11 +23,13 @@
   .layout--single,
   .page__content,
   .page .page__inner-wrap {
-    margin-left: var(--mm-sidebar-width);     /* 让出头像栏宽度 */
-    padding-left: 2rem;                       /* 保持内边距 */
+    /* 在桌面端才让出侧边栏宽度 */
+    margin-left: var(--mm-sidebar-width);
+    padding-left: 2rem;
     padding-right: 2rem;
   }
 }
+
 
 /* ----------------------------- */
 /* 3. 你的项目卡片和图片阴影样式 */
