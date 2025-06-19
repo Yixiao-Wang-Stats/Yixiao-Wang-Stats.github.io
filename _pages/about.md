@@ -65,7 +65,7 @@ Recent Projects
     </p>
     <p class="project-links">
       <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
-      <a href="https://github.com/Yixiao-Wang/eccd-neurips">Code</a>
+      <a href="https://github.com/Yixiao-Wang/eccd-neurips">Code</a> |
       <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
     </p>
     <p>
