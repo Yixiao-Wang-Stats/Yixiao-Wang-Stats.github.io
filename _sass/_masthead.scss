@@ -66,17 +66,3 @@ body {
   padding-top: 72px;
 }
 
-
-/* ① 让 nav 占满 flex 剩余空间 */
-.greedy-nav{
-  flex: 1 1 auto;     /* 把剩余空间都吃掉 */
-  max-width: none;    /* ⬅️ 取消它默认的 26em 上限 */
-}
-
-/* ② 桌面端强制展示全部链接，隐藏汉堡按钮 */
-@media screen and (min-width: 992px){
-  .greedy-nav .visible-links {display:flex !important; gap:2rem;}
-  .greedy-nav .hidden-links  {display:none !important;}
-  .greedy-nav button         {display:none !important;}
-}
-
