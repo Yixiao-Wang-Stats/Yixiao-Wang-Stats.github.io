@@ -16,8 +16,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 32px;
-  max-width: none;   /* 或注释掉这一行 */
-  width: 100%;
+  max-width: 1400px;   /* ⬅️ 让导航变窄的罪魁 */
   margin: 0 auto;
 }
 
