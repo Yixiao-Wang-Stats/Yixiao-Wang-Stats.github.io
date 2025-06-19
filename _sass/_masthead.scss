@@ -1,58 +1,58 @@
-/* ==========================================================================
-   MASTHEAD
-   ========================================================================== */
-
+/* 导航栏主容器 */
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
-  height: $masthead-height;
   top: 0;
   width: 100%;
-
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
   z-index: 20;
-
-  &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
-
-    nav {
-      z-index: 10;
-    }
-
-    a {
-      text-decoration: none;
-    }
-  }
+  background: linear-gradient(to right, #003087cc, #0050b3cc);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Georgia, serif;
+  color: white;
 }
 
-.masthead__menu {
-
-  ul {
-    margin: 0;
-    padding: 0;
-    clear: both;
-    list-style-type: none;
-  }
+/* 内层包裹容器 */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.masthead__menu-item {
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+/* Greedy nav 的整体 */
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
 
-  &--lg {
-    padding-right: 3em;
-    font-weight: 700;
-  }
+
+
+/* 菜单列表项 */
+.masthead__menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Georgia, serif;
+  transition: color 0.2s ease;
+}
+
+.masthead__menu-item a:hover {
+  color: #aad4ff;
+}
+
+/* 响应式按钮 */
+.greedy-nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 避免正文被遮挡 */
+body {
+  padding-top: 72px;
 }
