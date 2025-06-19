@@ -1,33 +1,54 @@
+/* 1. 让容器最大化宽度（解除 minimal-mistakes 限制） */
+.page__content {
+  max-width: 1200px !important;
+}
+
+/* 2. 项目展示卡片样式 */
 .project-block {
   display: flex;
   flex-wrap: nowrap;
   gap: 1.5rem;
   margin-top: 2rem;
   align-items: flex-start;
+
   border: 1px solid #eee;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
 }
 
+.project-block:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* 3. 图片样式 */
 .project-block img {
   width: 45%;
-  max-width: 400px;
-  border-radius: 8px;
+  max-width: 450px;
+  border-radius: 10px;
   border: 1px solid #ccc;
   object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* ✅ 图片阴影 */
+  transition: transform 0.3s ease;
 }
 
+.project-block img:hover {
+  transform: scale(1.015); /* 可选：鼠标悬浮放大一点点 */
+}
+
+/* 4. 文字部分样式 */
 .project-info {
   flex: 1;
   min-width: 0;
 }
 
 .project-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #c0392b;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-links a {
@@ -37,3 +58,6 @@
   text-decoration: none;
 }
 
+.project-links a:hover {
+  text-decoration: underline;
+}
