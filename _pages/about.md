@@ -34,9 +34,12 @@ Recent Projects
 <div class="project-block">
   <img src="/images/sada.png" alt="SADA Project Figure">
   <div class="project-info">
-    <p class="project-title">
+   <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/SADA" style="color: inherit; text-decoration: none;">
       <strong>SADA: Stability-guided Adaptive Diffusion Acceleration</strong>
-    </p>
+    </a>
+  </p>
+
     <p>
       Ting Jiang*, <strong>Yixiao Wang*</strong>, Hancheng Ye*, Zishan Shao, Jingwei Sun, Jingyang Zhang, Zekai Chen, Jianyi Zhang, Yiran Chen, Hai Li<br>
       <em>ICML 2025</em>
@@ -46,10 +49,6 @@ Recent Projects
       <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a> |
       <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
     </p>
-    <p>
-      A training-free diffusion acceleration framework that jointly exploits step-wise and token-wise sparsity via a unified stability criterion.
-      SADA achieves ≥ 1.8× speedup while maintaining LPIPS ≤ 0.10 and FID ≤ 4.5, significantly outperforming prior methods on SD-2, SDXL, Flux, and ControlNet.
-    </p>
   </div>
 </div>
 
@@ -57,8 +56,11 @@ Recent Projects
   <img src="/images/eccd.png" alt="ECCD Project Figure">
   <div class="project-info">
     <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
       <strong>ECCD: Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
-    </p>
+    </a>
+  </p>
+
     <p>
       <strong>Yixiao Wang*</strong>, Zishan Shao*, Ting Jiang, Aditya Devarakonda<br>
       <em>NeurIPS 2025 (Submitted)</em>
@@ -67,9 +69,6 @@ Recent Projects
       <a href="https://arxiv.org/abs/2406.xxxx">Paper</a> |
       <a href="https://github.com/Yixiao-Wang/eccd-neurips">Code</a> |
       <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
-    </p>
-    <p>
-      A theoretically grounded optimization method that enhances classical coordinate descent by unrolling updates across blocks and applying Taylor-based curvature correction. ECCD achieves up to 13× speedup and maintains sub-10⁻⁵ relative error across logistic and Poisson GLMs, outperforming glmnet, biglasso, and ncvreg on high-dimensional benchmarks.
     </p>
   </div>
 </div>
