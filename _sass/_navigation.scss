@@ -435,15 +435,21 @@
 
 
 /* === 覆盖默认导航行为，使 visible-links 铺满宽度 === */
+/* 1) 让 masthead__menu 拉满剩余空间 */
+.masthead__menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
 
+/* 2) 让 greedy-nav 本身也铺满整个容器 */
 .greedy-nav {
   display: flex;
   flex: 1 1 auto;
   max-width: none;
-  align-items: center;
-  justify-content: flex-end;
 }
 
+/* 3) 强制 visible-links 用 flex 平铺，撑满 .greedy-nav */
 .greedy-nav .visible-links {
   display: flex !important;
   flex-wrap: nowrap;
@@ -452,11 +458,8 @@
   justify-content: flex-end;
 }
 
+/* 4) 桌面端隐藏折叠按钮和隐藏列表 */
 @media screen and (min-width: 992px) {
-  .greedy-nav .hidden-links {
-    display: none !important;
-  }
-  .greedy-nav button {
-    display: none !important;
-  }
+  .greedy-nav .hidden-links { display: none !important; }
+  .greedy-nav button        { display: none !important; }
 }
