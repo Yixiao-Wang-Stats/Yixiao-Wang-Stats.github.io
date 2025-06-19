@@ -3,7 +3,7 @@ title: "Enhanced Cyclic Coordinate Descent Methods for
 Elastic Net Penalized Linear Models"
 collection: research
 type: "NeurIPS 2025 (Submitted)"
-permalink: /research/SADA
+permalink: /research/ECCD
 venue: "Duke University"
 date: 2025-05-15
 location: "NC, United States"
@@ -15,7 +15,7 @@ Follow: GitHub Feed
 ✦"
 tags:
   - Generalized Linear Model
-  - Numerical Method
+  - Block Coordinate Descent
   - Stable Accelerating
 ---
 
