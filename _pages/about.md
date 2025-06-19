@@ -68,7 +68,7 @@ Recent Projects
     <p class="project-links">
       <a href="#">Paper</a> |
       <a href="#">Code</a> |
-      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Slide</a>
+      <a href="#">Slide</a>
     </p>
   </div>
 </div>
