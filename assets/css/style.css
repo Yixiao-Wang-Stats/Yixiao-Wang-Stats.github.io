@@ -56,3 +56,8 @@
   padding: 1.5em 1em 1.5em;
 }
 
+.masthead {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
