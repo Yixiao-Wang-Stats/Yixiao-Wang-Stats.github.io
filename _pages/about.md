@@ -72,7 +72,7 @@ Recent Projects
       <em>ICML 2025</em>
     </p>
     <p class="project-links">
-      <a href="#">Paper</a> |
+      <a href="https://openreview.net/pdf?id=ThMQfsBnje">Paper</a> |
       <a href="#">Code</a> |
       <a href="#">Slide</a>
     </p>
