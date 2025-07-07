@@ -62,30 +62,6 @@ redirect_from:
   </div>
 </div>
 
-<div class="background-container">
-  <div class="watermark"></div>   <!-- 水印层 -->
-    <!-- 纯正文（无白框） -->
-  <div class="overlay-content">
-      <h1>Research Interests</h1>
-     <p>
-  My research interests lie at the intersection of statistical machine learning, deep learning, and generative modeling, 
-  with an emphasis on rigorous theoretical foundations, interpretability, and real-world relevance. 
-  I am particularly interested in developing principled frameworks that provide formal guarantees on model behavior 
-  while remaining applicable to practical machine learning challenges.
-</p>
-<p>
-  In traditional machine learning, I focus on regression models, modern optimal tree-based methods, 
-  and the theoretical underpinnings of their integration. 
-  I am also interested in understanding and enhancing the statistical properties of these hybrid approaches. 
-  In the domain of deep learning, my work explores generative models and attention-based architectures,  
-  aiming to uncover their mathematical structure and provide insights into their generalization, expressivity, and reliability. 
-  Ultimately, my goal is to advance machine learning methods that are both theoretically sound and impactful in practice.
-</p>
-
-  </div>
-</div>
-
-
 Recent Projects
 ===============
 
@@ -131,3 +107,25 @@ Recent Projects
   </div>
 </div>
 
+<div class="background-container">
+  <div class="watermark"></div>   <!-- 水印层 -->
+    <!-- 纯正文（无白框） -->
+  <div class="overlay-content">
+      <h1>Research Interests</h1>
+     <p>
+  My research interests lie at the intersection of statistical machine learning, deep learning, and generative modeling, 
+  with an emphasis on rigorous theoretical foundations, interpretability, and real-world relevance. 
+  I am particularly interested in developing principled frameworks that provide formal guarantees on model behavior 
+  while remaining applicable to practical machine learning challenges.
+</p>
+<p>
+  In traditional machine learning, I focus on regression models, modern optimal tree-based methods, 
+  and the theoretical underpinnings of their integration. 
+  I am also interested in understanding and enhancing the statistical properties of these hybrid approaches. 
+  In the domain of deep learning, my work explores generative models and attention-based architectures,  
+  aiming to uncover their mathematical structure and provide insights into their generalization, expressivity, and reliability. 
+  Ultimately, my goal is to advance machine learning methods that are both theoretically sound and impactful in practice.
+</p>
+
+  </div>
+</div>
