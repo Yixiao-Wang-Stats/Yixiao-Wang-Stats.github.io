@@ -41,7 +41,7 @@ redirect_from:
       (<a href="https://yixiao-wang-stats.github.io/hobby_miscellaneous/">click here</a> to see my artwork).
     </p> -->
     <p>
-        I am a first-year master’s student in the 
+        I am a second-year master’s student in the 
         <a href="https://stat.duke.edu/">Department of Statistical Science</a> at 
         <a href="https://www.duke.edu/">Duke University</a>. 
         Prior to this, I earned my undergraduate degree in Mathematics and Statistics from the 
