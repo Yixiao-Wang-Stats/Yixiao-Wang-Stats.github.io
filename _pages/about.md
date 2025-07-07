@@ -25,7 +25,7 @@ redirect_from:
   <!-- 纯正文（无白框） -->
   <div class="overlay-content">
     <h1>About Me</h1>
-    <p>
+<!--     <p>
       Originally from China, I skipped grades and was admitted to the 
       <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a>
       to study Mathematics and Statistics at the 
@@ -39,7 +39,26 @@ redirect_from:
       as it provided me with the opportunity to teach students directly, and I was recognized as one of the best TAs at USTC.
       In my free time, I enjoy creating art, especially origami
       (<a href="https://yixiao-wang-stats.github.io/hobby_miscellaneous/">click here</a> to see my artwork).
-    </p>
+    </p> -->
+    <p>
+        I am a first-year master’s student in the 
+        <a href="https://stat.duke.edu/">Department of Statistical Science</a> at 
+        <a href="https://www.duke.edu/">Duke University</a>. 
+        Prior to this, I earned my undergraduate degree in Mathematics and Statistics from the 
+        <a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, 
+        where I was admitted through the 
+        <a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a>, a selective four-year program for exceptionally talented students under the age of 16.
+      </p>
+      <p>
+        During my time at USTC, I served as a teaching assistant for 
+        <em><a href="https://yixiao-wang-stats.github.io/teaching/2023-Spring-MATH1009-Linear-Algebra-B1">Linear Algebra B1</a></em>, 
+        where I was recognized as one of the top TAs for my dedication to supporting student learning.
+      </p>
+      <p>
+        Outside of academics, I enjoy creating art, particularly origami 
+        (<a href="https://yixiao-wang-stats.github.io/hobby_miscellaneous/">see my artwork</a>).
+      </p>
+
   </div>
 </div>
 
@@ -48,9 +67,21 @@ redirect_from:
     <!-- 纯正文（无白框） -->
   <div class="overlay-content">
       <h1>Research Interests</h1>
-      <p>
-        Statistical and Machine Learning, Deep Learning, Generative Models, with a focus on both theoretical foundations and real-world applications.
-      </p>
+     <p>
+  My research interests lie at the intersection of statistical machine learning, deep learning, and generative modeling, 
+  with an emphasis on rigorous theoretical foundations, interpretability, and real-world relevance. 
+  I am particularly interested in developing principled frameworks that provide formal guarantees on model behavior 
+  while remaining applicable to practical machine learning challenges.
+</p>
+<p>
+  In traditional machine learning, I focus on regression models, modern optimal tree-based methods, 
+  and the theoretical underpinnings of their integration. 
+  I am also interested in understanding and enhancing the statistical properties of these hybrid approaches. 
+  In the domain of deep learning, my work explores generative models and attention-based architectures,  
+  aiming to uncover their mathematical structure and provide insights into their generalization, expressivity, and reliability. 
+  Ultimately, my goal is to advance machine learning methods that are both theoretically sound and impactful in practice.
+</p>
+
   </div>
 </div>
 
