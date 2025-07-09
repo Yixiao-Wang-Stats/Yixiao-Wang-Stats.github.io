@@ -62,7 +62,7 @@ redirect_from:
   </div>
 </div>
 
-Recent Projects
+Selected Publications
 ===============
 
 <div class="project-block">
