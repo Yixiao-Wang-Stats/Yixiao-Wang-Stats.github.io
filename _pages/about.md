@@ -80,7 +80,7 @@ Selected Publications
     </p>
     <p class="project-links">
       <a href="https://openreview.net/pdf?id=ThMQfsBnje">Paper</a> |
-      <a href="#">Code</a> |
+      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a> |
       <a href="https://yixiao-wang-stats.github.io/files/sada_slides.pdf">Slide</a>
     </p>
   </div>
