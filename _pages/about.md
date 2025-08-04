@@ -110,11 +110,11 @@ Selected Publications
 
 
 <div class="project-block">
-  <img src="/images/flashsvd.png" alt="ECCD Project Figure">
+  <img src="/images/flashsvd.png" alt="flashsvd Project Figure">
   <div class="project-info">
     <p class="project-title">
     <a href="https://yixiao-wang-stats.github.io/research/flashsvd" style="color: inherit; text-decoration: none;">
-      <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+      <strong>FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models</strong>
     </a>
   </p>
 
