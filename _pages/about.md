@@ -108,6 +108,29 @@ Selected Publications
   </div>
 </div>
 
+
+<div class="project-block">
+  <img src="/images/flashsvd.png" alt="ECCD Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/flashsvd" style="color: inherit; text-decoration: none;">
+      <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+    </a>
+  </p>
+
+    <p>
+      Zishan Shao, <strong>Yixiao Wang</strong>, Qinsi Wang, Ting Jiang, Zhixu Du, Hancheng Ye, Danyang Zhuo,
+Yiran Chen, Hai Li<br>
+      <em>AAAI 2026 (Submitted)</em>
+    </p>
+    <p class="project-links">
+      <a href="#">Paper</a> |
+      <a href="#">Code</a> |
+      <a href="#">Slide</a>
+    </p>
+  </div>
+</div>
+
 <div class="background-container">
   <div class="watermark"></div>   <!-- 水印层 -->
     <!-- 纯正文（无白框） -->
