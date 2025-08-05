@@ -124,7 +124,7 @@ Yiran Chen, Hai Li<br>
       <em>AAAI 2026 (Submitted)</em>
     </p>
     <p class="project-links">
-      <a href="#">Paper</a> |
+      <a href="https://arxiv.org/abs/2508.01506">Paper</a> |
       <a href="#">Code</a> |
       <a href="#">Slide</a>
     </p>
