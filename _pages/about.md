@@ -88,25 +88,34 @@ Selected Publications
 </div>
 
 <div class="project-block">
-  <img src="/images/eccd.png" alt="ECCD Project Figure">
+  <img src="/images/zeus.png" alt="ZEUS Project Figure">
   <div class="project-info">
     <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
-      <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
-    </a>
-  </p>
+      <a href="https://yixiao-wang-stats.github.io/ZEUS" style="color: inherit; text-decoration: none;">
+        <strong> <span style="
+              background: linear-gradient(to right,  #dd1818,#333333);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-weight: bold;">
+              ZEUS
+            </span>: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
+      </a>
+    </p>
 
     <p>
-      <strong>Yixiao Wang*</strong>, Zishan Shao*, Ting Jiang, Aditya Devarakonda<br>
-      <em>NeurIPS 2025 (Submitted)</em>
+      <strong>Yixiao Wang</strong>, Ting Jiang, Zishan Shao, Hancheng Ye, Jingwei Sun, Mingyuan Ma, Jianyi Zhang, Yiran Chen, Hai Li<br>
+      <em>2025</em>
     </p>
+
     <p class="project-links">
       <a href="#">Paper</a> |
-      <a href="#">Code</a> |
+      <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a> |
+      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a> |
       <a href="#">Slide</a>
     </p>
   </div>
 </div>
+
 
 
 <div class="project-block">
