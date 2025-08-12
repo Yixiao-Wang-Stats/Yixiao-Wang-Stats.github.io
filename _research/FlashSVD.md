@@ -1,7 +1,7 @@
 ---
 title: "FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models"
 collection: research
-type: "Conference 2025"
+type: "AAAI 2026 (Submitted)"
 permalink: /research/FlashSVD
 venue: "Duke University"
 date: 2025-08-01
