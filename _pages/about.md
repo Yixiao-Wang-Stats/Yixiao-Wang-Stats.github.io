@@ -87,6 +87,29 @@ Selected Publications
   </div>
 </div>
 
+
+<div class="project-block">
+  <img src="/images/eccd.png" alt="ECCD Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
+      <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+    </a>
+  </p>
+
+    <p>
+      <strong>Yixiao Wang*</strong>, Zishan Shao*, Ting Jiang, Aditya Devarakonda<br>
+      <em>NeurIPS 2025 (Submitted)</em>
+    </p>
+    <p class="project-links">
+      <a href="#">Paper</a> |
+      <a href="#">Code</a> |
+      <a href="#">Slide</a>
+    </p>
+  </div>
+</div> 
+
+
 <div class="project-block">
   <img src="/images/zeus.png" alt="ZEUS Project Figure">
   <div class="project-info">
