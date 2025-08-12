@@ -114,7 +114,7 @@ Selected Publications
   <img src="/images/zeus.png" alt="ZEUS Project Figure">
   <div class="project-info">
     <p class="project-title">
-      <a href="https://yixiao-wang-stats.github.io/ZEUS" style="color: inherit; text-decoration: none;">
+      <a href="https://yixiao-wang-stats.github.io/research/ZEUS" style="color: inherit; text-decoration: none;">
         <strong> ZEUS: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
       </a>
     </p>
@@ -139,7 +139,7 @@ Selected Publications
   <img src="/images/flashsvd.png" alt="flashsvd Project Figure">
   <div class="project-info">
     <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/flashsvd" style="color: inherit; text-decoration: none;">
+    <a href="https://yixiao-wang-stats.github.io/research/FlashSVD" style="color: inherit; text-decoration: none;">
       <strong>FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models</strong>
     </a>
   </p>
