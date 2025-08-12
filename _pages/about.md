@@ -115,18 +115,12 @@ Selected Publications
   <div class="project-info">
     <p class="project-title">
       <a href="https://yixiao-wang-stats.github.io/ZEUS" style="color: inherit; text-decoration: none;">
-        <strong> <span style="
-              background: linear-gradient(to right,  #dd1818,#333333);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              font-weight: bold;">
-              ZEUS
-            </span>: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
+        <strong> ZEUS: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
       </a>
     </p>
 
     <p>
-      <strong>Yixiao Wang</strong>, Ting Jiang, Zishan Shao, Hancheng Ye, Jingwei Sun, Mingyuan Ma, Jianyi Zhang, Yiran Chen, Hai Li<br>
+      <strong>Yixiao Wang*</strong>, Ting Jiang*, Zishan Shao*, Hancheng Ye, Jingwei Sun, Mingyuan Ma, Jianyi Zhang, Yiran Chen, Hai Li<br>
       <em>2025</em>
     </p>
 
