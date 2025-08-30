@@ -15,7 +15,7 @@ redirect_from:
 <!-- 顶部标题与下载按钮对齐 -->
 <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem;">
   <h1 style="margin: 0; font-size: 1.75rem;">Yixiao Wang</h1>
-  <a href="/files/CV_YixiaoWang_revised.pdf" style="font-size: 0.95rem; text-decoration: none;">
+  <a href="/files/PhD_application_CV.pdf" style="font-size: 0.95rem; text-decoration: none;">
     <i class="fas fa-file-pdf" aria-hidden="true" style="margin-right: 4px;"></i> Download CV
   </a>
 </div>
