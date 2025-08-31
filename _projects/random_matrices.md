@@ -7,6 +7,9 @@ venue: "University of Science and Technology of China, Mathematics Department"
 date: 2023-04-15
 location: "Anhui, China"
 excerpt: "This is a Seminar on Probability Theory and Mathematical Statistics, initiated by the instructor associate professor [Dangzheng Liu](http://staff.ustc.edu.cn/~dzliu/). "
+tags:
+  - Random Matrices
+  - Probability Theory 
 ---
 
 The main topics include:
