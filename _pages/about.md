@@ -88,8 +88,7 @@ Selected Publications
     </p>
     <p class="project-links">
       <a href="#">Paper</a> |
-      <a href="#">Code</a> |
-      <a href="#">Slide</a>
+      <a href="#">Code</a> 
     </p>
   </div>
 </div> 
@@ -112,8 +111,7 @@ Selected Publications
     <p class="project-links">
       <a href="#">Paper</a> |
       <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a> |
-      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a> |
-      <a href="#">Slide</a>
+      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a> 
     </p>
   </div>
 </div>
@@ -136,8 +134,7 @@ Yiran Chen, Hai Li<br>
     </p>
     <p class="project-links">
       <a href="https://arxiv.org/abs/2508.01506">Paper</a> |
-      <a href="#">Code</a> |
-      <a href="#">Slide</a>
+      <a href="https://github.com/Zishan-Shao/FlashSVD">Code</a> 
     </p>
   </div>
 </div>
