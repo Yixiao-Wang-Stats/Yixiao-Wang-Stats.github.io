@@ -32,6 +32,10 @@ h1, h2, h3 {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
+.project-block p {
+  margin-bottom: 0;   /* 或者你想要的 0.3em、0.5em */
+}
+
 .project-block img {
   width: 45%;
   max-width: 500px;
