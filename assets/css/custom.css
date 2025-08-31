@@ -53,7 +53,7 @@ h1, h2, h3 {
 .project-info { flex: 1; min-width: 0; }
 
 .project-title   { font-size: 1.4rem; font-weight: 700; color: #003087; margin-bottom: .5rem; }
-.project-links a { margin-right: 1rem; color: #0056b3; font-weight: 600; text-decoration: none; }
+.project-links a { margin-right: 1rem; color: #003087; font-weight: 600; text-decoration: none; }
 .project-links a:hover { text-decoration: underline; }
 
 /* 容器：负责定位 */
