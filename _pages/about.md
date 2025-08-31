@@ -30,7 +30,7 @@ redirect_from:
     <a href="https://stat.duke.edu/">Department of Statistical Science</a> at 
     <a href="https://www.duke.edu/">Duke University</a>. 
     I work with <a href="https://users.cs.duke.edu/~cynthia/home.html">Prof. Cynthia Rudin</a> in the 
-    <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a>, focusing on scalable sparse regression trees and interpretable machine learning theory. 
+    <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a>, focusing on machine learning theory. 
     I also work with <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on deep learning theory. 
     Beyond these, I have collaborated with several other faculty members and students, as detailed on my <a href="https://yixiao-wang-stats.github.io/research/">Research</a> page. 
     I am deeply grateful for the guidance and support from these brilliant mentors and collaborators.
