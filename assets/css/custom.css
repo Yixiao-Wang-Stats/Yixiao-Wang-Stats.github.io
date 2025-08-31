@@ -61,7 +61,7 @@ h1, h2, h3 {
   background-color: #fff;
 }
 
-/* /* ✨ 水印层：用可重复的 SVG 文字做背景图 */
+/* ✨ 水印层：用可重复的 SVG 文字做背景图 */
 .watermark {
   position: absolute;
   inset: 0;               /* 等价于 top/right/bottom/left: 0 */
@@ -77,24 +77,10 @@ h1, h2, h3 {
   
   background-repeat: repeat;       /* 横、纵方向都重复 */
   background-size: 500px 90px;    /* 调节字距 (宽度 × 行高) */
-} */
-
-
-.watermark {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-
-  /* 关键点：更宽的画布 + 文本末尾留空（xml:space="preserve"） */
-  background-image: url("data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='120' viewBox='0 0 1200 120'>\
-  <text x='0' y='85' font-size='90' font-weight='700' fill='rgba(0,48,135,0.04)' xml:space='preserve'>DUKE UNIVERSITY&#32;&#32;&#32;</text>\
-</svg>");
-  background-repeat: repeat;
-  /* 可按需要微调行距与缩放 */
-  background-size: 600px 90px;
 }
+
+
+
 
 
 
