@@ -55,6 +55,12 @@ h1, h2, h3 {
 
 .project-title   { font-size: 1.4rem; font-weight: 700; color: #003087; margin-bottom: .5rem; }
 .project-links a { margin-right: 1rem; color: #4a90e2; font-weight: 600; text-decoration: none; }
+.project-links a[href="#"] {
+  color: #cccccc;   /* 一个淡雅灰色 */
+  font-weight: 600; /* 比较轻，不要太显眼 */
+  cursor: not-allowed; /* 鼠标悬停时禁止符号，更直观 */
+  pointer-events: none; /* 禁用点击 */
+}
 .project-links a:hover { text-decoration: underline; }
 
 /* 容器：负责定位 */
