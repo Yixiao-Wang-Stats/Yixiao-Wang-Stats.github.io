@@ -43,13 +43,23 @@
   width: auto;
 }
 
-.duke-title {
+/* .duke-title {
   font-size: 1.8rem;    /* 比导航栏文字大 */
   font-weight: bold;
   color: #001A57;       /* Duke blue */
   font-family: "UnifrakturCook", "Old English Text MT", "Georgia", serif;
   white-space: nowrap;
+} */
+
+.duke-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #001A57;  /* Duke Blue */
+  font-family: "Old English Text MT", "UnifrakturCook", serif;
+  letter-spacing: 0.5px;  /* 稍微拉开字距更清晰 */
+  white-space: nowrap;
 }
+
 
 // ===== Custom overrides for Duke header layout =====
 .masthead__inner-wrap {
@@ -60,6 +70,7 @@
   border-bottom: none !important;
   box-shadow: none !important;
 }
+
 
 
 
