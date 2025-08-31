@@ -28,6 +28,7 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
+  gem "jekyll-last-modified-at"
   gem 'hawkins'
   gem "webrick", "~> 1.8"
 end
