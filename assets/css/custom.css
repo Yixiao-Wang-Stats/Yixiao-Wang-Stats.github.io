@@ -70,7 +70,7 @@ h1, h2, h3 {
 
   /* 使用嵌入式 SVG 作为背景，既能横向也能纵向平铺 */
   background-image: url("data:image/svg+xml;utf8, \
-    <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='120'> \
+    <svg xmlns='http://www.w3.org/2000/svg' width='880' height='120'> \
       <text x='0' y='80' font-size='90' font-weight='700' \
             fill='rgba(0,48,135,0.04)'>DUKE UNIVERSITY</text> \
     </svg>");
