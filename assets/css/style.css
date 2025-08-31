@@ -55,8 +55,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   color: #001A57;  /* Duke Blue */
-  font-family: "Old English Text MT", "UnifrakturCook", serif;
-  letter-spacing: 0.5px;  /* 稍微拉开字距更清晰 */
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
   white-space: nowrap;
 }
 
@@ -70,6 +69,7 @@
   border-bottom: none !important;
   box-shadow: none !important;
 }
+
 
 
 
