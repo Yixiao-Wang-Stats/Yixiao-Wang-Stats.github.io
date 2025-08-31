@@ -33,7 +33,7 @@ The dataset used in this project is sourced from the [UCI Machine Learning Repos
 ## Project Background
 This project is based on my senior year time series analysis course. The original text was in Chinese, and the content has been directly translated by ChatGPT-4. Please excuse any discrepancies that may arise from the translation.
 
-## Model Architecture
+## Model Architecture 
 ![LSTM-GRU Hybrid Network](/images/LSTM-GRU-Hybrid-Network.png)
 
 ## Simulation Results
