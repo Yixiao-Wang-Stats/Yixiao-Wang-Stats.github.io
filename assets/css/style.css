@@ -47,7 +47,7 @@
   font-size: 1.8rem;    /* 比导航栏文字大 */
   font-weight: bold;
   color: #001A57;       /* Duke blue */
-  font-family: "Merriweather", "UnifrakturCook", "Georgia", serif;
+  font-family: "Merriweather", "Georgia", serif; 
   white-space: nowrap;
 }
 
@@ -62,6 +62,7 @@
   border-bottom: none !important;
   box-shadow: none !important;
 }
+
 
 
 
