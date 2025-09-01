@@ -32,10 +32,10 @@ redirect_from:
     I work with <a href="https://users.cs.duke.edu/~cynthia/home.html">Prof. Cynthia Rudin</a> in the 
     <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a>, focusing on <strong>interpretable machine learning theory</strong>. 
     I also work with <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on <strong>deep learning theory</strong>. 
-    Beyond these, I have collaborated with several other faculty members and students, as detailed on my <a href="https://yixiao-wang-stats.github.io/research/">Research</a> page. 
+    Beyond these, I have collaborated with several other faculty members and students. 
     I am deeply grateful for the guidance and support from these brilliant mentors and collaborators.
     </p>
-    
+<!--     , as detailed on my <a href="https://yixiao-wang-stats.github.io/research/">Research</a> page -->
     <p>
     Prior to Duke, I earned my undergraduate degree in Mathematics (Probability and Statistics track) at the 
     <strong><a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a></strong>, where I was admitted through the 
