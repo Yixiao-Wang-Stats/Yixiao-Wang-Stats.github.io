@@ -27,19 +27,19 @@ redirect_from:
     </div>
     <p>
     I am a second-year master’s student in the 
-    <a href="https://stat.duke.edu/">Department of Statistical Science</a> at 
-    <a href="https://www.duke.edu/">Duke University</a>. 
+    <a href="https://stat.duke.edu/">Statistical Science</a> at 
+    <strong><a href="https://www.duke.edu/">Duke University</a></strong>. 
     I work with <a href="https://users.cs.duke.edu/~cynthia/home.html">Prof. Cynthia Rudin</a> in the 
-    <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a>, focusing on machine learning theory. 
-    I also work with <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on deep learning theory. 
+    <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a>, focusing on <strong>machine learning theory</strong>. 
+    I also work with <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on <strong>deep learning theory</strong>. 
     Beyond these, I have collaborated with several other faculty members and students, as detailed on my <a href="https://yixiao-wang-stats.github.io/research/">Research</a> page. 
     I am deeply grateful for the guidance and support from these brilliant mentors and collaborators.
     </p>
     
     <p>
     Prior to Duke, I earned my undergraduate degree in Mathematics (Probability and Statistics track) at the 
-    <a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, where I was admitted through the 
-    <a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a>, a selective program for exceptionally talented students under the age of 17.
+    <strong><a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a></strong>, where I was admitted through the 
+    <strong><a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a></strong>, a selective program for exceptionally talented students under the age of 17.
     </p>
 
 
