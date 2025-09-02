@@ -17,11 +17,11 @@
   a {
     // text-decoration: underline;
     text-decoration: none;       /* 默认无下划线 */
-    color: inherit;  
+    color: #003087;  
     &:hover {
       text-decoration: underline;
       text-decoration-color: #003087;
-      color: inherit;
+      color: #003087;
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
