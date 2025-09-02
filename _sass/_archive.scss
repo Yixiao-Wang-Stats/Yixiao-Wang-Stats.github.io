@@ -110,6 +110,14 @@
   //   text-decoration: underline;
   // }
 }
+.archive__item-title a {
+  text-decoration: none;
+}
+.archive__item-title a:hover {
+  text-decoration: underline;
+  text-decoration-color: #003087;
+  color: #003087;
+}
 
 
 /*
