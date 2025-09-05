@@ -138,7 +138,7 @@ Selected Publications
   <img src="/images/lsa_not_for_tsf.png" alt="LSA Time Series Project Figure">
   <div class="project-info">
    <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/LSA_TSF" style="color: inherit; text-decoration: none;">
+    <a href="https://yixiao-wang-stats.github.io/research/Why_Do_Transformers_Fail_to_Forecast_Time_Series_In_Context" style="color: inherit; text-decoration: none;">
       <strong>Why Do Transformers Fail to Forecast Time Series In-Context?</strong>
     </a>
    </p>
@@ -146,11 +146,10 @@ Selected Publications
    <p>
      Yufa Zhou*, <strong>Yixiao Wang*</strong>, Surbhi Goel, Anru Zhang<br>
      <em>ICLR 2026 (under review)</em><br>
-     <small>*Equal contribution</small>
    </p>
 
    <p class="project-links">
-     <a href="">Paper</a>
+     <a href="#">>Paper</a>
    </p>
   </div>
 </div>
@@ -176,6 +175,11 @@ Yiran Chen, Hai Li<br>
     </p>
   </div>
 </div>
+
+<p style="font-size: 0.9em; color: #555; margin-top: 1em;">
+  * Equal contribution
+</p>
+
 
 <div class="background-container">
   <div class="watermark"></div>   <!-- 水印层 -->
