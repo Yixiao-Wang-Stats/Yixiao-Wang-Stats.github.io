@@ -149,7 +149,7 @@ Selected Publications
    </p>
 
    <p class="project-links">
-     <a href="#">>Paper</a>
+     <a href="#">Paper</a>
    </p>
   </div>
 </div>
