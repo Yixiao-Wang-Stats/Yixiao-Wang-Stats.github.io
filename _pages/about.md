@@ -134,6 +134,26 @@ Selected Publications
   </div>
 </div>
 
+<div class="project-block">
+  <img src="/images/lsa_not_for_tsf.png" alt="LSA Time Series Project Figure">
+  <div class="project-info">
+   <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/LSA_TSF" style="color: inherit; text-decoration: none;">
+      <strong>Why Do Transformers Fail to Forecast Time Series In-Context?</strong>
+    </a>
+   </p>
+
+   <p>
+     Yufa Zhou*, <strong>Yixiao Wang*</strong>, Surbhi Goel, Anru Zhang<br>
+     <em>ICLR 2026 (under review)</em><br>
+     <small>*Equal contribution</small>
+   </p>
+
+   <p class="project-links">
+     <a href="">Paper</a>
+   </p>
+  </div>
+</div>
 
 
 <div class="project-block">
