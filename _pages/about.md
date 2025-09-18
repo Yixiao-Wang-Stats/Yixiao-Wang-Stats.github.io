@@ -102,7 +102,7 @@ Selected Publications
 
     <p>
       <strong>Yixiao Wang*</strong>, Zishan Shao*, Ting Jiang, Aditya Devarakonda<br>
-      <em>NeurIPS 2025 (Submitted)</em>
+      <em>NeurIPS 2025</em>
     </p>
     <p class="project-links">
       <a href="#">Paper</a> |
