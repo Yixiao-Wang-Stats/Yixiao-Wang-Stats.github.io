@@ -21,7 +21,7 @@ redirect_from:
   <div class="overlay-content">
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.8rem;">
       <h1 style="margin: 0; font-size: 1.75rem;">Yixiao Wang</h1>
-      <a href="/files/Yixiao_Wang_CV.pdf" style="font-size: 0.95rem; text-decoration: none;">
+      <a href="/files/YixiaoWang_CV.pdf" style="font-size: 0.95rem; text-decoration: none;">
         <i class="fas fa-file-pdf" aria-hidden="true" style="margin-right: 4px;"></i> Download CV
       </a>
     </div>
