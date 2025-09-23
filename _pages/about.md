@@ -146,7 +146,7 @@ Selected Publications
    <p>
      Yufa Zhou*, <strong>Yixiao Wang*</strong>, Surbhi Goel, Anru Zhang<br>
      <em>ICLR 2026 (under review)</em><br>
-     <em>Accepted at NeurIPS 2025 Workshop on Time Series</em><br>
+     <em>Accepted at NeurIPS 2025 Workshop on WCTD</em><br>
    </p>
 
    <p class="project-links">
