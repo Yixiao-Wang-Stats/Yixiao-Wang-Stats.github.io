@@ -123,7 +123,7 @@ Selected Publications
 
     <p>
       <strong>Yixiao Wang*</strong>, Ting Jiang*, Zishan Shao*, Hancheng Ye, Jingwei Sun, Mingyuan Ma, Jianyi Zhang, Yiran Chen, Hai Li<br>
-      <em>2025</em>
+      <em>ICLR 2026 (under review)</em><br>
     </p>
 
     <p class="project-links">
@@ -145,8 +145,8 @@ Selected Publications
 
    <p>
      Yufa Zhou*, <strong>Yixiao Wang*</strong>, Surbhi Goel, Anru Zhang<br>
+     <em>NeurIPS 2025 Workshop on WCTD (acceptance rate 40%)</em><br>
      <em>ICLR 2026 (under review)</em><br>
-     <em>Accepted at NeurIPS 2025 Workshop on WCTD</em><br>
    </p>
 
    <p class="project-links">
@@ -155,6 +155,24 @@ Selected Publications
   </div>
 </div>
 
+<div class="project-block">
+  <img src="/images/Reasoning_Flow.png" alt="reasoning_flow">
+  <div class="project-info">
+   <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/reasoning_flow" style="color: inherit; text-decoration: none;">
+      <strong>The Geometry of Reasoning: Flowing Logics In Representation Space</strong>
+    </a>
+   </p>
+
+   <p>
+     Yufa Zhou*, <strong>Yixiao Wang*</strong>, Xunjian Yin*, Shuyan Zhou, Anru Zhang<br>
+     <em>ICLR 2026 (under review)</em><br>
+   </p>
+   <p class="project-links">
+     <a href="#">Paper</a>
+   </p>
+  </div>
+</div>
 
 <div class="project-block">
   <img src="/images/flashsvd.png" alt="flashsvd Project Figure">
@@ -168,7 +186,7 @@ Selected Publications
     <p>
       Zishan Shao, <strong>Yixiao Wang</strong>, Qinsi Wang, Ting Jiang, Zhixu Du, Hancheng Ye, Danyang Zhuo,
 Yiran Chen, Hai Li<br>
-      <em>AAAI 2026 (Submitted)</em>
+      <em>AAAI 2026 (under review)</em>
     </p>
     <p class="project-links">
       <a href="https://arxiv.org/abs/2508.01506">Paper</a> |
