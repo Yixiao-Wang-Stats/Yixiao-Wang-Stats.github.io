@@ -145,7 +145,7 @@ Selected Publications
 
    <p>
      Yufa Zhou*, <strong>Yixiao Wang*</strong>, Surbhi Goel, Anru Zhang<br>
-     <em>NeurIPS 2025 Workshop on WCTD (acceptance rate 40%)</em><br>
+     <em>NeurIPS 2025 Workshop on WCTD</em> <strong>(oral, 3/68; acceptance rate 40%)</strong><br>
      <em>ICLR 2026 (under review)</em><br>
    </p>
 
