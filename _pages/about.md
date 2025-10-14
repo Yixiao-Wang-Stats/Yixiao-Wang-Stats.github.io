@@ -150,7 +150,7 @@ Selected Publications
    </p>
 
    <p class="project-links">
-     <a href="https://arxiv.org/pdf/2508.01506">Paper</a>
+     <a href="https://arxiv.org/pdf/2508.01506">Paper</a> |
      <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
    </p>
   </div>
