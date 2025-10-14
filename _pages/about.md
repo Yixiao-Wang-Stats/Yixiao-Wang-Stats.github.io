@@ -170,7 +170,8 @@ Selected Publications
      <em>ICLR 2026 (under review)</em><br>
    </p>
    <p class="project-links">
-     <a href="https://arxiv.org/abs/2510.09782">Paper</a>
+     <a href="https://arxiv.org/abs/2510.09782">Paper</a> |
+     <a href="https://github.com/MasterZhou1/Reasoning-Flow">Code</a>
    </p>
   </div>
 </div>
