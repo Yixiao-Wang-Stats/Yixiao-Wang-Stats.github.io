@@ -150,7 +150,8 @@ Selected Publications
    </p>
 
    <p class="project-links">
-     <a href="#">Paper</a>
+     <a href="https://arxiv.org/pdf/2508.01506">Paper</a>
+     <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
    </p>
   </div>
 </div>
@@ -169,7 +170,7 @@ Selected Publications
      <em>ICLR 2026 (under review)</em><br>
    </p>
    <p class="project-links">
-     <a href="#">Paper</a>
+     <a href="https://arxiv.org/abs/2510.09782">Paper</a>
    </p>
   </div>
 </div>
