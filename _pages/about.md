@@ -151,8 +151,7 @@ Selected Publications
 
    <p class="project-links">
      <a href="https://arxiv.org/abs/2510.09776">Paper</a> |
-     <a href="https://github.com/MasterZhou1/ICL-Time-Series">Code</a> |
-     <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
+     <a href="https://github.com/MasterZhou1/ICL-Time-Series">Code</a> 
    </p>
   </div>
 </div>
@@ -172,7 +171,8 @@ Selected Publications
    </p>
    <p class="project-links">
      <a href="https://arxiv.org/abs/2510.09782">Paper</a> |
-     <a href="https://github.com/MasterZhou1/Reasoning-Flow">Code</a>
+     <a href="https://github.com/MasterZhou1/Reasoning-Flow">Code</a> |
+     <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
    </p>
   </div>
 </div>
