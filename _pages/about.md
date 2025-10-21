@@ -106,7 +106,7 @@ Selected Publications
     </p>
     <p class="project-links">
       <a href="#">Paper</a> |
-      <a href="#">Code</a> 
+      <a href="https://github.com/Yixiao-Wang-Stats/ECCD">Code</a> 
     </p>
   </div>
 </div> 
