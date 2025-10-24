@@ -105,7 +105,7 @@ Selected Publications
       <em>NeurIPS 2025</em>
     </p>
     <p class="project-links">
-      <a href="#">Paper</a> |
+      <a href="https://arxiv.org/pdf/2510.19999">Paper</a> |
       <a href="https://github.com/Yixiao-Wang-Stats/ECCD">Code</a> 
     </p>
   </div>
