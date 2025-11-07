@@ -189,7 +189,7 @@ Selected Publications
     <p>
       Zishan Shao, <strong>Yixiao Wang</strong>, Qinsi Wang, Ting Jiang, Zhixu Du, Hancheng Ye, Danyang Zhuo,
 Yiran Chen, Hai Li<br>
-      <em>AAAI 2026 (under review)</em>
+      <em>AAAI 2026</em>
     </p>
     <p class="project-links">
       <a href="https://arxiv.org/abs/2508.01506">Paper</a> |
