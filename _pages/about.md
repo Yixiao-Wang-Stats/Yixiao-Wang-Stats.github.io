@@ -26,7 +26,7 @@ redirect_from:
       </a>
     </div>
     <p>
-    I am a second-year master’s student in the 
+    I am a master’s student in the 
     <a href="https://stat.duke.edu/">Statistical Science</a> at 
     <strong><a href="https://www.duke.edu/">Duke University</a></strong>. 
     I work with <a href="https://users.cs.duke.edu/~cynthia/home.html">Prof. Cynthia Rudin</a> in the 
