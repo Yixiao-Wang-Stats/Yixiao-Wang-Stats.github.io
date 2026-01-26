@@ -111,26 +111,24 @@ Selected Publications
   </div>
 </div> 
 
-
 <div class="project-block">
-  <img src="/images/zeus.png" alt="ZEUS Project Figure">
+  <img src="/images/Reasoning_Flow.png" alt="reasoning_flow">
   <div class="project-info">
-    <p class="project-title">
-      <a href="https://yixiao-wang-stats.github.io/research/ZEUS" style="color: inherit; text-decoration: none;">
-        <strong> ZEUS: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
-      </a>
-    </p>
+   <p class="project-title">
+    <a href="https://yixiao-wang-stats.github.io/research/reasoning_flow" style="color: inherit; text-decoration: none;">
+      <strong>The Geometry of Reasoning: Flowing Logics In Representation Space</strong>
+    </a>
+   </p>
 
-    <p>
-      <strong>Yixiao Wang*</strong>, Ting Jiang*, Zishan Shao*, Hancheng Ye, Jingwei Sun, Mingyuan Ma, Jianyi Zhang, Yiran Chen, Hai Li<br>
-      <em>ICLR 2026 (under review)</em><br>
-    </p>
-
-    <p class="project-links">
-      <a href="#">Paper</a> |
-      <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a> |
-      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a> 
-    </p>
+   <p>
+     Yufa Zhou*, <strong>Yixiao Wang*</strong>, Xunjian Yin*, Shuyan Zhou, Anru Zhang<br>
+     <em>ICLR 2026</em><br>
+   </p>
+   <p class="project-links">
+     <a href="https://arxiv.org/abs/2510.09782">Paper</a> |
+     <a href="https://github.com/MasterZhou1/Reasoning-Flow">Code</a> |
+     <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
+   </p>
   </div>
 </div>
 
@@ -146,7 +144,6 @@ Selected Publications
    <p>
      Yufa Zhou*, <strong>Yixiao Wang*</strong>, Surbhi Goel, Anru Zhang<br>
      <em>NeurIPS 2025 Workshop on WCTD</em> <strong>(oral, 3/68; acceptance rate 40%)</strong><br>
-     <em>ICLR 2026 (under review)</em><br>
    </p>
 
    <p class="project-links">
@@ -157,23 +154,23 @@ Selected Publications
 </div>
 
 <div class="project-block">
-  <img src="/images/Reasoning_Flow.png" alt="reasoning_flow">
+  <img src="/images/zeus.png" alt="ZEUS Project Figure">
   <div class="project-info">
-   <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/reasoning_flow" style="color: inherit; text-decoration: none;">
-      <strong>The Geometry of Reasoning: Flowing Logics In Representation Space</strong>
-    </a>
-   </p>
+    <p class="project-title">
+      <a href="https://yixiao-wang-stats.github.io/research/ZEUS" style="color: inherit; text-decoration: none;">
+        <strong> ZEUS: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
+      </a>
+    </p>
 
-   <p>
-     Yufa Zhou*, <strong>Yixiao Wang*</strong>, Xunjian Yin*, Shuyan Zhou, Anru Zhang<br>
-     <em>ICLR 2026 (under review)</em><br>
-   </p>
-   <p class="project-links">
-     <a href="https://arxiv.org/abs/2510.09782">Paper</a> |
-     <a href="https://github.com/MasterZhou1/Reasoning-Flow">Code</a> |
-     <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
-   </p>
+    <p>
+      <strong>Yixiao Wang*</strong>, Ting Jiang*, Zishan Shao*, Hancheng Ye, Jingwei Sun, Mingyuan Ma, Jianyi Zhang, Yiran Chen, Hai Li<br>
+    </p>
+
+    <p class="project-links">
+      <a href="#">Paper</a> |
+      <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a> |
+      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a> 
+    </p>
   </div>
 </div>
 
