@@ -66,3 +66,62 @@ body {
   padding-top: 72px;
 }
 
+
+/* --- Custom Duke Header --- */
+
+.duke-header {
+  display: flex !important;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: #001A57; /* Duke blue */
+  white-space: nowrap;
+}
+
+.duke-logo {
+  height: 72px;        /* 明显放大 logo */
+  min-height: 72px;
+  width: auto;
+}
+
+.duke-title {
+  font-size: 1.8rem;    /* 比导航栏文字大 */
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+  color: #001A57;       /* Duke blue */
+  font-family: "Old English Text MT", serif; 
+  white-space: nowrap;
+}
+.first-name-title {
+  font-size: 1.8rem;    /* 比导航栏文字大 */
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+  color: #001A57;       /* Duke blue */
+  font-family: "Old English Text MT", serif; 
+  // font-family: "Source Sans 3", sans-serif;
+  white-space: nowrap;
+}
+
+.last-name-title {
+  font-size: 1.8rem;    /* 比导航栏文字大 */
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+  color: #6B1E23;     
+  font-family: "Garamond", "Adobe Garamond Pro", serif;
+  white-space: nowrap;
+}
+
+
+/* // ===== Custom overrides for Duke header layout ===== */
+// .masthead__inner-wrap {
+//   padding: 1.5em 1em 1.5em;
+// }
+
+// .masthead {
+//   border-bottom: none !important;
+//   box-shadow: none !important;
+// }
+

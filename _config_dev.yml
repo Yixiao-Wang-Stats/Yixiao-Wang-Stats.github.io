@@ -1,0 +1,11 @@
+﻿# Local development overrides (do not affect GitHub Pages build)
+
+# Use localhost in development
+url: "http://127.0.0.1:4000"
+baseurl: ""
+
+# Avoid GitHub API auth issues from jekyll-github-metadata
+github: {}
+
+# Keep local build behavior explicit
+incremental: true
