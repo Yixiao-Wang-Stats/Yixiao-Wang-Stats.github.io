@@ -20,12 +20,32 @@ redirect_from:
   <!-- 纯正文（无白框） -->
   <div class="overlay-content">
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.8rem;">
-      <h1 style="margin: 0; font-size: 1.75rem;">Yixiao Wang</h1>
+      <!-- <h1 style="margin: 0; font-size: 1.75rem;">Yixiao Wang</h1> -->
+      <h1 style="margin: 0; font-size: 1.75rem;">
+        <span style="font-weight: 800;">Yixiao</span>
+        <span style="font-weight: 300;">Wang</span>
+      </h1>
       <a href="/files/CV_Yixiao_Wang.pdf" style="font-size: 0.95rem; text-decoration: none;">
         <i class="fas fa-file-pdf" aria-hidden="true" style="margin-right: 4px;"></i> Download CV
       </a>
     </div>
     <p>
+    Hello! I am a Statistics master’s student in 
+    <a href="https://users.cs.duke.edu/~cynthia/home.html">Prof. Cynthia Rudin</a>'s 
+    <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a> 
+    at <a href="https://www.duke.edu/">Duke University</a>. 
+    My research focuses on building interpretable, scalable, and efficient machine learning models.  
+    I am interested in sparse models and variable importance, motivated by the question: 
+    <i>What model should we use, and which features truly matter?</i>
+    </p>
+    <p>
+    I feel fortunate to have previously collaborated with 
+    <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on deep learning theory, 
+    <a href="https://aditya08.github.io/">Prof. Aditya Devarakonda</a> on accelerating solvers for penalized regression, 
+    and <a href="https://cei.pratt.duke.edu/people/yiran-chen">Prof. Yiran Chen</a> on accelerating generative models. Prior to Duke, I earned my honors B.S. in Mathematics at <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a> through the <a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a>. 
+    </p>
+
+    <!-- <p>
     I am a master’s student in the 
     <a href="https://stat.duke.edu/">Statistical Science</a> at 
     <strong><a href="https://www.duke.edu/">Duke University</a></strong>. 
@@ -34,13 +54,12 @@ redirect_from:
     I also work with <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on <strong>deep learning theory</strong>. 
     Beyond these, I have collaborated with several other faculty members and students, as detailed on my Research Experience section in <a href="https://yixiao-wang-stats.github.io/research/">Research</a> page. 
     I am deeply grateful for the guidance and support from these brilliant mentors and collaborators.
-    </p>
-
-    <p>
+    </p> -->
+    <!-- <p>
     Prior to Duke, I earned my undergraduate degree in Mathematics (Probability and Statistics track) at the 
     <strong><a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a></strong>, where I was admitted through the 
     <strong><a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a></strong>, a selective program for exceptionally talented students under the age of 17.
-    </p>
+    </p> -->
 
 
 <!--     <p>
@@ -65,91 +84,126 @@ redirect_from:
   </div>
 </div>
 
-Selected Publications
-===============
+
+<h1 style="margin: 0; font-size: 1.75rem;">
+        <span style="font-weight: 300;">Selected Publications</span>
+      </h1>
 
 <div class="project-block">
   <img src="/images/sada.png" alt="SADA Project Figure">
   <div class="project-info">
-   <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/SADA" style="color: inherit; text-decoration: none;">
-      <strong>SADA: Stability-guided Adaptive Diffusion Acceleration</strong>
-    </a>
-  </p>
+    <p class="project-title">
+      <a href="https://yixiao-wang-stats.github.io/research/SADA" style="color: inherit; text-decoration: none;">
+        <strong>SADA: Stability-guided Adaptive Diffusion Acceleration</strong>
+      </a>
+    </p>
 
-    <p>
-      Ting Jiang*, <strong>Yixiao Wang*</strong>, Hancheng Ye*, Zishan Shao, Jingwei Sun, Jingyang Zhang, Zekai Chen, Jianyi Zhang, Yiran Chen, Hai Li<br>
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author">Ting Jiang*</span>
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Hancheng Ye*</span>
+        <span class="author">Zishan Shao</span>
+        <span class="author">Jingwei Sun</span>
+        <span class="author">Jingyang Zhang</span>
+        <span class="author">Zekai Chen</span>
+        <span class="author">Jianyi Zhang</span>
+        <span class="author">Yiran Chen</span>
+        <span class="author">Hai Li</span>
+      </span>
+      <br>
       <em>ICML 2025</em>
     </p>
+
     <p class="project-links">
-      <a href="https://openreview.net/pdf?id=ThMQfsBnje">Paper</a> |
-      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a> |
-      <a href="https://yixiao-wang-stats.github.io/SADA/">Page</a> |
+      <a href="https://arxiv.org/pdf/2507.17135">Paper</a>
+      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a>
+      <a href="https://yixiao-wang-stats.github.io/SADA/">Page</a>
       <a href="https://yixiao-wang-stats.github.io/files/sada_slides.pdf">Slide</a>
     </p>
   </div>
 </div>
 
-
 <div class="project-block">
   <img src="/images/eccd.png" alt="ECCD Project Figure">
   <div class="project-info">
     <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
-      <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
-    </a>
-  </p>
+      <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
+        <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+      </a>
+    </p>
 
-    <p>
-      <strong>Yixiao Wang*</strong>, Zishan Shao*, Ting Jiang, Aditya Devarakonda<br>
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Zishan Shao*</span>
+        <span class="author">Ting Jiang</span>
+        <span class="author">Aditya Devarakonda</span>
+      </span>
+      <br>
       <em>NeurIPS 2025</em>
     </p>
+
     <p class="project-links">
-      <a href="https://arxiv.org/pdf/2510.19999">Paper</a> |
-      <a href="https://github.com/Yixiao-Wang-Stats/ECCD">Code</a> 
+      <a href="https://arxiv.org/pdf/2510.19999">Paper</a>
+      <a href="https://github.com/Yixiao-Wang-Stats/ECCD">Code</a>
     </p>
-  </div>
-</div> 
-
-<div class="project-block">
-  <img src="/images/Reasoning_Flow.png" alt="reasoning_flow">
-  <div class="project-info">
-   <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/reasoning_flow" style="color: inherit; text-decoration: none;">
-      <strong>The Geometry of Reasoning: Flowing Logics In Representation Space</strong>
-    </a>
-   </p>
-
-   <p>
-     Yufa Zhou*, <strong>Yixiao Wang*</strong>, Xunjian Yin*, Shuyan Zhou, Anru Zhang<br>
-     <em>ICLR 2026</em><br>
-   </p>
-   <p class="project-links">
-     <a href="https://arxiv.org/abs/2510.09782">Paper</a> |
-     <a href="https://github.com/MasterZhou1/Reasoning-Flow">Code</a> |
-     <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
-   </p>
   </div>
 </div>
 
 <div class="project-block">
-  <img src="/images/lsa_not_for_tsf.png" alt="LSA Time Series Project Figure">
+  <img src="/images/Reasoning_Flow.png" alt="Reasoning Flow Project Figure">
   <div class="project-info">
-   <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/Why_Do_Transformers_Fail_to_Forecast_Time_Series_In_Context" style="color: inherit; text-decoration: none;">
-      <strong>Why Do Transformers Fail to Forecast Time Series In-Context?</strong>
-    </a>
-   </p>
+    <p class="project-title">
+      <a href="https://yixiao-wang-stats.github.io/research/reasoning_flow" style="color: inherit; text-decoration: none;">
+        <strong>The Geometry of Reasoning: Flowing Logics In Representation Space</strong>
+      </a>
+    </p>
 
-   <p>
-     Yufa Zhou*, <strong>Yixiao Wang*</strong>, Surbhi Goel, Anru Zhang<br>
-     <em>NeurIPS 2025 Workshop on WCTD</em> <strong>(oral, 3/68; acceptance rate 40%)</strong><br>
-   </p>
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author">Yufa Zhou*</span>
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Xunjian Yin*</span>
+        <span class="author">Shuyan Zhou</span>
+        <span class="author">Anru Zhang</span>
+      </span>
+      <br>
+      <em>ICLR 2026</em>
+    </p>
 
-   <p class="project-links">
-     <a href="https://arxiv.org/abs/2510.09776">Paper</a> |
-     <a href="https://github.com/MasterZhou1/ICL-Time-Series">Code</a> 
-   </p>
+    <p class="project-links">
+      <a href="https://arxiv.org/abs/2510.09782">Paper</a>
+      <a href="https://github.com/MasterZhou1/Reasoning-Flow">Code</a>
+      <a href="https://huggingface.co/datasets/MasterZhou/Reasoning-Flow">Database</a>
+    </p>
+  </div>
+</div>
+
+<div class="project-block">
+  <img src="/images/lsa_not_for_tsf.png" alt="ICL Time Series Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+      <a href="https://yixiao-wang-stats.github.io/research/Why_Do_Transformers_Fail_to_Forecast_Time_Series_In_Context" style="color: inherit; text-decoration: none;">
+        <strong>Why Do Transformers Fail to Forecast Time Series In-Context?</strong>
+      </a>
+    </p>
+
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author">Yufa Zhou*</span>
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Surbhi Goel</span>
+        <span class="author">Anru Zhang</span>
+      </span>
+      <br>
+      <em>NeurIPS 2025 Workshop on WCTD</em> <strong>(oral, 3/68; acceptance rate 40%)</strong>
+    </p>
+
+    <p class="project-links">
+      <a href="https://arxiv.org/abs/2510.09776">Paper</a>
+      <a href="https://github.com/MasterZhou1/ICL-Time-Series">Code</a>
+    </p>
   </div>
 </div>
 
@@ -158,39 +212,60 @@ Selected Publications
   <div class="project-info">
     <p class="project-title">
       <a href="https://yixiao-wang-stats.github.io/research/ZEUS" style="color: inherit; text-decoration: none;">
-        <strong> ZEUS: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
+        <strong>ZEUS: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
       </a>
     </p>
 
-    <p>
-      <strong>Yixiao Wang*</strong>, Ting Jiang*, Zishan Shao*, Hancheng Ye, Jingwei Sun, Mingyuan Ma, Jianyi Zhang, Yiran Chen, Hai Li<br>
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Ting Jiang*</span>
+        <span class="author">Zishan Shao*</span>
+        <span class="author">Hancheng Ye</span>
+        <span class="author">Jingwei Sun</span>
+        <span class="author">Mingyuan Ma</span>
+        <span class="author">Jianyi Zhang</span>
+        <span class="author">Yiran Chen</span>
+        <span class="author">Hai Li</span>
+      </span>
     </p>
 
     <p class="project-links">
-      <a href="#">Paper</a> |
-      <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a> |
-      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a> 
+      <a href="#">Paper</a>
+      <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a>
+      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a>
     </p>
   </div>
 </div>
 
 <div class="project-block">
-  <img src="/images/flashsvd.png" alt="flashsvd Project Figure">
+  <img src="/images/flashsvd.png" alt="FlashSVD Project Figure">
   <div class="project-info">
     <p class="project-title">
-    <a href="https://yixiao-wang-stats.github.io/research/FlashSVD" style="color: inherit; text-decoration: none;">
-      <strong>FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models</strong>
-    </a>
-  </p>
+      <a href="https://yixiao-wang-stats.github.io/research/FlashSVD" style="color: inherit; text-decoration: none;">
+        <strong>FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models</strong>
+      </a>
+    </p>
 
-    <p>
-      Zishan Shao, <strong>Yixiao Wang</strong>, Qinsi Wang, Ting Jiang, Zhixu Du, Hancheng Ye, Danyang Zhuo,
-Yiran Chen, Hai Li<br>
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author">Zishan Shao</span>
+        <span class="author"><strong>Yixiao Wang</strong></span>
+        <span class="author">Qinsi Wang</span>
+        <span class="author">Ting Jiang</span>
+        <span class="author">Zhixu Du</span>
+        <span class="author">Hancheng Ye</span>
+        <span class="author">Danyang Zhuo</span>
+        <span class="author">Yiran Chen</span>
+        <span class="author">Hai Li</span>
+      </span>
+      <br>
       <em>AAAI 2026</em>
     </p>
+
     <p class="project-links">
-      <a href="https://arxiv.org/abs/2508.01506">Paper</a> |
-      <a href="https://github.com/Zishan-Shao/FlashSVD">Code</a> 
+      <a href="https://arxiv.org/abs/2508.01506">Paper</a>
+      <a href="https://github.com/Zishan-Shao/FlashSVD">Code</a>
     </p>
   </div>
 </div>
@@ -199,10 +274,9 @@ Yiran Chen, Hai Li<br>
   * Equal contribution
 </p>
 
-
-<div class="background-container">
-  <div class="watermark"></div>   <!-- 水印层 -->
-    <!-- 纯正文（无白框） -->
+<!-- <div class="background-container">
+  <div class="watermark"></div>  
+    纯正文（无白框）
   <div class="overlay-content">
       <h1>Research Interests</h1>
      <p>
@@ -221,4 +295,84 @@ Yiran Chen, Hai Li<br>
 </p>
 
   </div>
-</div>
+</div> -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".project-meta .authors").forEach((authorsEl) => {
+    const showN = parseInt(authorsEl.dataset.show || "3", 10);
+    const nodes = Array.from(authorsEl.querySelectorAll(":scope > .author"));
+    if (nodes.length <= showN) return;
+
+    const visible = nodes.slice(0, showN);
+    const hidden  = nodes.slice(showN);
+    const hiddenCount = hidden.length;
+
+    authorsEl.innerHTML = "";
+
+    // visible authors + real commas
+    visible.forEach((n, i) => {
+      authorsEl.appendChild(n);
+      if (i < visible.length - 1) authorsEl.appendChild(document.createTextNode(", "));
+    });
+
+    // ", and "
+    authorsEl.appendChild(document.createTextNode(", and "));
+
+    // toggle
+    const toggle = document.createElement("span");
+    toggle.className = "authors-toggle dash-underline";
+    toggle.textContent = `${hiddenCount} more authors`;
+    authorsEl.appendChild(toggle);
+
+    // expanded container (inline flow)
+    const expanded = document.createElement("span");
+    expanded.style.display = "none";
+    authorsEl.appendChild(expanded);
+
+    function buildExpandedSequential() {
+      expanded.innerHTML = "";
+
+      hidden.forEach((node, idx) => {
+        const mask = document.createElement("span");
+        mask.className = "reveal-mask";
+        // 如果你要“完全显示完才下一个”，把 460 改成 420+一点点缓冲
+        mask.style.animationDelay = `${idx * 160}ms`;
+
+        // ✅ 关键：把逗号也放进 mask 内部 -> 逗号和名字同步出现
+        if (idx > 0) {
+          mask.appendChild(document.createTextNode(", "));
+        }
+
+        const name = document.createElement("span");
+        name.className = "author-more dash-underline";
+        name.innerHTML = node.innerHTML;
+
+        name.addEventListener("click", (e) => {
+          e.preventDefault();
+          close();
+        });
+
+        mask.appendChild(name);
+        expanded.appendChild(mask);
+      });
+    }
+
+    function open() {
+      toggle.style.display = "none";
+      expanded.style.display = "inline";
+      buildExpandedSequential();
+    }
+
+    function close() {
+      expanded.style.display = "none";
+      expanded.innerHTML = "";
+      toggle.style.display = "inline";
+    }
+
+    toggle.addEventListener("click", (e) => {
+      e.preventDefault();
+      open();
+    });
+  });
+});
+</script>

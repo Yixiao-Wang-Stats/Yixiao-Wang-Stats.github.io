@@ -14,8 +14,8 @@ h1, h2, h3 {
 
 
 /* ----------------------------- */
-/* 3. 你的项目卡片和图片阴影样式 */
-.project-block {
+/* 3. 你的项目卡片和图片阴影样�?*/
+/* .project-block {
   display: flex;
   flex-wrap: nowrap;
   gap: 1.5rem;
@@ -27,19 +27,30 @@ h1, h2, h3 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   background-color: #fff;
   transition: box-shadow 0.3s ease;
+} */
+.project-block {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;              /* 👈 左右更松 */
+  margin-top: 2rem;
+  align-items: flex-start;
+
+  /* �?去掉卡片�?*/
+  border: none;
+  padding: 0;             /* 👈 关键：释放左右空�?*/
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
 }
 
-.project-block:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-}
 
 .project-block p {
-  margin-bottom: 0;   /* 或者你想要的 0.3em、0.5em */
+  margin-bottom: 0;   /* 或者你想要�?0.3em�?.5em */
 }
 
 .project-block img {
   width: 45%;
-  max-width: 500px;
+  max-width: 200px;
   border-radius: 10px;
   border: 1px solid #ccc;
   object-fit: cover;
@@ -51,19 +62,49 @@ h1, h2, h3 {
   transform: scale(1.015);
 }
 
-.project-info { flex: 1; min-width: 0; }
+.project-info {
+  flex: 1;
+  min-width: 0;
+  display: block;
+}
 
-.project-title   { font-size: 1.4rem; font-weight: 700; color: #003087; margin-bottom: .5rem; }
+.project-info > p {
+  margin-top: 0;
+}
+
+.project-title   { font-size: 0.9rem !important; font-weight: 700; color: #003087; margin-bottom: .5rem; }
+.project-meta {
+  font-size: 0.8rem !important;
+  color: #333333;
+  line-height: 1.45;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.project-meta .authors {
+  display: inline;
+}
+
+/* ICML 2025 单独更淡一�?*/
+.project-meta em {
+  font-style: italic;
+  color: #555555;
+}
+
+/* links：再小一点，但保持可点击�?*/
+.project-links {
+  font-size: 0.8rem !important;
+}
 .project-links a { margin-right: 1rem; color: #4a90e2; font-weight: 600; text-decoration: none; }
 .project-links a[href="#"] {
-  color: #cccccc;   /* 一个淡雅灰色 */
-  font-weight: 600; /* 比较轻，不要太显眼 */
-  cursor: not-allowed; /* 鼠标悬停时禁止符号，更直观 */
+  color: #cccccc;   /* 一个淡雅灰�?*/
+  font-weight: 600; /* 比较轻，不要太显�?*/
+  cursor: not-allowed; /* 鼠标悬停时禁止符号，更直�?*/
   pointer-events: none; /* 禁用点击 */
 }
 .project-links a:hover { text-decoration: underline; }
 
-/* 容器：负责定位 */
+/* 容器：负责定�?*/
 .background-container {
   position: relative;
   overflow: hidden;
@@ -72,31 +113,22 @@ h1, h2, h3 {
   background-color: #fff;
 }
 
-/* ✨ 水印层：用可重复的 SVG 文字做背景图 */
+/* �?水印层：用可重复�?SVG 文字做背景图 */
 .watermark {
   position: absolute;
-  inset: 0;               /* 等价于 top/right/bottom/left: 0 */
+  inset: 0;               /* 等价�?top/right/bottom/left: 0 */
   z-index: 0;
   pointer-events: none;
 
-  /* 使用嵌入式 SVG 作为背景，既能横向也能纵向平铺 */
-  background-image: url("data:image/svg+xml;utf8, \
-    <svg xmlns='http://www.w3.org/2000/svg' width='880' height='120'> \
-      <text x='0' y='80' font-size='90' font-weight='700' \
-            fill='rgba(0,48,135,0.04)'>DUKE UNIVERSITY</text> \
-    </svg>");
-  
-  background-repeat: repeat;       /* 横、纵方向都重复 */
+  /* 使用嵌入�?SVG 作为背景，既能横向也能纵向平�?*/
+  background-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='880' height='120'>, <text x='0' y='80' font-size='90' font-weight='700' fill='rgba(0,48,135,0.04)'>DUKE UNIVERSITY</text>  </svg>");
+  background-repeat: repeat;       /* 横、纵方向都重�?*/
   background-size: 500px 90px;    /* 调节字距 (宽度 × 行高) */
 }
 
 
 
-
-
-
-
-/* 正文：去掉白框、阴影，只保留排版宽度 */
+/* 正文：去掉白框、阴影，只保留排版宽�?*/
 .overlay-content {
   position: relative;
   z-index: 1;             /* 保证盖在水印之上 */
@@ -108,7 +140,7 @@ h1, h2, h3 {
 }
 
 .overlay-content a {
-  color: #003087;         /* Duke 蓝 */
+  color: #003087;         /* Duke �?*/
   text-decoration: none;
 }
 .overlay-content a:hover {
@@ -119,5 +151,81 @@ h1, h2, h3 {
 .overlay-content a:hover {
   text-decoration: underline;
 }
+
+
+/* ============================= */
+/* Authors — smooth, no reflow    */
+/* ============================= */
+
+.project-meta .authors { display: inline; }
+
+/* 均匀虚线下划线（toggle & expanded authors 同款） */
+.project-meta .dash-underline {
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(0,0,0,0.28) 0px,
+    rgba(0,0,0,0.28) 6px,
+    transparent 6px,
+    transparent 10px
+  );
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: 0 1.18em;
+  padding-bottom: 2px;
+}
+
+/* toggle（灰色虚线） */
+.project-meta .authors-toggle {
+  color: #8f8f8f;
+  cursor: pointer;
+}
+.project-meta .authors-toggle:hover {
+  color: #6f6f6f;
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(0,0,0,0.38) 0px,
+    rgba(0,0,0,0.38) 6px,
+    transparent 6px,
+    transparent 10px
+  );
+}
+
+/* expanded names：始终同款虚线（一直都有），默认灰色；hover 才加深 */
+.project-meta .author-more {
+  color: #8f8f8f;
+  cursor: pointer;
+  /* 一直保持同款虚线 */
+}
+.project-meta .author-more:hover {
+  color: #555555;
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(0,0,0,0.38) 0px,
+    rgba(0,0,0,0.38) 6px,
+    transparent 6px,
+    transparent 10px
+  );
+}
+
+/* 每个 reveal-mask：不改变布局，只裁剪显示，丝滑且不抖 */
+.project-meta .reveal-mask {
+  display: inline-block;                 /* 同一文本流/同一基线 */
+  clip-path: inset(0 100% 0 0);    /* 右侧全遮住 */
+  animation: revealLTR 420ms cubic-bezier(.2,.8,.2,1) forwards;
+  will-change: clip-path;
+}
+@keyframes revealLTR { to { clip-path: inset(0 0 0 0); } }
+
+
+
+
+
+
+
+
+
+
+
+
 
 

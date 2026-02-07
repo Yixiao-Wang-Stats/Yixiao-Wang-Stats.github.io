@@ -87,6 +87,8 @@ body, html {
     max-width: calc(50% - 20px); /* Max size for Digital Art & Others */
 }
 
+
+
 @media (max-width: 768px) {
     .origami-gallery {
         grid-template-columns: repeat(2, 1fr); /* Origami switches to 2 columns */
