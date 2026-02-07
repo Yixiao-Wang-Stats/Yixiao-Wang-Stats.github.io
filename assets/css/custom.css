@@ -104,11 +104,68 @@ h1, h2, h3 {
 }
 .project-links a:hover { text-decoration: underline; }
 
+
+
+
+/* News and Highlights */
+.news-list{
+  z-index: 1;
+  font-size: 0.8rem; 
+  list-style: none;
+  padding-left: 0;
+  margin: 0.6rem 0 1.0rem 0;
+}
+
+.news-list li{
+  display: flex;
+  align-items: baseline;
+  gap: 0.2rem;
+  padding: 0.1rem 0;
+  line-height: 1.35;
+}
+
+.news-list i{
+  width: 1.1rem;
+  min-width: 1.1rem;
+  opacity: 0.85;
+  transform: translateY(1px);
+}
+
+.news-date{
+  z-index: 1;
+  font-size: 0.9rem; 
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+.news-text{
+  z-index: 1;
+  font-size: 0.9rem; 
+  color: #222;
+}
+
+.news-text strong{
+  font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 容器：负责定�?*/
 .background-container {
+  z-index:-2;
   position: relative;
   overflow: hidden;
-  padding: 1rem 0rem;
+  padding: 0 !important; 
   font-family: Georgia, serif;
   background-color: #fff;
 }
@@ -117,7 +174,7 @@ h1, h2, h3 {
 .watermark {
   position: absolute;
   inset: 0;               /* 等价�?top/right/bottom/left: 0 */
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
 
   /* 使用嵌入�?SVG 作为背景，既能横向也能纵向平�?*/
@@ -125,6 +182,21 @@ h1, h2, h3 {
   background-repeat: repeat;       /* 横、纵方向都重�?*/
   background-size: 500px 90px;    /* 调节字距 (宽度 × 行高) */
 }
+
+.watermark2 {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  background-color: #f0f0f0;
+
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='980' height='120'><text x='0' y='80' font-size='90' font-weight='700' fill='rgba(255,255,255,1)'>COMPUTER SCIENCE</text></svg>");
+
+  background-repeat: repeat;
+  background-size: 500px 90px;
+}
+
 
 
 
@@ -215,17 +287,6 @@ h1, h2, h3 {
   will-change: clip-path;
 }
 @keyframes revealLTR { to { clip-path: inset(0 0 0 0); } }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

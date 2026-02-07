@@ -16,9 +16,9 @@ redirect_from:
 
 
 <div class="background-container">
-  <div class="watermark"></div>   <!-- 水印层 -->
   <!-- 纯正文（无白框） -->
   <div class="overlay-content">
+  <div class="watermark"></div>   <!-- 水印层 -->
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.8rem;">
       <!-- <h1 style="margin: 0; font-size: 1.75rem;">Yixiao Wang</h1> -->
       <h1 style="margin: 0; font-size: 1.75rem;">
@@ -44,46 +44,54 @@ redirect_from:
     <a href="https://aditya08.github.io/">Prof. Aditya Devarakonda</a> on accelerating solvers for penalized regression, 
     and <a href="https://cei.pratt.duke.edu/people/yiran-chen">Prof. Yiran Chen</a> on accelerating generative models. Prior to Duke, I earned my honors B.S. in Mathematics at <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a> through the <a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a>. 
     </p>
-
-    <!-- <p>
-    I am a master’s student in the 
-    <a href="https://stat.duke.edu/">Statistical Science</a> at 
-    <strong><a href="https://www.duke.edu/">Duke University</a></strong>. 
-    I work with <a href="https://users.cs.duke.edu/~cynthia/home.html">Prof. Cynthia Rudin</a> in the 
-    <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a>, focusing on <strong>interpretable machine learning theory</strong>. 
-    I also work with <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on <strong>deep learning theory</strong>. 
-    Beyond these, I have collaborated with several other faculty members and students, as detailed on my Research Experience section in <a href="https://yixiao-wang-stats.github.io/research/">Research</a> page. 
-    I am deeply grateful for the guidance and support from these brilliant mentors and collaborators.
-    </p> -->
-    <!-- <p>
-    Prior to Duke, I earned my undergraduate degree in Mathematics (Probability and Statistics track) at the 
-    <strong><a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a></strong>, where I was admitted through the 
-    <strong><a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a></strong>, a selective program for exceptionally talented students under the age of 17.
-    </p> -->
-
-
-<!--     <p>
-        I am a second-year master’s student in the 
-        <a href="https://stat.duke.edu/">Department of Statistical Science</a> at 
-        <a href="https://www.duke.edu/">Duke University</a>. 
-        Prior to this, I earned my undergraduate degree in Mathematics and Statistics from the 
-        <a href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, 
-        where I was admitted through the 
-        <a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a>, a selective four-year program for exceptionally talented students under the age of 16.
-      </p>
-      <p>
-        During my time at USTC, I served as a teaching assistant for 
-        <em><a href="https://yixiao-wang-stats.github.io/teaching/2023-Spring-MATH1009-Linear-Algebra-B1">Linear Algebra B1</a></em>, 
-        where I was recognized as one of the top TAs for my dedication to supporting student learning.
-      </p>
-      <p>
-        Outside of academics, I enjoy creating art, particularly origami 
-        (<a href="https://yixiao-wang-stats.github.io/hobby_miscellaneous/">see my artwork</a>).
-      </p> -->
-
   </div>
 </div>
-
+<h1 style="margin: 0; font-size: 1.75rem; z-index: 2;">
+      <span style="font-weight: 300;">News and Highlights</span>
+    </h1>
+<div class="background-container">
+  <div class="overlay-content">
+    <div class="watermark2"></div>
+    <ul class="news-list">
+      <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">01/2026</span>
+        <span class="news-text">One paper accepted in ICLR 2026.</span>
+      </li>
+      <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">09/2025</span>
+        <span class="news-text">One paper accepted in AAAI 2026.</span>
+      </li>
+      <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">09/2025</span>
+        <span class="news-text">
+          Two papers accepted in NeurIPS 2025 and NeurIPS 2025 Workshop (Oral).
+        </span>
+      </li>
+      <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">05/2025</span>
+        <span class="news-text">One paper accepted in ICML 2025.</span>
+      </li>
+      <li>
+        <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+        <span class="news-date">07/2024</span>
+        <span class="news-text">
+          I earned my honors B.S. in Mathematics at the University of Science and Technology of China.
+        </span>
+      </li>
+      <li>
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span class="news-date">03/2024</span>
+        <span class="news-text">
+          Incoming M.S. student in Statistical Science at Duke University.
+        </span>
+      </li>
+    </ul>
+  </div>  
+</div>
 
 <h1 style="margin: 0; font-size: 1.75rem;">
         <span style="font-weight: 300;">Selected Publications</span>
