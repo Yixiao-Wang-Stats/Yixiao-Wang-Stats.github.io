@@ -54,7 +54,7 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages-${{ github.run_id }}
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
 
   # Deployment job
   deploy:
@@ -68,4 +68,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: github-pages-${{ github.run_id }}
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
