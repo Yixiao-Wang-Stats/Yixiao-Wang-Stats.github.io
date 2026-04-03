@@ -239,7 +239,7 @@ redirect_from:
     </p>
 
     <p class="project-links">
-      <a href="#">Paper</a>
+      <a href="https://arxiv.org/abs/2604.01552">Paper</a>
       <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a>
       <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a>
     </p>
