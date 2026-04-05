@@ -104,7 +104,7 @@ redirect_from:
         <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
         <span class="news-date">07/2024</span>
         <span class="news-text">
-          Completed an honors B.S. in Mathematics at the University of Science and Technology of China.
+          Honors B.S. in Mathematics at the University of Science and Technology of China.
         </span>
       </li>
       <li>
