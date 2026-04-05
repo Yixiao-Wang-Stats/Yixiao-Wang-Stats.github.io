@@ -6,7 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VTQ4CYXCP1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VTQ4CYXCP1');
+</script>
 <!-- 加载图标样式（如果还没加载） -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="/assets/css/cv.css">
