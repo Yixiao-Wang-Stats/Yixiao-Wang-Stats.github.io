@@ -162,7 +162,6 @@ h1, h2, h3 {
 
 /* 容器：负责定�?*/
 .background-container {
-  z-index:-2;
   position: relative;
   overflow: hidden;
   padding: 0 !important; 
