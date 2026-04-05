@@ -53,6 +53,31 @@ redirect_from:
   <div class="overlay-content">
     <div class="watermark2"></div>
     <ul class="news-list">
+
+       <li>
+          <i class="fa-solid fa-award" aria-hidden="true"></i>
+          <span class="news-date">03/2026</span>
+          <span class="news-text">
+            Awarded the Centennial & Graduate Professional Fellowship at Duke University (one of the most prestigious and competitive honors for incoming graduate students).
+          </span>
+        </li>
+      
+        <li>
+          <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+          <span class="news-date">02/2026</span>
+          <span class="news-text">
+            I am excited to announce that I will join the Department of Computer Science at Duke University as a PhD student in Fall 2026.
+          </span>
+        </li>
+      
+        <li>
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+          <span class="news-date">01/2026</span>
+          <span class="news-text">
+            A little personal milestone: First-author papers accepted at all three major AI conferences: ICML, ICLR, and NeurIPS.
+          </span>
+        </li>
+
       <li>
         <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
         <span class="news-date">01/2026</span>
@@ -86,7 +111,7 @@ redirect_from:
         <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
         <span class="news-date">03/2024</span>
         <span class="news-text">
-          Incoming M.S. student in Statistical Science at Duke University.
+          I am excited to announce that I will join the Department of Computer Science at Duke University as an M.S. student in Fall 2024.
         </span>
       </li>
     </ul>
