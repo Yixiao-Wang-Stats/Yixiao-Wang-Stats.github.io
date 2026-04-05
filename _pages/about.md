@@ -66,7 +66,7 @@ redirect_from:
           <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
           <span class="news-date">02/2026</span>
           <span class="news-text">
-            I will join the Department of Computer Science at Duke University as a PhD student in Fall 2026.
+            Incoming Ph.D. student in Computer Science at Duke University.
           </span>
         </li>
       
@@ -111,7 +111,7 @@ redirect_from:
         <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
         <span class="news-date">03/2024</span>
         <span class="news-text">
-          I will join the Department of Statistical Science at Duke University as an M.S. student in Fall 2024.
+          Incoming M.S. student in Statistical Science at Duke University.
         </span>
       </li>
     </ul>
