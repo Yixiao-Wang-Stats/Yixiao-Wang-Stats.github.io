@@ -74,7 +74,7 @@ redirect_from:
           <i class="fa-solid fa-star" aria-hidden="true"></i>
           <span class="news-date">01/2026</span>
           <span class="news-text">
-            Milestone: First-author papers accepted at all three major AI conferences: ICML, ICLR, and NeurIPS.
+            Milestone: First-author papers accepted at all three major AI conferences.
           </span>
         </li>
 
