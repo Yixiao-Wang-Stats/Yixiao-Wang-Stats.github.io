@@ -63,7 +63,7 @@ redirect_from:
         </li>
       
         <li>
-          <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
           <span class="news-date">02/2026</span>
           <span class="news-text">
             I am excited to announce that I will join the Department of Computer Science at Duke University as a PhD student in Fall 2026.
