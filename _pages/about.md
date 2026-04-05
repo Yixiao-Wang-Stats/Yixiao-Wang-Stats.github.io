@@ -111,7 +111,7 @@ redirect_from:
         <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
         <span class="news-date">03/2024</span>
         <span class="news-text">
-          I am excited to announce that I will join the Department of Computer Science at Duke University as an M.S. student in Fall 2024.
+          I am excited to announce that I will join the Department of Statistical Science at Duke University as an M.S. student in Fall 2024.
         </span>
       </li>
     </ul>
