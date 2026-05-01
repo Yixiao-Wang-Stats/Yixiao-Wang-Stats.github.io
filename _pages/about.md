@@ -132,67 +132,35 @@ redirect_from:
         <span style="font-weight: 300;">Selected Publications</span>
       </h1>
 
-<div class="project-block">
-  <img src="/images/sada.png" alt="SADA Project Figure">
-  <div class="project-info">
-    <p class="project-title">
-      <a href="https://yixiao-wang-stats.github.io/research/SADA" style="color: inherit; text-decoration: none;">
-        <strong>SADA: Stability-guided Adaptive Diffusion Acceleration</strong>
-      </a>
-    </p>
-
-    <p class="project-meta">
-      <span class="authors" data-show="3" data-toggle="text">
-        <span class="author">Ting Jiang*</span>
-        <span class="author"><strong>Yixiao Wang*</strong></span>
-        <span class="author">Hancheng Ye*</span>
-        <span class="author">Zishan Shao</span>
-        <span class="author">Jingwei Sun</span>
-        <span class="author">Jingyang Zhang</span>
-        <span class="author">Zekai Chen</span>
-        <span class="author">Jianyi Zhang</span>
-        <span class="author">Yiran Chen</span>
-        <span class="author">Hai Li</span>
-      </span>
-      <br>
-      <em>ICML 2025</em>
-    </p>
-
-    <p class="project-links">
-      <a href="https://arxiv.org/pdf/2507.17135">Paper</a>
-      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a>
-      <a href="https://yixiao-wang-stats.github.io/SADA/">Page</a>
-      <a href="https://yixiao-wang-stats.github.io/files/sada_slides.pdf">Slide</a>
-    </p>
-  </div>
-</div>
 
 <div class="project-block">
-  <img src="/images/eccd.png" alt="ECCD Project Figure">
+  <img src="/images/claritree.png" alt="CLARITree Project Figure">
   <div class="project-info">
     <p class="project-title">
-      <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
-        <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+      <a href="#" style="color: inherit; text-decoration: none;">
+        <strong>CLARITree: Cholesky and Lookahead Accelerations for Regression with Interpretable Piecewise Linear Trees</strong>
       </a>
     </p>
 
     <p class="project-meta">
       <span class="authors" data-show="3" data-toggle="text">
         <span class="author"><strong>Yixiao Wang*</strong></span>
-        <span class="author">Zishan Shao*</span>
-        <span class="author">Ting Jiang</span>
-        <span class="author">Aditya Devarakonda</span>
+        <span class="author">Hayden McTavish*</span>
+        <span class="author">Varun Babbar*</span>
+        <span class="author">Margo Seltzer</span>
+        <span class="author">Cynthia Rudin</span>
       </span>
       <br>
-      <em>NeurIPS 2025</em>
+      <em>ICML 2026</em>
     </p>
 
     <p class="project-links">
-      <a href="https://arxiv.org/pdf/2510.19999">Paper</a>
-      <a href="https://github.com/Yixiao-Wang-Stats/ECCD">Code</a>
+      <a href="#">Paper</a>
+      <a href="#">Code</a>
     </p>
   </div>
 </div>
+
 
 <div class="project-block">
   <img src="/images/Reasoning_Flow.png" alt="Reasoning Flow Project Figure">
@@ -249,6 +217,70 @@ redirect_from:
     </p>
   </div>
 </div>
+
+
+<div class="project-block">
+  <img src="/images/eccd.png" alt="ECCD Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+      <a href="https://yixiao-wang-stats.github.io/research/ECCD" style="color: inherit; text-decoration: none;">
+        <strong>Enhanced Cyclic Coordinate Descent for Elastic Net GLMs</strong>
+      </a>
+    </p>
+
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Zishan Shao*</span>
+        <span class="author">Ting Jiang</span>
+        <span class="author">Aditya Devarakonda</span>
+      </span>
+      <br>
+      <em>NeurIPS 2025</em>
+    </p>
+
+    <p class="project-links">
+      <a href="https://arxiv.org/pdf/2510.19999">Paper</a>
+      <a href="https://github.com/Yixiao-Wang-Stats/ECCD">Code</a>
+    </p>
+  </div>
+</div>
+
+<div class="project-block">
+  <img src="/images/sada.png" alt="SADA Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+      <a href="https://yixiao-wang-stats.github.io/research/SADA" style="color: inherit; text-decoration: none;">
+        <strong>SADA: Stability-guided Adaptive Diffusion Acceleration</strong>
+      </a>
+    </p>
+
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author">Ting Jiang*</span>
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Hancheng Ye*</span>
+        <span class="author">Zishan Shao</span>
+        <span class="author">Jingwei Sun</span>
+        <span class="author">Jingyang Zhang</span>
+        <span class="author">Zekai Chen</span>
+        <span class="author">Jianyi Zhang</span>
+        <span class="author">Yiran Chen</span>
+        <span class="author">Hai Li</span>
+      </span>
+      <br>
+      <em>ICML 2025</em>
+    </p>
+
+    <p class="project-links">
+      <a href="https://arxiv.org/pdf/2507.17135">Paper</a>
+      <a href="https://github.com/Ting-Justin-Jiang/sada-icml">Code</a>
+      <a href="https://yixiao-wang-stats.github.io/SADA/">Page</a>
+      <a href="https://yixiao-wang-stats.github.io/files/sada_slides.pdf">Slide</a>
+    </p>
+  </div>
+</div>
+
 
 <div class="project-block">
   <img src="/images/zeus.png" alt="ZEUS Project Figure">
