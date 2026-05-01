@@ -59,7 +59,11 @@ redirect_from:
   <div class="overlay-content">
     <div class="watermark2"></div>
     <ul class="news-list">
-
+      <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">04/2026</span> 
+        <span class="news-text">Two papers accepted at ICML 2026 (one Spotlight).</span>
+      </li>
        <li>
           <i class="fa-solid fa-award" aria-hidden="true"></i>
           <span class="news-date">03/2026</span>
@@ -273,38 +277,6 @@ redirect_from:
       <a href="https://arxiv.org/abs/2604.01552">Paper</a>
       <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a>
       <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a>
-    </p>
-  </div>
-</div>
-
-<div class="project-block">
-  <img src="/images/flashsvd.png" alt="FlashSVD Project Figure">
-  <div class="project-info">
-    <p class="project-title">
-      <a href="https://yixiao-wang-stats.github.io/research/FlashSVD" style="color: inherit; text-decoration: none;">
-        <strong>FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models</strong>
-      </a>
-    </p>
-
-    <p class="project-meta">
-      <span class="authors" data-show="3" data-toggle="text">
-        <span class="author">Zishan Shao</span>
-        <span class="author"><strong>Yixiao Wang</strong></span>
-        <span class="author">Qinsi Wang</span>
-        <span class="author">Ting Jiang</span>
-        <span class="author">Zhixu Du</span>
-        <span class="author">Hancheng Ye</span>
-        <span class="author">Danyang Zhuo</span>
-        <span class="author">Yiran Chen</span>
-        <span class="author">Hai Li</span>
-      </span>
-      <br>
-      <em>AAAI 2026</em>
-    </p>
-
-    <p class="project-links">
-      <a href="https://arxiv.org/abs/2508.01506">Paper</a>
-      <a href="https://github.com/Zishan-Shao/FlashSVD">Code</a>
     </p>
   </div>
 </div>
