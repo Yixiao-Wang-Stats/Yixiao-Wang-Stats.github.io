@@ -36,7 +36,7 @@ redirect_from:
       </a>
     </div>
     <p>
-    Hello! I am a Statistics master’s student in 
+    Hello! I am a first-year Ph.D. student in Computer Science in
     <a href="https://users.cs.duke.edu/~cynthia/home.html">Prof. Cynthia Rudin</a>'s 
     <a href="https://users.cs.duke.edu/~cynthia/lab.html">Interpretable Machine Learning Lab</a> 
     at <a href="https://www.duke.edu/">Duke University</a>. 
@@ -48,7 +48,7 @@ redirect_from:
     I feel fortunate to have previously collaborated with 
     <a href="https://anruzhang.github.io/">Prof. Anru Zhang</a> on deep learning theory, 
     <a href="https://aditya08.github.io/">Prof. Aditya Devarakonda</a> on accelerating solvers for penalized regression, 
-    and <a href="https://cei.pratt.duke.edu/people/yiran-chen">Prof. Yiran Chen</a> on accelerating generative models. Prior to Duke, I earned my honors B.S. in Mathematics at <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a> through the <a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a>. 
+    and <a href="https://cei.pratt.duke.edu/people/yiran-chen">Prof. Yiran Chen</a> on accelerating generative models. Prior to starting my Ph.D., I earned my M.S. in Statistical Science from <a href="https://stat.duke.edu/">Duke University</a> and my honors B.S. in Mathematics from <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a> through the <a href="https://en.scgy.ustc.edu.cn/">School of the Gifted Young</a>.
     </p>
   </div>
 </div>
