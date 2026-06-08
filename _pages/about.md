@@ -156,7 +156,7 @@ redirect_from:
 
     <p class="project-links">
       <a href="#">Paper</a>
-      <a href="#">Code</a>
+      <a href="https://github.com/Yixiao-Wang-Stats/CLARITree">Code</a>
     </p>
   </div>
 </div>
