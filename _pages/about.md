@@ -157,6 +157,7 @@ redirect_from:
     <p class="project-links">
       <a href="https://arxiv.org/abs/2606.12840">Paper</a>
       <a href="https://github.com/Yixiao-Wang-Stats/CLARITree">Code</a>
+      <a href="[https://yixiao-wang-stats.github.io/files/sada_slides.pdf](https://docs.google.com/presentation/d/1ePq1CwPEvQXNxr6PjK-0HgS29H6AWev2a8CdrCjlkdw/edit?slide=id.g3ebf385e354_1_0#slide=id.g3ebf385e354_1_0)">Slide</a>
     </p>
   </div>
 </div>
