@@ -59,6 +59,12 @@ redirect_from:
   <div class="overlay-content">
     <div class="watermark2"></div>
     <ul class="news-list">
+       <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">07/2026</span> 
+        <span class="news-text">One paper accepted at ACMMM 2026.</span>
+      </li>
+      
       <li>
         <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
         <span class="news-date">04/2026</span> 
@@ -131,6 +137,41 @@ redirect_from:
 <h1 style="margin: 0; font-size: 1.75rem;">
         <span style="font-weight: 300;">Selected Publications</span>
       </h1>
+
+
+
+<div class="project-block">
+  <img src="/images/zeus.png" alt="ZEUS Project Figure">
+  <div class="project-info">
+    <p class="project-title">
+      <a href="https://yixiao-wang-stats.github.io/research/ZEUS" style="color: inherit; text-decoration: none;">
+        <strong>ZEUS: Accelerating Diffusion Models with Only Second-Order Predictor</strong>
+      </a>
+    </p>
+
+    <p class="project-meta">
+      <span class="authors" data-show="3" data-toggle="text">
+        <span class="author"><strong>Yixiao Wang*</strong></span>
+        <span class="author">Ting Jiang*</span>
+        <span class="author">Zishan Shao*</span>
+        <span class="author">Hancheng Ye</span>
+        <span class="author">Jingwei Sun</span>
+        <span class="author">Mingyuan Ma</span>
+        <span class="author">Jianyi Zhang</span>
+        <span class="author">Yiran Chen</span>
+        <span class="author">Hai Li</span>
+      </span>
+      <br>
+      <em>ACM MM 2026</em>
+    </p>
+
+    <p class="project-links">
+      <a href="https://arxiv.org/abs/2604.01552">Paper</a>
+      <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a>
+      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a>
+    </p>
+  </div>
+</div>
 
 
 <div class="project-block">
@@ -282,37 +323,6 @@ redirect_from:
   </div>
 </div>
 
-
-<div class="project-block">
-  <img src="/images/zeus.png" alt="ZEUS Project Figure">
-  <div class="project-info">
-    <p class="project-title">
-      <a href="https://yixiao-wang-stats.github.io/research/ZEUS" style="color: inherit; text-decoration: none;">
-        <strong>ZEUS: Zero-shot Efficient Unified Sparsity for Generative Models</strong>
-      </a>
-    </p>
-
-    <p class="project-meta">
-      <span class="authors" data-show="3" data-toggle="text">
-        <span class="author"><strong>Yixiao Wang*</strong></span>
-        <span class="author">Ting Jiang*</span>
-        <span class="author">Zishan Shao*</span>
-        <span class="author">Hancheng Ye</span>
-        <span class="author">Jingwei Sun</span>
-        <span class="author">Mingyuan Ma</span>
-        <span class="author">Jianyi Zhang</span>
-        <span class="author">Yiran Chen</span>
-        <span class="author">Hai Li</span>
-      </span>
-    </p>
-
-    <p class="project-links">
-      <a href="https://arxiv.org/abs/2604.01552">Paper</a>
-      <a href="https://github.com/Ting-Justin-Jiang/ZEUS">Code</a>
-      <a href="https://yixiao-wang-stats.github.io/zeus/">Page</a>
-    </p>
-  </div>
-</div>
 
 <p style="font-size: 0.9em; color: #555; margin-top: 1em;">
   * Equal contribution
