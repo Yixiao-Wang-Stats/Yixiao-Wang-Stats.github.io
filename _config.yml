@@ -24,9 +24,9 @@ author:
   avatar           : "portrait.png"
   name             : "Yixiao Wang"
   pronouns         : #"he/him"  
-  bio              : "AI Student"
+  bio              : "Machine Learning Student"
   location         : "Durham, NC"
-  # employer         : "Duke University"
+  employer         : "Duke University"
   uri              : # URL
   email            : "yixiao.wang@duke.edu" 
 
