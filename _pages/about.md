@@ -328,6 +328,95 @@ redirect_from:
   * Equal contribution
 </p>
 
+
+<!-- Creative Work: Duke Animated Short -->
+<section
+  aria-labelledby="creative-work-title"
+  style="margin-top: 2.8rem; margin-bottom: 3rem;"
+>
+  <h1
+    id="creative-work-title"
+    style="margin: 0 0 1rem; font-size: 1.75rem;"
+  >
+    <span style="font-weight: 300;">Creative Work</span>
+  </h1>
+
+  <div
+    style="
+      padding: 1.2rem;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.55);
+      box-shadow: 0 6px 22px rgba(0, 0, 0, 0.07);
+    "
+  >
+    <h2
+      style="
+        margin: 0 0 0.55rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+      "
+    >
+      Duke University: A
+      <em>Magpie Murders</em>–Inspired Animated Short
+    </h2>
+
+    <p
+      style="
+        margin: 0 0 1rem;
+        color: #555;
+        line-height: 1.65;
+      "
+    >
+      A self-produced animated short introducing Duke University
+      through the visual language and mystery atmosphere of
+      <em>Magpie Murders</em>.
+    </p>
+
+    <div
+      style="
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border-radius: 10px;
+        background: #000;
+      "
+    >
+      <iframe
+        src="https://player.vimeo.com/video/1213776882?title=0&amp;byline=0&amp;portrait=0"
+        title="Duke University animated short film"
+        loading="lazy"
+        style="
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+        "
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <p
+      style="
+        margin: 0.85rem 0 0;
+        text-align: center;
+        font-size: 0.88rem;
+        color: #666;
+      "
+    >
+      Concept, animation, editing, and visual design by Yixiao Wang.
+    </p>
+  </div>
+</section>
+
+
+
+
+
+
 <!-- <div class="background-container">
   <div class="watermark"></div>  
     纯正文（无白框）
