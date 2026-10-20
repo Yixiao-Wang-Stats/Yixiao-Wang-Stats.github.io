@@ -67,7 +67,7 @@ redirect_from:
         </span>
       </li>
       <li>
-        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <i class="fa-solid fa-star" aria-hidden="true"></i>
         <span class="news-date">09/2026</span>
         <span class="news-text">
           Officially started my PhD journey at Duke University.
