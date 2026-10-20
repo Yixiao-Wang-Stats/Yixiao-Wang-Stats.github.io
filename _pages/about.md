@@ -59,6 +59,21 @@ redirect_from:
   <div class="overlay-content">
     <div class="watermark2"></div>
     <ul class="news-list">
+      <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">09/2026</span>
+        <span class="news-text">
+          One paper accepted in NeurIPS 2026.
+        </span>
+      </li>
+      <li>
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+        <span class="news-date">09/2026</span>
+        <span class="news-text">
+          Officially started my PhD journey at Duke University.
+          Let's go, Blue Devils! 💙
+        </span>
+      </li>
        <li>
         <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
         <span class="news-date">07/2026</span> 
