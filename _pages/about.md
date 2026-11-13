@@ -177,7 +177,7 @@ redirect_from:
         <span class="author">Hai Li</span>
       </span>
       <br>
-      <em>ACM MM 2026 (Oral)</em>
+      <em>ACM MM 2026 (Best Paper)</em>
     </p>
 
     <p class="project-links">
