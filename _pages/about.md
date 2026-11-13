@@ -77,7 +77,7 @@ redirect_from:
        <li>
         <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
         <span class="news-date">07/2026</span> 
-        <span class="news-text">One paper accepted at ACMMM 2026 (Oral).</span>
+        <span class="news-text">One paper accepted at ACMMM 2026 (Best Paper).</span>
       </li>
       
       <li>
